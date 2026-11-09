@@ -1,0 +1,101 @@
+name: Windows preview
+run-name: Windows check · ${{ github.ref_name }} · ${{ github.run_number }}
+
+on:
+  push:
+    branches: ['work/**']
+    paths:
+      - 'Source/**'
+      - 'tools/ci/**'
+      - '.github/build-target.json'
+      - '.github/workflows/windows.yml'
+      - 'Launch-Compatibility.cmd'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUTF8: '1'
+
+concurrency:
+  group: windows-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout exact source on Linux
+        id: checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5, Node 24
+        with:
+          persist-credentials: false
+      - name: Validate target and content; test CI failure detection
+        run: |
+          python3 -m unittest discover -s tools/ci -p "test_*.py" -v
+          python3 tools/ci/check_content.py
+          python3 tools/ci/build_windows.py target
+      - name: Install pinned Godot 4.5.1 and matching Windows template
+        run: python3 tools/ci/build_windows.py install
+      - name: Import, run gameplay assertions and export Windows executable
+        run: python3 tools/ci/build_windows.py build
+      - name: Transfer exported game and CI scripts to Windows
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5, Node 24
+        with:
+          name: windows-export-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            builds/LastTake-Windows/
+            builds/build.json
+            tools/ci/*.py
+          retention-days: 1
+          if-no-files-found: error
+      - name: Record failed export for the next chat
+        if: failure() && steps.checkout.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/ci/publish_preview.py failed
+      - name: Keep editor diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        with:
+          name: editor-logs-${{ github.run_id }}-${{ github.run_attempt }}
+          path: builds/logs/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  native-windows:
+    needs: export
+    runs-on: windows-2022
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      # No Git checkout on Windows: archival References filenames are not NTFS-compatible.
+      - name: Download only the exported game and verification scripts
+        id: download
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: windows-export-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Verify exported EXE on native Windows and package ZIP
+        run: python tools/ci/build_windows.py finish
+      - name: Publish versioned preview
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/ci/publish_preview.py
+      - name: Record failed native attempt for the next chat
+        if: failure() && steps.download.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/ci/publish_preview.py failed
+      - name: Keep native Windows diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        with:
+          name: native-logs-${{ github.run_id }}-${{ github.run_attempt }}
+          path: builds/logs/
+          if-no-files-found: ignore
+          retention-days: 7
