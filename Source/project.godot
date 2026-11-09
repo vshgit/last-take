@@ -1,7 +1,7 @@
 config_version=5
 
 [application]
-config/name="Last Take"
+config/name="Last Take — тест автосборки"
 config/version="1.0.0"
 boot_splash/show_image=false
 boot_splash/bg_color=Color(0,0,0,1)
