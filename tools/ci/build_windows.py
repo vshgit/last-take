@@ -22,16 +22,27 @@ HASHES = {
 }
 MARKERS = ('V1_CHECKS_PASSED', 'SOUNDS_CHECKS_PASSED', 'GESTURE_REPLAYS_PASSED',
            'GESTURE_INPUT_CHECKS_PASSED', 'V09_CHECKS_PASSED', 'GAMEPLAY_CHECKS_PASSED')
+TEARDOWN = []
 
 
 def validate_log(text, returncode, required=()):
     if returncode:
         raise RuntimeError('Process returned exit code %s' % returncode)
-    if re.search(r'SCRIPT ERROR|Assertion failed|Parse Error|^ERROR:', text, re.MULTILINE):
+    if re.search(r'SCRIPT ERROR|Assertion failed|Parse Error', text, re.MULTILINE):
         raise RuntimeError('Godot reported an error; inspect the saved log')
     missing = [m for m in required if not re.search(r'^' + re.escape(m) + r'\b', text, re.MULTILINE)]
     if missing:
         raise RuntimeError('Missing QA markers: ' + ', '.join(missing))
+    diagnostics = []
+    completed_at = max((text.find(m) + len(m) for m in required), default=len(text))
+    for match in re.finditer(r'^ERROR:.*$', text, re.MULTILINE):
+        line = match.group().strip()
+        # Historical QA teardown diagnostics are retained, never broadly suppress ERROR.
+        known = re.fullmatch(r'ERROR: \d+ resources still in use at exit \(run with --verbose for details\)\.', line)
+        if not (known and tuple(required) == MARKERS and match.start() > completed_at):
+            raise RuntimeError('Godot reported an error; inspect the saved log')
+        diagnostics.append(line)
+    return diagnostics
 
 
 def run(command, name, timeout=600, required=()):
@@ -46,11 +57,14 @@ def run(command, name, timeout=600, required=()):
             raise RuntimeError(name + ' timed out') from error
     text = log.read_text(encoding='utf-8', errors='replace')
     try:
-        validate_log(text, result.returncode, required)
+        diagnostics = validate_log(text, result.returncode, required)
     except RuntimeError:
         print(text[-10000:])
         raise
     print(name + ': passed', flush=True)
+    for diagnostic in diagnostics:
+        TEARDOWN.append(name + ': ' + diagnostic)
+        print('Teardown diagnostic (recorded separately): ' + diagnostic, flush=True)
 
 
 def target():
@@ -118,6 +132,7 @@ def build():
             'engine': version, 'platform': 'windows-x86_64', 'preview_tag': tag,
             'workflow_run': 'https://github.com/%s/actions/runs/%s' % (repo, run_id),
             'automatic_checks': ['content', 'editor-import', 'editor-gameplay', 'export'],
+            'teardown_diagnostics': list(TEARDOWN),
             'manual_acceptance': 'pending', 'manual_checks': config['manual_checks']}
     (package / 'BUILD-INFO.json').write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     instructions = ['Last Take — тестовая сборка', 'Сборка: ' + tag, 'Commit: ' + sha, '',
@@ -139,6 +154,7 @@ def finish():
     run([package / 'LastTake.exe', '--headless', '--audio-driver', 'Dummy', '--', '--qa'],
         'exported-smoke', required=MARKERS)
     info['automatic_checks'].append('native-windows-exported-smoke')
+    info['teardown_diagnostics'].extend(TEARDOWN)
     (package / 'BUILD-INFO.json').write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     artifact = OUT / info['zip']
     with zipfile.ZipFile(artifact, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:

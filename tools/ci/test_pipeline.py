@@ -34,6 +34,21 @@ class LogValidation(unittest.TestCase):
     def test_warning_is_not_an_error(self):
         pipeline.validate_log('WARNING: informational\n' + '\n'.join(pipeline.MARKERS), 0, pipeline.MARKERS)
 
+    def test_known_teardown_after_complete_qa_is_reported(self):
+        error = 'ERROR: 4 resources still in use at exit (run with --verbose for details).'
+        diagnostics = pipeline.validate_log('\n'.join(pipeline.MARKERS) + '\n' + error, 0, pipeline.MARKERS)
+        self.assertEqual(diagnostics, [error])
+
+    def test_teardown_cannot_hide_an_incomplete_test(self):
+        error = 'ERROR: 4 resources still in use at exit (run with --verbose for details).'
+        with self.assertRaises(RuntimeError):
+            pipeline.validate_log(error + '\n' + '\n'.join(pipeline.MARKERS), 0, pipeline.MARKERS)
+
+    def test_teardown_does_not_allow_other_errors(self):
+        text = '\n'.join(pipeline.MARKERS) + '\nERROR: 4 resources still in use at exit (run with --verbose for details).\nERROR: Missing media'
+        with self.assertRaises(RuntimeError):
+            pipeline.validate_log(text, 0, pipeline.MARKERS)
+
     def test_timeout_fails(self):
         with tempfile.TemporaryDirectory() as temp, patch.object(pipeline, 'OUT', Path(temp)):
             with patch.object(subprocess, 'run', side_effect=subprocess.TimeoutExpired('godot', 1)):

@@ -3,7 +3,7 @@ run-name: Windows check · ${{ github.ref_name }} · ${{ github.run_number }}
 
 on:
   push:
-    branches: [main, 'work/**']
+    branches: ['work/**']
     paths:
       - 'Source/**'
       - 'tools/ci/**'

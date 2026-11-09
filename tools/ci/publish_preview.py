@@ -70,6 +70,8 @@ def publish():
         'Скачать ZIP, распаковать и запустить `LastTake.exe`. Внутри есть `BUILD-INFO.json` и инструкция.', '',
         *['- ' + line for line in info['manual_checks']], '',
         'Headless-проверки не подтверждают внешний вид, слышимость и управление на реальном компьютере.',
+        '', 'Диагностика завершения Godot (отдельно от результатов игровых проверок):',
+        *(['- ' + line for line in info.get('teardown_diagnostics', [])] or ['- Не зарегистрирована.']),
     ]) + '\n', encoding='utf-8')
     gh('release', 'create', tag, str(OUT / info['zip']), str(OUT / 'build.json'), str(OUT / 'SHA256SUMS.txt'),
        '--repo', repo, '--target', sha, '--prerelease', '--latest=false',
