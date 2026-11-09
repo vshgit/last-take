@@ -1,0 +1,29 @@
+name: Accepted Windows release
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/release-request.json']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: accepted-windows-release
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Publish the accepted ZIP without rebuilding it
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/ci/promote_release.py
