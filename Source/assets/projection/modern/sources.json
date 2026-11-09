@@ -1,0 +1,72 @@
+[
+  {
+    "film": "interstellar",
+    "source": "https://www.paramount.com/movies/interstellar",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/intersteller_en_dvd_800x1200.jpg?itok=YxrRaJN2",
+    "local_name": "interstellar.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "forrest-gump",
+    "source": "https://www.paramount.com/movies/forrest-gump",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/forrestgump_2019update_en_800x1200.jpg?itok=wqyuMS2H",
+    "local_name": "forrest-gump.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "the-truman-show",
+    "source": "https://www.paramount.com/movies/the-truman-show",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/trumanshow-pm-800x1200-c.jpg?itok=7bY2Yco6",
+    "local_name": "the-truman-show.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "shutter-island",
+    "source": "https://www.paramount.com/movies/shutter-island",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/shutterisland_en_800x1200.jpg?itok=lGxrF_ps",
+    "local_name": "shutter-island.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "titanic",
+    "source": "https://www.paramount.com/movies/titanic",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/titanic2012_en_800x1200.jpg?itok=lbdE3VIG",
+    "local_name": "titanic.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "mission-impossible",
+    "source": "https://www.paramount.com/movies/mission-impossible",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/missionimpossible_2018update_dvd_en_800x1200.jpg?itok=RbaoMV5C",
+    "local_name": "mission-impossible.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "gladiator",
+    "source": "https://www.paramount.com/movies/gladiator",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/gladiator_en_800x1200.jpg?itok=C9HGLNj9",
+    "local_name": "gladiator.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "arrival",
+    "source": "https://www.paramount.com/movies/arrival",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/arrival_dom_2016_dvd_en_800x1200.jpg?itok=dX0Ilggj",
+    "local_name": "arrival.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "saving-private-ryan",
+    "source": "https://www.paramount.com/movies/saving-private-ryan",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/savingprivateryan_en_800x1200.jpg?itok=KxOEyLzs",
+    "local_name": "saving-private-ryan.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  },
+  {
+    "film": "the-wolf-of-wall-street",
+    "source": "https://www.paramount.com/movies/the-wolf-of-wall-street",
+    "image_url": "https://public-website-assets.paramountpictures.com/paramount2025/s3fs-public/styles/poster_medium/public/wolfofwallstreet_en_800x1200.jpg?itok=ti_d2s0H",
+    "local_name": "the-wolf-of-wall-street.jpg",
+    "rights": "Film publicity poster. Respective film rights holders; Paramount official website. Not CC0."
+  }
+]

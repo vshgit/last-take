@@ -1,0 +1,13 @@
+LAST TAKE 0.9
+
+Официальные постеры Paramount: Interstellar (2014), Forrest Gump (1994), The Truman Show (1998), Shutter Island (2010), Titanic (1997), Mission: Impossible (1996), Gladiator (2000), Arrival (2016), Saving Private Ryan (1998), The Wolf of Wall Street (2013).
+Права принадлежат соответствующим правообладателям; материалы не CC0. Точные адреса и страницы: Source/assets/projection/modern/sources.json.
+
+Постер «КАК В КИНО / ПОДПИШИСЬ» прислан пользователем, текстура использована без изменения исходной картинки.
+
+Water Drip 01.wav — erkanozan, Freesound, CC0. https://freesound.org/people/erkanozan/sounds/51754/
+Публичное HQ MP3-превью обработано полосовым фильтром 100–1350 Гц и приглушено. Исходник: ArtSource/audio-v09/.
+
+Шум плёнки, щелчок слайда, геометрия попкорна, кисть и детали проектора — оригинальные процедурные ассеты; скрипты в Source/tools/.
+Озвучка — Piper TTS 1.3.0, ru_RU-denis-medium; см. Russian-voice-model.txt.
+Остальные лицензии сохраняются из версии 0.8. Ассеты Half-Life 2 не использованы.

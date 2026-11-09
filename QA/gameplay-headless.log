@@ -1,0 +1,12 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+V1_CHECKS_PASSED: three lives, wrong/timeout progression, level boundaries, terminal and last-question errors, all 16 audio projections, pause, stream wrap and cleanup
+SOUNDS_CHECKS_PASSED: hidden HUD; 7-second breathing; slow 5-second gun raise; single cock click; reset; fade; all-audio pause; sniff exclusions; 60-second drip/footstep cadence; gaze fly; right projector; fitted bindings; broken cactus
+GESTURE_REPLAYS_PASSED: 324 positive replays; jitter, diagonal, pan, slow and interrupted motion rejected
+GESTURE_INPUT_CHECKS_PASSED: both axes, camera bounds, viewport scale, speech and pause
+V09_CHECKS_PASSED: gestures, speech gating, projection, reticle, intro, fitted hand, poster, popcorn, face shadow, passers, fly, stable lamp, menu, blood, fall and 2-second hold
+GAMEPLAY_CHECKS_PASSED: 216 questions, 500 randomized 3x7 sessions, all categories per level, 537 selectable cards, 3 lives, audio loops, 69 images and existing room/gesture/sound/ending checks
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2514)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:795)

@@ -1,0 +1,74 @@
+{
+  "breathing_wake": {
+    "seconds": 7.0,
+    "rms_db": -22.121798869480944,
+    "peak_db": -1.0121998661258005,
+    "loop": false
+  },
+  "breathing_late": {
+    "seconds": 7.2,
+    "rms_db": -23.162193862199082,
+    "peak_db": -1.0121998661258014,
+    "loop": false
+  },
+  "sniff_0": {
+    "seconds": 0.63,
+    "rms_db": -20.118597250897068,
+    "peak_db": -5.485931350876801,
+    "loop": false
+  },
+  "sniff_1": {
+    "seconds": 0.5300416666666666,
+    "rms_db": -21.294777189347265,
+    "peak_db": -1.5953709507343037,
+    "loop": false
+  },
+  "step_0": {
+    "seconds": 0.4,
+    "rms_db": -18.574626597348303,
+    "peak_db": -1.0121998661258014,
+    "loop": false
+  },
+  "step_1": {
+    "seconds": 0.43,
+    "rms_db": -18.83035215387614,
+    "peak_db": -3.9614981201105106,
+    "loop": false
+  },
+  "step_2": {
+    "seconds": 0.44004166666666666,
+    "rms_db": -23.36335176629487,
+    "peak_db": -1.0121998661258014,
+    "loop": false
+  },
+  "city_behind_glass": {
+    "seconds": 208.3225,
+    "rms_db": -22.99770327058866,
+    "peak_db": -5.578947329452166,
+    "loop": true
+  },
+  "bulb_hum": {
+    "seconds": 12.0,
+    "rms_db": -29.999999972532805,
+    "peak_db": -25.5331252461757,
+    "loop": true
+  },
+  "fly_buzz": {
+    "seconds": 8.5,
+    "rms_db": -21.999999989065113,
+    "peak_db": -13.848858250171682,
+    "loop": true
+  },
+  "water_drop": {
+    "seconds": 0.72,
+    "rms_db": -23.807481175002376,
+    "peak_db": -1.0121998661258014,
+    "loop": false
+  },
+  "hammer_cock": {
+    "seconds": 0.36,
+    "rms_db": -23.7636514213035,
+    "peak_db": -1.0121998661258014,
+    "loop": false
+  }
+}

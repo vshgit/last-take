@@ -1,0 +1,49 @@
+Движок: Godot 4.5.1, MIT.
+https://godotengine.org/
+https://github.com/godotengine/godot/tree/4.5.1-stable
+Тексты MIT и notices прилагаются.
+
+Персонаж: CC0-ассеты MakeHuman, экспортированные CharacterCreator.
+https://github.com/kblood/CharacterCreator
+Использованы только сгенерированные CC0 GLB и текстуры:
+base_body_anim, hair_short02, clothing_shirt, clothing_jacket,
+clothing_jeans, clothing_shoes.
+Код CharacterCreator в игру не включён.
+Модель объединена, изменены пропорции и добавлены формы лица.
+Upstream asset_licenses.json и LICENSE-NOTES.md есть в Source/assets/character.
+
+Материалы окружения: Poly Haven, CC0.
+https://polyhaven.com/a/concrete_wall_006
+https://polyhaven.com/a/concrete_floor_02
+https://polyhaven.com/a/wood_planks_dirt
+Карты albedo, normal OpenGL, roughness, 1K.
+
+Шрифты: DejaVu Sans, DejaVu Serif.
+https://dejavu-fonts.github.io/
+Текст лицензии прилагается.
+
+Синтетические русские реплики: Piper, ru_RU-denis-medium.
+https://huggingface.co/rhasspy/piper-voices/tree/main/ru/ru_RU/denis/medium
+Модель не включена в игру. Включены только готовые обработанные OGG.
+Карточка модели и сведения о лицензировании прилагаются.
+
+Шумы, сигнал ошибки, выстрел и бумага синтезированы для прототипа.
+Ассеты Half-Life 2, Ells Tales: Chairbound и голосовые записи
+Джеймса Кэмерона не использовались.
+
+Кадр для нового вопроса: «Носферату» (1922), Ф. В. Мурнау.
+Источник: Wikimedia Commons, public domain mark.
+https://commons.wikimedia.org/wiki/File:Nosferatu_Doorway_Frame.webp
+
+Плакаты на стене: текстуры, извлечённые из предоставленного
+пользователем референса локации; исходный референс в архив не включён.
+
+Дополнительные кадры для вопросов v0.5:
+https://commons.wikimedia.org/wiki/File:CABINETOFDRCALIGARI-08.jpg
+https://commons.wikimedia.org/wiki/File:Zombies_NightoftheLivingDead.jpg
+https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_lune.jpg
+Сведения об авторстве и статусе public domain указаны на страницах
+источников. Кадры вписаны в проекцию с сохранением пропорций.
+
+Факты о фильмах и сериалах: первичные страницы студий и Академии.
+У каждого вопроса в Source/content.json есть поле source с URL.
