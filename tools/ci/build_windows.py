@@ -14,10 +14,10 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'builds'
 VERSION = '4.5.1'
 BASE = 'https://github.com/godotengine/godot-builds/releases/download/4.5.1-stable/'
-EDITOR = 'Godot_v4.5.1-stable_win64.exe.zip'
+EDITOR = 'Godot_v4.5.1-stable_linux.x86_64.zip'
 TEMPLATES = 'Godot_v4.5.1-stable_export_templates.tpz'
 HASHES = {
-    EDITOR: 'defccc78669e644861b4247626b01ae362cd9f23975edf19c8bfd2eb1f6a1783',
+    EDITOR: '02ec53d1cc7dbb9cc6355393c61b9ab43d1244751a124f10248a4802830788cd',
     TEMPLATES: '1998af37f1387684e2c211cdb483daf492fc64dc6b12096bddcdca25b6910c86',
 }
 MARKERS = ('V1_CHECKS_PASSED', 'SOUNDS_CHECKS_PASSED', 'GESTURE_REPLAYS_PASSED',
@@ -77,12 +77,13 @@ def download(name):
 
 def install():
     target()
-    if sys.platform != 'win32':
-        raise RuntimeError('Run Windows installation on a Windows runner')
+    if sys.platform != 'linux':
+        raise RuntimeError('Run the Godot editor/export stage on the Linux build runner')
     editor_dir = OUT / 'tools' / 'editor'
     with zipfile.ZipFile(download(EDITOR)) as archive:
         archive.extractall(editor_dir)
-    template_dir = Path(os.environ['APPDATA']) / 'Godot/export_templates/4.5.1.stable'
+    (editor_dir / 'Godot_v4.5.1-stable_linux.x86_64').chmod(0o755)
+    template_dir = Path(os.environ.get('XDG_DATA_HOME', str(Path.home() / '.local/share'))) / 'godot/export_templates/4.5.1.stable'
     template_dir.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(download(TEMPLATES)) as archive:
         for name in ('windows_release_x86_64.exe', 'windows_debug_x86_64.exe'):
@@ -95,7 +96,7 @@ def install():
 
 def build():
     config = target()
-    editor = OUT / 'tools/editor/Godot_v4.5.1-stable_win64_console.exe'
+    editor = OUT / 'tools/editor/Godot_v4.5.1-stable_linux.x86_64'
     version = subprocess.check_output([str(editor), '--version'], text=True).strip()
     if not version.startswith(VERSION + '.stable.'):
         raise RuntimeError('Unexpected engine version: ' + version)
@@ -108,9 +109,6 @@ def build():
     run([editor, '--headless', '--path', ROOT / 'Source', '--export-release', 'Windows Desktop', exe], 'export')
     if not exe.is_file() or exe.stat().st_size < 1024 * 1024:
         raise RuntimeError('Windows export missing or unexpectedly small')
-    # Release templates omit GDScript assertions; gameplay assertions run in the editor above.
-    # This separately verifies that the exported PCK contains the runnable game and its media.
-    run([exe, '--headless', '--audio-driver', 'Dummy', '--', '--qa'], 'exported-smoke', required=MARKERS)
     sha = os.environ.get('GITHUB_SHA') or subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     run_id = os.environ.get('GITHUB_RUN_ID', 'local')
     attempt = os.environ.get('GITHUB_RUN_ATTEMPT', '1')
@@ -119,14 +117,30 @@ def build():
     info = {'source_commit': sha, 'branch': os.environ.get('GITHUB_REF_NAME', 'local'),
             'engine': version, 'platform': 'windows-x86_64', 'preview_tag': tag,
             'workflow_run': 'https://github.com/%s/actions/runs/%s' % (repo, run_id),
-            'automatic_checks': ['content', 'editor-import', 'editor-gameplay', 'export', 'exported-smoke'],
+            'automatic_checks': ['content', 'editor-import', 'editor-gameplay', 'export'],
             'manual_acceptance': 'pending', 'manual_checks': config['manual_checks']}
     (package / 'BUILD-INFO.json').write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     instructions = ['Last Take — тестовая сборка', 'Сборка: ' + tag, 'Commit: ' + sha, '',
                     'Проверка человеком ещё не выполнена.', '', *config['manual_checks']]
     (package / 'ПРОВЕРКА.txt').write_text('\n'.join(instructions) + '\n', encoding='utf-8-sig')
     shutil.copy2(ROOT / 'Launch-Compatibility.cmd', package)
-    artifact = OUT / ('LastTake-Windows-' + tag + '.zip')
+    artifact_name = 'LastTake-Windows-' + tag + '.zip'
+    (OUT / 'build.json').write_text(json.dumps({**info, 'zip': artifact_name}, indent=2) + '\n', encoding='utf-8')
+    print('Export ready for native Windows verification')
+
+
+def finish():
+    if sys.platform != 'win32':
+        raise RuntimeError('Native EXE smoke must run on Windows')
+    info = json.loads((OUT / 'build.json').read_text(encoding='utf-8'))
+    package = OUT / 'LastTake-Windows'
+    # Release templates omit assertions; editor QA on Linux checked them before export.
+    # This verifies the actual exported executable and PCK on native Windows.
+    run([package / 'LastTake.exe', '--headless', '--audio-driver', 'Dummy', '--', '--qa'],
+        'exported-smoke', required=MARKERS)
+    info['automatic_checks'].append('native-windows-exported-smoke')
+    (package / 'BUILD-INFO.json').write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    artifact = OUT / info['zip']
     with zipfile.ZipFile(artifact, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         for path in sorted(package.iterdir()):
             archive.write(path, 'LastTake-Windows/' + path.name)
@@ -137,4 +151,4 @@ def build():
 
 
 if __name__ == '__main__':
-    {'target': target, 'install': install, 'build': build}[sys.argv[1]]()
+    {'target': target, 'install': install, 'build': build, 'finish': finish}[sys.argv[1]]()
