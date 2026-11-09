@@ -1,0 +1,17 @@
+# Godot regenerates its local import cache.
+.godot/
+# Build output is stored separately from source history.
+/builds/
+*.exe
+*.pck
+*.dmg
+*.apk
+*.aab
+# Local settings and credentials.
+.env
+.env.*
+!.env.example
+.DS_Store
+__pycache__/
+*.pyc
+/export_credentials.cfg

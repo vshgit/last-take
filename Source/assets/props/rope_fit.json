@@ -1,0 +1,155 @@
+[
+  {
+    "name": "TorsoToBack",
+    "axis": 1,
+    "position": 0.825,
+    "body_intersections": 584,
+    "hull_points": 23,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "TorsoToBack",
+    "axis": 1,
+    "position": 0.844,
+    "body_intersections": 656,
+    "hull_points": 18,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "TorsoToBack",
+    "axis": 1,
+    "position": 0.863,
+    "body_intersections": 636,
+    "hull_points": 22,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "TorsoToBack",
+    "axis": 1,
+    "position": 1.005,
+    "body_intersections": 848,
+    "hull_points": 26,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "TorsoToBack",
+    "axis": 1,
+    "position": 1.024,
+    "body_intersections": 816,
+    "hull_points": 25,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "ThighsToSeat",
+    "axis": 2,
+    "position": 1.435,
+    "body_intersections": 148,
+    "hull_points": 13,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "ThighsToSeat",
+    "axis": 2,
+    "position": 1.456,
+    "body_intersections": 144,
+    "hull_points": 12,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "ThighsToSeat",
+    "axis": 2,
+    "position": 1.477,
+    "body_intersections": 160,
+    "hull_points": 12,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "CalfToChairLeg",
+    "axis": 1,
+    "position": 0.285,
+    "body_intersections": 158,
+    "hull_points": 13,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "CalfToChairLeg",
+    "axis": 1,
+    "position": 0.305,
+    "body_intersections": 158,
+    "hull_points": 16,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "CalfToChairLeg",
+    "axis": 1,
+    "position": 0.325,
+    "body_intersections": 124,
+    "hull_points": 22,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "CalfToChairLeg",
+    "axis": 1,
+    "position": 0.285,
+    "body_intersections": 158,
+    "hull_points": 21,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "CalfToChairLeg",
+    "axis": 1,
+    "position": 0.305,
+    "body_intersections": 158,
+    "hull_points": 26,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "CalfToChairLeg",
+    "axis": 1,
+    "position": 0.325,
+    "body_intersections": 124,
+    "hull_points": 23,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "WristsToBack",
+    "axis": 1,
+    "position": 0.625,
+    "body_intersections": 216,
+    "hull_points": 26,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "WristsToBack",
+    "axis": 1,
+    "position": 0.644,
+    "body_intersections": 184,
+    "hull_points": 20,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  },
+  {
+    "name": "WristsToBack",
+    "axis": 1,
+    "position": 0.663,
+    "body_intersections": 140,
+    "hull_points": 10,
+    "clearance_m": 0.008,
+    "rope_radius_m": 0.0064
+  }
+]

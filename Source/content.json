@@ -1,0 +1,5663 @@
+{
+  "questions": [
+    {
+      "document_number": 1,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто снял фильм «Челюсти»?",
+      "options": [
+        "Стивен Спилберг",
+        "Ридли Скотт",
+        "Джон Карпентер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_00",
+      "category": "режиссура",
+      "asset_index": 0,
+      "correct": 0,
+      "topic": "jaws",
+      "source": "https://amblin.com/movie/jaws/",
+      "fact": "Правильный ответ: Стивен Спилберг",
+      "voice_id": "question_0"
+    },
+    {
+      "document_number": 2,
+      "level": 1,
+      "type": "cards",
+      "text": "Какой фильм открывал первый коммерческий сеанс кинематографа братьев Люмьер в Париже 28 декабря 1895 года?",
+      "options": [
+        "«Прибытие поезда на вокзал Ла-Сьота»",
+        "«Выход рабочих с фабрики Люмьер»",
+        "«Завтрак младенца»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "document_002",
+      "category": "история кино",
+      "asset_index": 1,
+      "correct": 1,
+      "topic": "document_002",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Выход рабочих с фабрики Люмьер»",
+      "voice_id": "v1_document_002"
+    },
+    {
+      "document_number": 3,
+      "level": 1,
+      "type": "cards",
+      "text": "Как называется корабль Хана Соло?",
+      "options": [
+        "«Ностромо»",
+        "«Энтерпрайз»",
+        "«Тысячелетний сокол»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_04",
+      "category": "киномиры",
+      "asset_index": 2,
+      "correct": 2,
+      "topic": "star_wars",
+      "source": "https://www.starwars.com/databank/han-solo",
+      "fact": "Правильный ответ: «Тысячелетний сокол»",
+      "voice_id": "question_4"
+    },
+    {
+      "document_number": 4,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто написал музыку к «Интерстеллару»?",
+      "options": [
+        "Джон Уильямс",
+        "Людвиг Йоранссон",
+        "Ханс Циммер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_06",
+      "category": "музыка",
+      "asset_index": 3,
+      "correct": 2,
+      "topic": "interstellar",
+      "source": "https://www.paramountpictures.com/movies/interstellar",
+      "fact": "Правильный ответ: Ханс Циммер",
+      "voice_id": "question_6"
+    },
+    {
+      "document_number": 5,
+      "level": 1,
+      "type": "cards",
+      "text": "Какой фильм стал первым полнометражным фильмом Pixar?",
+      "options": [
+        "В поисках Немо",
+        "История игрушек",
+        "Приключения Флика"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_07",
+      "category": "история кино",
+      "asset_index": 4,
+      "correct": 1,
+      "topic": "pixar_history",
+      "source": "https://www.pixar.com/our-story",
+      "fact": "Правильный ответ: История игрушек",
+      "voice_id": "question_7_v07"
+    },
+    {
+      "document_number": 6,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто снял «Криминальное чтиво»?",
+      "options": [
+        "Дэвид Финчер",
+        "Квентин Тарантино",
+        "Гай Ричи"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_11",
+      "category": "режиссура",
+      "asset_index": 5,
+      "correct": 1,
+      "topic": "pulp_fiction",
+      "source": "https://www.miramax.com/movie/pulp-fiction/",
+      "fact": "Правильный ответ: Квентин Тарантино",
+      "voice_id": "question_11"
+    },
+    {
+      "document_number": 7,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл Марти Макфлая в «Назад в будущее»?",
+      "options": [
+        "Майкл Джей Фокс",
+        "Кристофер Ллойд",
+        "Мэттью Бродерик"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_13",
+      "category": "актёры",
+      "asset_index": 6,
+      "correct": 0,
+      "topic": "back_future",
+      "source": "https://amblin.com/movie/back-to-the-future/",
+      "fact": "Правильный ответ: Майкл Джей Фокс",
+      "voice_id": "question_13"
+    },
+    {
+      "document_number": 8,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл Вито Корлеоне в первом «Крёстном отце»?",
+      "options": [
+        "Аль Пачино",
+        "Роберт Де Ниро",
+        "Марлон Брандо"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_16",
+      "category": "актёры",
+      "asset_index": 7,
+      "correct": 2,
+      "topic": "godfather",
+      "source": "https://www.paramount.com/movies/the-godfather",
+      "fact": "Правильный ответ: Марлон Брандо",
+      "voice_id": "question_16"
+    },
+    {
+      "document_number": 9,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл Уолтера Уайта в «Во все тяжкие»?",
+      "options": [
+        "Аарон Пол",
+        "Брайан Крэнстон",
+        "Боб Оденкерк"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_21",
+      "category": "сериалы",
+      "asset_index": 8,
+      "correct": 1,
+      "topic": "breaking_bad",
+      "source": "https://ce.amc.com/series/breaking-bad",
+      "fact": "Правильный ответ: Брайан Крэнстон",
+      "voice_id": "question_21"
+    },
+    {
+      "document_number": 10,
+      "level": 1,
+      "type": "cards",
+      "text": "Какой фильм получил «Оскар» за лучший фильм на церемонии 1998 года?",
+      "options": [
+        "«Умница Уилл Хантинг»",
+        "«Секреты Лос-Анджелеса»",
+        "«Титаник»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_23",
+      "category": "оскар",
+      "asset_index": 9,
+      "correct": 2,
+      "topic": "titanic",
+      "source": "https://www.oscars.org/oscars/ceremonies/1998",
+      "fact": "Правильный ответ: «Титаник»",
+      "voice_id": "question_23"
+    },
+    {
+      "document_number": 11,
+      "level": 1,
+      "type": "cards",
+      "text": "Какая студия создала «ВАЛЛ-И»?",
+      "options": [
+        "DreamWorks",
+        "Pixar",
+        "Illumination"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_24",
+      "category": "анимация",
+      "asset_index": 10,
+      "correct": 1,
+      "topic": "walle",
+      "source": "https://www.pixar.com/feature-films",
+      "fact": "Правильный ответ: Pixar",
+      "voice_id": "question_24"
+    },
+    {
+      "document_number": 12,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто получил актёрский «Оскар» за «Тёмного рыцаря» на церемонии 2009 года?",
+      "options": [
+        "Кристиан Бэйл",
+        "Гэри Олдмен",
+        "Хит Леджер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_26",
+      "category": "оскар",
+      "asset_index": 11,
+      "correct": 2,
+      "topic": "dark_knight",
+      "source": "https://www.oscars.org/oscars/ceremonies/2009",
+      "fact": "Правильный ответ: Хит Леджер",
+      "voice_id": "question_26"
+    },
+    {
+      "document_number": 13,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл Эллен Рипли в «Чужих»?",
+      "options": [
+        "Линда Хэмилтон",
+        "Джина Дэвис",
+        "Сигурни Уивер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_28",
+      "category": "актёры",
+      "asset_index": 12,
+      "correct": 2,
+      "topic": "aliens",
+      "source": "https://www.20thcenturystudios.com/movies/aliens",
+      "fact": "Правильный ответ: Сигурни Уивер",
+      "voice_id": "question_28"
+    },
+    {
+      "document_number": 14,
+      "level": 1,
+      "type": "cards",
+      "text": "Кем был Дарт Вейдер до перехода на тёмную сторону?",
+      "options": [
+        "Люк Скайуокер",
+        "Энакин Скайуокер",
+        "Оби-Ван Кеноби"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_34",
+      "category": "киномиры",
+      "asset_index": 13,
+      "correct": 1,
+      "topic": "star_wars",
+      "source": "https://www.starwars.com/databank/darth-vader",
+      "fact": "Правильный ответ: Энакин Скайуокер",
+      "voice_id": "question_34_v07"
+    },
+    {
+      "document_number": 15,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл Железного человека в фильмах Marvel?",
+      "options": [
+        "Роберт Дауни — младший",
+        "Крис Эванс",
+        "Крис Пратт"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_01",
+      "category": "актёры",
+      "asset_index": 14,
+      "correct": 0,
+      "topic": "easy_text_01",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Роберт Дауни — младший",
+      "voice_id": "v1_easy_text_01"
+    },
+    {
+      "document_number": 16,
+      "level": 1,
+      "type": "cards",
+      "text": "Как называется школа волшебства, в которой учится Гарри Поттер?",
+      "options": [
+        "Шармбатон",
+        "Хогвартс",
+        "Дурмстранг"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_02",
+      "category": "киномиры",
+      "asset_index": 15,
+      "correct": 1,
+      "topic": "easy_text_02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Хогвартс",
+      "voice_id": "v1_easy_text_02"
+    },
+    {
+      "document_number": 17,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл главную роль в фильме «Барби» (2023)?",
+      "options": [
+        "Эмма Стоун",
+        "Дженнифер Лоуренс",
+        "Марго Робби"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_03",
+      "category": "актёры",
+      "asset_index": 16,
+      "correct": 2,
+      "topic": "easy_text_03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Марго Робби",
+      "voice_id": "v1_easy_text_03"
+    },
+    {
+      "document_number": 18,
+      "level": 1,
+      "type": "cards",
+      "text": "Как зовут игрушечного ковбоя из «Истории игрушек»?",
+      "options": [
+        "Базз Лайтер",
+        "Вуди",
+        "Джесси"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_04",
+      "category": "персонажи",
+      "asset_index": 17,
+      "correct": 1,
+      "topic": "easy_text_04",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Вуди",
+      "voice_id": "v1_easy_text_04"
+    },
+    {
+      "document_number": 19,
+      "level": 1,
+      "type": "cards",
+      "text": "Кого сыграл Джонни Депп в «Пиратах Карибского моря»?",
+      "options": [
+        "Уилла Тёрнера",
+        "Джека Воробья",
+        "Гектора Барбоссу"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_05",
+      "category": "актёры",
+      "asset_index": 18,
+      "correct": 1,
+      "topic": "easy_text_05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Джека Воробья",
+      "voice_id": "v1_easy_text_05"
+    },
+    {
+      "document_number": 20,
+      "level": 1,
+      "type": "cards",
+      "text": "Как зовут панду, которая становится Воином Дракона в «Кунг-фу Панде»?",
+      "options": [
+        "Шифу",
+        "Тай Лунг",
+        "По"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_06",
+      "category": "анимация",
+      "asset_index": 19,
+      "correct": 2,
+      "topic": "easy_text_06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: По",
+      "voice_id": "v1_easy_text_06"
+    },
+    {
+      "document_number": 21,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто сыграл боксёра Рокки Бальбоа?",
+      "options": [
+        "Арнольд Шварценеггер",
+        "Сильвестр Сталлоне",
+        "Брюс Уиллис"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_07",
+      "category": "актёры",
+      "asset_index": 20,
+      "correct": 1,
+      "topic": "easy_text_07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Сильвестр Сталлоне",
+      "voice_id": "v1_easy_text_07"
+    },
+    {
+      "document_number": 22,
+      "level": 1,
+      "type": "cards",
+      "text": "Как называется устройство, которым на съёмочной площадке обозначают дубли и помогают синхронизировать звук с изображением?",
+      "options": [
+        "Хлопушка",
+        "Телесуфлёр",
+        "Микрофон"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_08",
+      "category": "кинопроизводство",
+      "asset_index": 21,
+      "correct": 0,
+      "topic": "easy_text_08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Хлопушка",
+      "voice_id": "v1_easy_text_08"
+    },
+    {
+      "document_number": 23,
+      "level": 1,
+      "type": "cards",
+      "text": "Какая героиня мультфильма «Холодное сердце» умеет управлять льдом и снегом?",
+      "options": [
+        "Анна",
+        "Эльза",
+        "Рапунцель"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_09",
+      "category": "анимация",
+      "asset_index": 22,
+      "correct": 1,
+      "topic": "easy_text_09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Эльза",
+      "voice_id": "v1_easy_text_09"
+    },
+    {
+      "document_number": 24,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто снял кинотрилогию «Властелин колец»?",
+      "options": [
+        "Питер Джексон",
+        "Джордж Лукас",
+        "Кристофер Нолан"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_10",
+      "category": "режиссура",
+      "asset_index": 23,
+      "correct": 0,
+      "topic": "easy_text_10",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Питер Джексон",
+      "voice_id": "v1_easy_text_10"
+    },
+    {
+      "document_number": 25,
+      "level": 1,
+      "type": "cards",
+      "text": "Как называется кольцо, которое Фродо должен уничтожить во «Властелине колец»?",
+      "options": [
+        "Кольцо Огня",
+        "Кольцо Всевластия",
+        "Кольцо Времени"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_11",
+      "category": "киномиры",
+      "asset_index": 24,
+      "correct": 1,
+      "topic": "easy_text_11",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Кольцо Всевластия",
+      "voice_id": "v1_easy_text_11"
+    },
+    {
+      "document_number": 26,
+      "level": 1,
+      "type": "cards",
+      "text": "Что находит Чарли, чтобы попасть на фабрику Вилли Вонки?",
+      "options": [
+        "Золотой билет",
+        "Волшебный ключ",
+        "Тайную карту"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_12",
+      "category": "сюжет",
+      "asset_index": 25,
+      "correct": 0,
+      "topic": "easy_text_12",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Золотой билет",
+      "voice_id": "v1_easy_text_12"
+    },
+    {
+      "document_number": 27,
+      "level": 1,
+      "type": "cards",
+      "text": "Как зовут крысу, которая мечтает стать поваром в мультфильме «Рататуй»?",
+      "options": [
+        "Эмиль",
+        "Реми",
+        "Скиннер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_13",
+      "category": "персонажи",
+      "asset_index": 26,
+      "correct": 1,
+      "topic": "easy_text_13",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Реми",
+      "voice_id": "v1_easy_text_13"
+    },
+    {
+      "document_number": 28,
+      "level": 1,
+      "type": "cards",
+      "text": "Как называется город, в котором действует Бэтмен?",
+      "options": [
+        "Метрополис",
+        "Стар-Сити",
+        "Готэм"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_14",
+      "category": "киномиры",
+      "asset_index": 27,
+      "correct": 2,
+      "topic": "easy_text_14",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Готэм",
+      "voice_id": "v1_easy_text_14"
+    },
+    {
+      "document_number": 29,
+      "level": 1,
+      "type": "cards",
+      "text": "Какую реликвию ищет Индиана Джонс в фильме «В поисках утраченного ковчега»?",
+      "options": [
+        "Святой Грааль",
+        "Ковчег Завета",
+        "Хрустальный череп"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_15",
+      "category": "сюжет",
+      "asset_index": 28,
+      "correct": 1,
+      "topic": "easy_text_15",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Ковчег Завета",
+      "voice_id": "v1_easy_text_15"
+    },
+    {
+      "document_number": 30,
+      "level": 1,
+      "type": "cards",
+      "text": "Как зовут говорящего снеговика из «Холодного сердца»?",
+      "options": [
+        "Свен",
+        "Кристофф",
+        "Олаф"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_16",
+      "category": "персонажи",
+      "asset_index": 29,
+      "correct": 2,
+      "topic": "easy_text_16",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Олаф",
+      "voice_id": "v1_easy_text_16"
+    },
+    {
+      "document_number": 31,
+      "level": 1,
+      "type": "cards",
+      "text": "Какой предмет Джека Воробья указывает направление к тому, чего владелец больше всего желает?",
+      "options": [
+        "Компас",
+        "Подзорная труба",
+        "Карта сокровищ"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_17",
+      "category": "киномиры",
+      "asset_index": 30,
+      "correct": 0,
+      "topic": "easy_text_17",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Компас",
+      "voice_id": "v1_easy_text_17"
+    },
+    {
+      "document_number": 32,
+      "level": 1,
+      "type": "cards",
+      "text": "Кто такой Бамблби в фильмах «Трансформеры»?",
+      "options": [
+        "Человек в механическом костюме",
+        "Инопланетный робот",
+        "Супергерой-мутант"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "easy_text_18",
+      "category": "персонажи",
+      "asset_index": 31,
+      "correct": 1,
+      "topic": "easy_text_18",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Инопланетный робот",
+      "voice_id": "v1_easy_text_18"
+    },
+    {
+      "document_number": 33,
+      "level": 1,
+      "type": "cards",
+      "text": "«Семь психопатов» — к какой классической картине отсылает название фильма?",
+      "options": [
+        "«Семь жизней»",
+        "«Семь самураев»",
+        "«Семь способов выйти замуж»"
+      ],
+      "notes": [
+        "Редакторское пояснение: режиссёр Мартин Макдонах подтвердил отсылку к фильму «Семь самураев» Акиры Куросавы (интервью CraveOnline, 18.09.2012).",
+        "Источник: интервью Мартина Макдонаха"
+      ],
+      "links": [
+        {
+          "label": "Источник: интервью Мартина Макдонаха",
+          "url": "https://www.mandatory.com/fun/196207-thats-what-i-do-martin-mcdonagh-on-seven-psychopaths"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_text_19",
+      "category": "киноотсылки",
+      "asset_index": 32,
+      "correct": 1,
+      "topic": "easy_text_19",
+      "source": "https://www.mandatory.com/fun/196207-thats-what-i-do-martin-mcdonagh-on-seven-psychopaths",
+      "fact": "Правильный ответ: «Семь самураев»",
+      "voice_id": "v1_easy_text_19"
+    },
+    {
+      "document_number": 34,
+      "level": 1,
+      "type": "gesture",
+      "text": "Главного героя «Форреста Гампа» сыграл Том Хэнкс?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_forrest_actor_v09",
+      "category": "да или нет",
+      "asset_index": 33,
+      "correct": 1,
+      "topic": "forrest_gump",
+      "source": "https://www.paramount.com/movies/forrest-gump",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "gesture_forrest_actor_v09"
+    },
+    {
+      "document_number": 35,
+      "level": 1,
+      "type": "gesture",
+      "text": "«Титаник» снял Джеймс Кэмерон?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_titanic_director_v09",
+      "category": "да или нет",
+      "asset_index": 34,
+      "correct": 1,
+      "topic": "titanic",
+      "source": "https://www.paramount.com/movies/titanic",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "gesture_titanic_director_v09"
+    },
+    {
+      "document_number": 36,
+      "level": 1,
+      "type": "gesture",
+      "text": "Мультфильм «Шрек» создала студия Pixar?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: «Шрек» создан DreamWorks Animation."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_01",
+      "category": "да или нет",
+      "asset_index": 35,
+      "correct": 0,
+      "topic": "easy_yesno_01",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_01"
+    },
+    {
+      "document_number": 37,
+      "level": 1,
+      "type": "gesture",
+      "text": "В первом фильме «Один дома» семья Кевина случайно улетает в отпуск без него?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_02",
+      "category": "да или нет",
+      "asset_index": 36,
+      "correct": 1,
+      "topic": "easy_yesno_02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_easy_yesno_02"
+    },
+    {
+      "document_number": 38,
+      "level": 1,
+      "type": "gesture",
+      "text": "В фильме «Матрица» Нео выбирает синюю таблетку?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Нео выбирает красную таблетку."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_03",
+      "category": "да или нет",
+      "asset_index": 37,
+      "correct": 0,
+      "topic": "easy_yesno_03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_03"
+    },
+    {
+      "document_number": 39,
+      "level": 1,
+      "type": "gesture",
+      "text": "Мультфильм «Король Лев» 1994 года выпустила студия Disney?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_04",
+      "category": "да или нет",
+      "asset_index": 38,
+      "correct": 1,
+      "topic": "easy_yesno_04",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_easy_yesno_04"
+    },
+    {
+      "document_number": 40,
+      "level": 1,
+      "type": "gesture",
+      "text": "В фильме «Бэтмен» 2022 года главную роль сыграл Роберт Паттинсон?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_05",
+      "category": "да или нет",
+      "asset_index": 39,
+      "correct": 1,
+      "topic": "easy_yesno_05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_easy_yesno_05"
+    },
+    {
+      "document_number": 41,
+      "level": 1,
+      "type": "gesture",
+      "text": "В фильме «Гарри Поттер и философский камень» Гарри попадает на факультет Слизерин?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Гарри попадает на Гриффиндор."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_06",
+      "category": "да или нет",
+      "asset_index": 40,
+      "correct": 0,
+      "topic": "easy_yesno_06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_06"
+    },
+    {
+      "document_number": 42,
+      "level": 1,
+      "type": "gesture",
+      "text": "Машину времени в фильме «Назад в будущее» создали из автомобиля Ferrari?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Док Браун использовал DeLorean DMC-12."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_07",
+      "category": "да или нет",
+      "asset_index": 41,
+      "correct": 0,
+      "topic": "easy_yesno_07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_07"
+    },
+    {
+      "document_number": 43,
+      "level": 1,
+      "type": "gesture",
+      "text": "Шрек живёт на болоте?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_08",
+      "category": "да или нет",
+      "asset_index": 42,
+      "correct": 1,
+      "topic": "easy_yesno_08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_easy_yesno_08"
+    },
+    {
+      "document_number": 44,
+      "level": 1,
+      "type": "gesture",
+      "text": "В первом «Терминаторе» киборг прибывает из прошлого?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Терминатора отправляют из будущего."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_09",
+      "category": "да или нет",
+      "asset_index": 43,
+      "correct": 0,
+      "topic": "easy_yesno_09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_09"
+    },
+    {
+      "document_number": 45,
+      "level": 1,
+      "type": "gesture",
+      "text": "В мультфильме «Король Лев» Симба — сын Шрама?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Симба — сын Муфасы, а Шрам — его дядя."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_10",
+      "category": "да или нет",
+      "asset_index": 44,
+      "correct": 0,
+      "topic": "easy_yesno_10",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_10"
+    },
+    {
+      "document_number": 46,
+      "level": 1,
+      "type": "gesture",
+      "text": "В «Трансформерах» Оптимус Прайм возглавляет автоботов?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_11",
+      "category": "да или нет",
+      "asset_index": 45,
+      "correct": 1,
+      "topic": "easy_yesno_11",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_easy_yesno_11"
+    },
+    {
+      "document_number": 47,
+      "level": 1,
+      "type": "gesture",
+      "text": "Олаф из «Холодного сердца» — говорящий северный олень?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Олаф — снеговик, а северного оленя зовут Свен."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_12",
+      "category": "да или нет",
+      "asset_index": 46,
+      "correct": 0,
+      "topic": "easy_yesno_12",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_12"
+    },
+    {
+      "document_number": 48,
+      "level": 1,
+      "type": "gesture",
+      "text": "Мультфильм «Рататуй» рассказывает о крысе, которая мечтает стать поваром?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_13",
+      "category": "да или нет",
+      "asset_index": 47,
+      "correct": 1,
+      "topic": "easy_yesno_13",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_easy_yesno_13"
+    },
+    {
+      "document_number": 49,
+      "level": 1,
+      "type": "gesture",
+      "text": "В мультфильме «Тачки» Молния Маккуин — полицейский автомобиль?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Молния Маккуин — гоночный автомобиль."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_14",
+      "category": "да или нет",
+      "asset_index": 48,
+      "correct": 0,
+      "topic": "easy_yesno_14",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_14"
+    },
+    {
+      "document_number": 50,
+      "level": 1,
+      "type": "gesture",
+      "text": "В мультфильме «В поисках Немо» Немо — маленькая акула?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Немо — рыба-клоун."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_15",
+      "category": "да или нет",
+      "asset_index": 49,
+      "correct": 0,
+      "topic": "easy_yesno_15",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_15"
+    },
+    {
+      "document_number": 51,
+      "level": 1,
+      "type": "gesture",
+      "text": "В фильме «Аватар» (2009) главные события происходят на Земле?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Основное действие разворачивается на Пандоре."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "easy_yesno_16",
+      "category": "да или нет",
+      "asset_index": 50,
+      "correct": 0,
+      "topic": "easy_yesno_16",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_easy_yesno_16"
+    },
+    {
+      "document_number": 52,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Гравитация",
+        "Интерстеллар",
+        "Контакт"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_interstellar",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/interstellar.jpg",
+      "asset_index": 51,
+      "correct": 1,
+      "topic": "interstellar",
+      "source": "https://www.paramount.com/movies/interstellar",
+      "fact": "Правильный ответ: Интерстеллар",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/interstellar.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 53,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Форрест Гамп",
+        "Зелёная миля",
+        "Изгой"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_forrest-gump",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/forrest-gump.jpg",
+      "asset_index": 52,
+      "correct": 0,
+      "topic": "forrest_gump",
+      "source": "https://www.paramount.com/movies/forrest-gump",
+      "fact": "Правильный ответ: Форрест Гамп",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/forrest-gump.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 54,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Титаник",
+        "Посейдон",
+        "Перл-Харбор"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_titanic",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/titanic.jpg",
+      "asset_index": 53,
+      "correct": 0,
+      "topic": "titanic",
+      "source": "https://www.paramount.com/movies/titanic",
+      "fact": "Правильный ответ: Титаник",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/titanic.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 55,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Троя",
+        "Гладиатор",
+        "Александр"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_gladiator",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/gladiator.jpg",
+      "asset_index": 54,
+      "correct": 1,
+      "topic": "gladiator",
+      "source": "https://www.paramount.com/movies/gladiator",
+      "fact": "Правильный ответ: Гладиатор",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/gladiator.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 56,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Богатенький Ричи»",
+        "«Один дома»",
+        "«Трудный ребёнок»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://imageresizer.static9.net.au/_J4DXfHwJhnctsGd8b92-7n1YjA%3D/1200x900/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2F2017%2F12%2F16%2F13%2F42%2Fkevinmcallisterfix1612_2_corrected.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_01",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/modern/home_alone.jpg",
+      "asset_index": 55,
+      "correct": 1,
+      "topic": "easy_image_01",
+      "source": "https://imageresizer.static9.net.au/_J4DXfHwJhnctsGd8b92-7n1YjA%3D/1200x900/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2F2017%2F12%2F16%2F13%2F42%2Fkevinmcallisterfix1612_2_corrected.jpg",
+      "fact": "Правильный ответ: «Один дома»",
+      "voice_id": "v1_easy_image_01",
+      "image": "res://assets/projection/document/easy_image_01.jpg",
+      "media_status": "replacement_same_film",
+      "resolved_image_url": "https://m.media-amazon.com/images/M/MV5BMjk5Y2E2YmUtMTQ0MS00YmU4LWJlM2UtMTdiMGZhMmExY2ZmXkEyXkFqcGc%40._V1_.jpg"
+    },
+    {
+      "document_number": 57,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "«Полтергейст»",
+        "«Охотники за привидениями»",
+        "«Битлджус»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://filmartgallery.com/cdn/shop/files/Ghostbusters-Ghost-Busters-Vintage-Movie-Poster-Original_e31d561e_5000x.jpg?v=1771978963"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_02",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/ghostbusters.jpg",
+      "asset_index": 56,
+      "correct": 1,
+      "topic": "easy_image_02",
+      "source": "https://filmartgallery.com/cdn/shop/files/Ghostbusters-Ghost-Busters-Vintage-Movie-Poster-Original_e31d561e_5000x.jpg?v=1771978963",
+      "fact": "Правильный ответ: «Охотники за привидениями»",
+      "voice_id": "v1_easy_image_02",
+      "image": "res://assets/projection/document/easy_image_02.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://filmartgallery.com/cdn/shop/files/Ghostbusters-Ghost-Busters-Vintage-Movie-Poster-Original_e31d561e_5000x.jpg?v=1771978963"
+    },
+    {
+      "document_number": 58,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Кинг-Конг»",
+        "«Годзилла»",
+        "«Парк юрского периода»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/20/1463579252-jurassicpark.jpg?resize=980%3A%2A"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_03",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/modern/jurassic_park.jpg",
+      "asset_index": 57,
+      "correct": 2,
+      "topic": "easy_image_03",
+      "source": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/20/1463579252-jurassicpark.jpg?resize=980%3A%2A",
+      "fact": "Правильный ответ: «Парк юрского периода»",
+      "voice_id": "v1_easy_image_03",
+      "image": "res://assets/projection/document/easy_image_03.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/20/1463579252-jurassicpark.jpg?resize=980%3A%2A"
+    },
+    {
+      "document_number": 59,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Матрица»",
+        "«Эквилибриум»",
+        "«Бегущий по лезвию»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://miro.medium.com/1%2A1NBmaEDUukdTYdxc0hYQgQ.jpeg"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_04",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/modern/matrix.jpg",
+      "asset_index": 58,
+      "correct": 0,
+      "topic": "easy_image_04",
+      "source": "https://miro.medium.com/1%2A1NBmaEDUukdTYdxc0hYQgQ.jpeg",
+      "fact": "Правильный ответ: «Матрица»",
+      "voice_id": "v1_easy_image_04",
+      "image": "res://assets/projection/document/easy_image_04.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://miro.medium.com/1%2A1NBmaEDUukdTYdxc0hYQgQ.jpeg"
+    },
+    {
+      "document_number": 60,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Инопланетянин»",
+        "«Полёт навигатора»",
+        "«Близкие контакты третьей степени»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://www.slashfilm.com/img/gallery/80s-kids-movies-everyone-needs-to-watch-at-least-once/e-t-the-extra-terrestrial-1762979735.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_05",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/modern/et.jpg",
+      "asset_index": 59,
+      "correct": 0,
+      "topic": "easy_image_05",
+      "source": "https://www.slashfilm.com/img/gallery/80s-kids-movies-everyone-needs-to-watch-at-least-once/e-t-the-extra-terrestrial-1762979735.jpg",
+      "fact": "Правильный ответ: «Инопланетянин»",
+      "voice_id": "v1_easy_image_05",
+      "image": "res://assets/projection/document/easy_image_05.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://www.slashfilm.com/img/gallery/80s-kids-movies-everyone-needs-to-watch-at-least-once/e-t-the-extra-terrestrial-1762979735.jpg"
+    },
+    {
+      "document_number": 61,
+      "level": 1,
+      "type": "frame",
+      "text": "Какой супергерой изображён на кадре?",
+      "options": [
+        "Человек-паук",
+        "Флэш",
+        "Дэдпул"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://i.insider.com/624dd88c1096d50018d1caf0?width=700"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_06",
+      "category": "узнай персонажа",
+      "image_path": "assets/projection/modern/spiderman.jpg",
+      "asset_index": 60,
+      "correct": 0,
+      "topic": "easy_image_06",
+      "source": "https://i.insider.com/624dd88c1096d50018d1caf0?width=700",
+      "fact": "Правильный ответ: Человек-паук",
+      "voice_id": "v1_easy_image_06",
+      "image": "res://assets/projection/document/easy_image_06.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://i.insider.com/624dd88c1096d50018d1caf0?width=700"
+    },
+    {
+      "document_number": 62,
+      "level": 1,
+      "type": "frame",
+      "text": "В каком фильме появляется убийца в этой маске?",
+      "options": [
+        "«Хэллоуин»",
+        "«Крик»",
+        "«Пятница, 13-е»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://www.looper.com/img/gallery/where-is-the-cast-of-scream-today-upgrade/intro-1688690480.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_07",
+      "category": "узнай персонажа",
+      "image_path": "assets/projection/modern/scream.jpg",
+      "asset_index": 61,
+      "correct": 1,
+      "topic": "easy_image_07",
+      "source": "https://www.looper.com/img/gallery/where-is-the-cast-of-scream-today-upgrade/intro-1688690480.jpg",
+      "fact": "Правильный ответ: «Крик»",
+      "voice_id": "v1_easy_image_07",
+      "image": "res://assets/projection/document/easy_image_07.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://www.looper.com/img/gallery/where-is-the-cast-of-scream-today-upgrade/intro-1688690480.jpg"
+    },
+    {
+      "document_number": 63,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма эта машина времени?",
+      "options": [
+        "«Назад в будущее»",
+        "«Трансформеры»",
+        "«Бегущий по лезвию»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://news.nateimg.co.kr/orgImg/ch/2022/02/17/IWJI3XPWBZAX5PFATHT4CIAMI4.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_08",
+      "category": "узнай предмет",
+      "image_path": "assets/projection/modern/delorean.jpg",
+      "asset_index": 62,
+      "correct": 0,
+      "topic": "easy_image_08",
+      "source": "https://news.nateimg.co.kr/orgImg/ch/2022/02/17/IWJI3XPWBZAX5PFATHT4CIAMI4.jpg",
+      "fact": "Правильный ответ: «Назад в будущее»",
+      "voice_id": "v1_easy_image_08",
+      "image": "res://assets/projection/document/easy_image_08.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://news.nateimg.co.kr/orgImg/ch/2022/02/17/IWJI3XPWBZAX5PFATHT4CIAMI4.jpg"
+    },
+    {
+      "document_number": 64,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какой кинотрилогии этот предмет?",
+      "options": [
+        "«Хроники Нарнии»",
+        "«Властелин колец»",
+        "«Гарри Поттер»"
+      ],
+      "notes": [
+        "Изображение: кадр пользователя, встроен в этот документ."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image1.png"
+      ],
+      "id": "easy_image_09",
+      "category": "узнай предмет",
+      "image_path": "assets/projection/modern/one_ring_user.png",
+      "asset_index": 63,
+      "correct": 1,
+      "topic": "easy_image_09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Властелин колец»",
+      "voice_id": "v1_easy_image_09",
+      "image": "res://assets/projection/document/image1.png",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 65,
+      "level": 1,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Матильда»",
+        "«Большой и добрый великан»",
+        "«Чарли и шоколадная фабрика»"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://www.slashfilm.com/img/gallery/gene-wilder-saw-tim-burtons-charlie-and-the-chocolate-factory-as-more-of-an-insult-than-an-homage/some-original-castmembers-enjoyed-the-remake-1668533816.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_10",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/modern/chocolate_factory.jpg",
+      "asset_index": 64,
+      "correct": 2,
+      "topic": "easy_image_10",
+      "source": "https://www.slashfilm.com/img/gallery/gene-wilder-saw-tim-burtons-charlie-and-the-chocolate-factory-as-more-of-an-insult-than-an-homage/some-original-castmembers-enjoyed-the-remake-1668533816.jpg",
+      "fact": "Правильный ответ: «Чарли и шоколадная фабрика»",
+      "voice_id": "v1_easy_image_10",
+      "image": "res://assets/projection/document/easy_image_10.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://www.slashfilm.com/img/gallery/gene-wilder-saw-tim-burtons-charlie-and-the-chocolate-factory-as-more-of-an-insult-than-an-homage/some-original-castmembers-enjoyed-the-remake-1668533816.jpg"
+    },
+    {
+      "document_number": 66,
+      "level": 1,
+      "type": "frame",
+      "text": "Что за волшебный предмет находится на голове Гарри Поттера?",
+      "options": [
+        "Распределяющая шляпа",
+        "Шляпа-невидимка",
+        "Колпак предсказаний"
+      ],
+      "notes": [
+        "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+      ],
+      "links": [
+        {
+          "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+          "url": "https://maximum.fm/uploads/media_news/2019/10/5d99eda20b208784217210.jpg?h=675&il=&output=jpg&q=90&w=1200"
+        }
+      ],
+      "embeds": [],
+      "id": "easy_image_11",
+      "category": "узнай предмет",
+      "image_path": "assets/projection/modern/sorting_hat.jpg",
+      "asset_index": 65,
+      "correct": 0,
+      "topic": "easy_image_11",
+      "source": "https://maximum.fm/uploads/media_news/2019/10/5d99eda20b208784217210.jpg?h=675&il=&output=jpg&q=90&w=1200",
+      "fact": "Правильный ответ: Распределяющая шляпа",
+      "voice_id": "v1_easy_image_11",
+      "image": "res://assets/projection/document/easy_image_11.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://maximum.fm/uploads/media_news/2019/10/5d99eda20b208784217210.jpg?h=675&il=&output=jpg&q=90&w=1200"
+    },
+    {
+      "document_number": 67,
+      "level": 2,
+      "type": "cards",
+      "text": "Какой из этих фильмов Pixar вышел раньше остальных?",
+      "options": [
+        "Корпорация монстров",
+        "История игрушек",
+        "В поисках Немо"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_01",
+      "category": "анимация",
+      "asset_index": 66,
+      "correct": 1,
+      "topic": "pixar_history",
+      "source": "https://www.pixar.com/feature-films/",
+      "fact": "Правильный ответ: История игрушек",
+      "voice_id": "question_1_v07"
+    },
+    {
+      "document_number": 68,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто написал музыку к фильму «Челюсти»?",
+      "options": [
+        "Ханс Циммер",
+        "Эннио Морриконе",
+        "Джон Уильямс"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_03",
+      "category": "музыка",
+      "asset_index": 67,
+      "correct": 2,
+      "topic": "jaws",
+      "source": "https://amblin.com/movie/jaws/",
+      "fact": "Правильный ответ: Джон Уильямс",
+      "voice_id": "question_3_v07"
+    },
+    {
+      "document_number": 69,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто получил режиссёрский «Оскар» за «Паразитов»?",
+      "options": [
+        "Пак Чхан-ук",
+        "Пон Джун-хо",
+        "Хирокадзу Корээда"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_08",
+      "category": "оскар",
+      "asset_index": 68,
+      "correct": 1,
+      "topic": "parasite",
+      "source": "https://www.oscars.org/oscars/ceremonies/2020",
+      "fact": "Правильный ответ: Пон Джун-хо",
+      "voice_id": "question_8"
+    },
+    {
+      "document_number": 70,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто снял первого «Чужого», вышедшего в 1979 году?",
+      "options": [
+        "Джеймс Кэмерон",
+        "Дэвид Финчер",
+        "Ридли Скотт"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_14",
+      "category": "режиссура",
+      "asset_index": 69,
+      "correct": 2,
+      "topic": "alien",
+      "source": "https://www.20thcenturystudios.com/movies/alien",
+      "fact": "Правильный ответ: Ридли Скотт",
+      "voice_id": "question_14"
+    },
+    {
+      "document_number": 71,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто сыграл Майкла Корлеоне в «Крёстном отце»?",
+      "options": [
+        "Роберт Дюваль",
+        "Аль Пачино",
+        "Джон Казале"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_17",
+      "category": "актёры",
+      "asset_index": 70,
+      "correct": 1,
+      "topic": "godfather",
+      "source": "https://www.paramount.com/movies/the-godfather",
+      "fact": "Правильный ответ: Аль Пачино",
+      "voice_id": "question_17"
+    },
+    {
+      "document_number": 72,
+      "level": 2,
+      "type": "cards",
+      "text": "Как зовут доктора Брауна из «Назад в будущее»?",
+      "options": [
+        "Эдвард Браун",
+        "Эдмунд Браун",
+        "Эмметт Браун"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_18",
+      "category": "персонажи",
+      "asset_index": 71,
+      "correct": 2,
+      "topic": "back_future",
+      "source": "https://amblin.com/movie/back-to-the-future/",
+      "fact": "Правильный ответ: Эмметт Браун",
+      "voice_id": "question_18"
+    },
+    {
+      "document_number": 73,
+      "level": 2,
+      "type": "cards",
+      "text": "В каком году вышел первый «Парк юрского периода»?",
+      "options": [
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_19",
+      "category": "история кино",
+      "asset_index": 72,
+      "correct": 2,
+      "topic": "jurassic_park",
+      "source": "https://amblin.com/movie/jurassic-park/",
+      "fact": "Правильный ответ: 1993",
+      "voice_id": "question_19"
+    },
+    {
+      "document_number": 74,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто создал «Твин Пикс» вместе с Марком Фростом?",
+      "options": [
+        "Дэвид Финчер",
+        "Дэвид Кроненберг",
+        "Дэвид Линч"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_22",
+      "category": "сериалы",
+      "asset_index": 73,
+      "correct": 2,
+      "topic": "twin_peaks",
+      "source": "https://www.sho.com/assets/special-markets/4Q_2016_SHOWTIME_Original_Series_Sports_Sales_Sheet.pdf",
+      "fact": "Правильный ответ: Дэвид Линч",
+      "voice_id": "question_22"
+    },
+    {
+      "document_number": 75,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто снял фильм «Чужие», вышедший в 1986 году?",
+      "options": [
+        "Ридли Скотт",
+        "Джон Карпентер",
+        "Джеймс Кэмерон"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_29",
+      "category": "режиссура",
+      "asset_index": 74,
+      "correct": 2,
+      "topic": "aliens",
+      "source": "https://www.20thcenturystudios.com/movies/aliens",
+      "fact": "Правильный ответ: Джеймс Кэмерон",
+      "voice_id": "question_29_v07"
+    },
+    {
+      "document_number": 76,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто снял фильм «Крёстный отец»?",
+      "options": [
+        "Фрэнсис Форд Коппола",
+        "Мартин Скорсезе",
+        "Брайан Де Пальма"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_30",
+      "category": "режиссура",
+      "asset_index": 75,
+      "correct": 0,
+      "topic": "godfather",
+      "source": "https://www.paramount.com/movies/the-godfather",
+      "fact": "Правильный ответ: Фрэнсис Форд Коппола",
+      "voice_id": "question_30_v07"
+    },
+    {
+      "document_number": 77,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто снял фильм «Назад в будущее»?",
+      "options": [
+        "Стивен Спилберг",
+        "Роберт Земекис",
+        "Джордж Лукас"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_31",
+      "category": "режиссура",
+      "asset_index": 76,
+      "correct": 1,
+      "topic": "back_future",
+      "source": "https://amblin.com/movie/back-to-the-future/",
+      "fact": "Правильный ответ: Роберт Земекис",
+      "voice_id": "question_31_v07"
+    },
+    {
+      "document_number": 78,
+      "level": 2,
+      "type": "cards",
+      "text": "Какой из этих фильмов Pixar вышел раньше?",
+      "options": [
+        "ВАЛЛ-И",
+        "Рататуй",
+        "В поисках Немо"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_32",
+      "category": "анимация",
+      "asset_index": 77,
+      "correct": 2,
+      "topic": "pixar_history",
+      "source": "https://www.pixar.com/feature-films",
+      "fact": "Правильный ответ: В поисках Немо",
+      "voice_id": "question_32_v07"
+    },
+    {
+      "document_number": 79,
+      "level": 2,
+      "type": "cards",
+      "text": "В каком году вышло «Криминальное чтиво»?",
+      "options": [
+        "1994",
+        "2004",
+        "1984"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_33",
+      "category": "история кино",
+      "asset_index": 78,
+      "correct": 0,
+      "topic": "pulp_fiction",
+      "source": "https://www.miramax.com/movie/pulp-fiction/",
+      "fact": "Правильный ответ: 1994",
+      "voice_id": "question_33_v07"
+    },
+    {
+      "document_number": 80,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто снял первый фильм «Крик», вышедший в 1996 году?",
+      "options": [
+        "Уэс Крэйвен",
+        "Джон Карпентер",
+        "Сэм Рэйми"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_36",
+      "category": "хоррор",
+      "asset_index": 79,
+      "correct": 0,
+      "topic": "scream",
+      "source": "https://www.miramax.com/movie/scream/",
+      "fact": "Правильный ответ: Уэс Крэйвен",
+      "voice_id": "question_36_v07"
+    },
+    {
+      "document_number": 81,
+      "level": 2,
+      "type": "cards",
+      "text": "Как думаете, сколько новых полнометражных игровых фильмов, не считая фильмов-спектаклей, вышло в СССР в 1951 году, по одной из опубликованных оценок?",
+      "options": [
+        "4 фильма",
+        "7 фильмов",
+        "17 фильмов"
+      ],
+      "notes": [
+        "Пояснение: Редакторское примечание: цифры в источниках расходятся (4, 6, 7, 8 или 9) из-за различий в критериях подсчёта. Ответ «4» принят лишь в рамках версии «9, из них 5 фильмов-спектаклей». Рекомендуется согласовать определение перед выпуском игры."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t01",
+      "category": "история кино",
+      "asset_index": 80,
+      "correct": 0,
+      "topic": "middle_t01",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: 4 фильма",
+      "voice_id": "v1_middle_t01"
+    },
+    {
+      "document_number": 82,
+      "level": 2,
+      "type": "cards",
+      "text": "Что означает число A113, которое можно заметить во многих мультфильмах Pixar?",
+      "options": [
+        "Номер первого компьютера Pixar",
+        "Номер аудитории, где учились будущие аниматоры",
+        "Код первой короткометражки студии"
+      ],
+      "notes": [
+        "Пояснение: Отсылка к аудитории Калифорнийского института искусств CalArts."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t02",
+      "category": "секреты анимации",
+      "asset_index": 81,
+      "correct": 1,
+      "topic": "middle_t02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Номер аудитории, где учились будущие аниматоры",
+      "voice_id": "v1_middle_t02"
+    },
+    {
+      "document_number": 83,
+      "level": 2,
+      "type": "cards",
+      "text": "Чем занимается фоли-артист в кино?",
+      "options": [
+        "Создаёт искусственные звуки шагов, движений и предметов",
+        "Подбирает актёрам костюмы",
+        "Убирает лишние предметы из кадра"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t03",
+      "category": "кинопроизводство",
+      "asset_index": 82,
+      "correct": 0,
+      "topic": "middle_t03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Создаёт искусственные звуки шагов, движений и предметов",
+      "voice_id": "v1_middle_t03"
+    },
+    {
+      "document_number": 84,
+      "level": 2,
+      "type": "cards",
+      "text": "Что в кинематографе называют «макгаффином»?",
+      "options": [
+        "Неожиданный финальный поворот",
+        "Предмет или цель, которые движут сюжетом",
+        "Персонажа, который появляется только в финале"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t04",
+      "category": "сценарное мастерство",
+      "asset_index": 83,
+      "correct": 1,
+      "topic": "middle_t04",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Предмет или цель, которые движут сюжетом",
+      "voice_id": "v1_middle_t04"
+    },
+    {
+      "document_number": 85,
+      "level": 2,
+      "type": "cards",
+      "text": "Что такое «план-секвенция»?",
+      "options": [
+        "Чередование крупных и общих планов",
+        "Сцена, полностью созданная компьютерной графикой",
+        "Продолжительная сцена, снятая одним непрерывным планом"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t05",
+      "category": "кинопроизводство",
+      "asset_index": 84,
+      "correct": 2,
+      "topic": "middle_t05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Продолжительная сцена, снятая одним непрерывным планом",
+      "voice_id": "v1_middle_t05"
+    },
+    {
+      "document_number": 86,
+      "level": 2,
+      "type": "cards",
+      "text": "Как называется техника анимации, при которой куклу немного передвигают перед съёмкой каждого следующего кадра?",
+      "options": [
+        "Ротоскопирование",
+        "Покадровая анимация (stop-motion)",
+        "Захват движения (motion capture)"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t06",
+      "category": "анимация",
+      "asset_index": 85,
+      "correct": 1,
+      "topic": "middle_t06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Покадровая анимация (stop-motion)",
+      "voice_id": "v1_middle_t06"
+    },
+    {
+      "document_number": 87,
+      "level": 2,
+      "type": "cards",
+      "text": "Из какого материала сделан Т-1000 в фильме «Терминатор 2»?",
+      "options": [
+        "Из жидкого металла",
+        "Из титана",
+        "Из углеродного волокна"
+      ],
+      "notes": [
+        "Пояснение: Материал назван мимикрирующим полисплавом."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t07",
+      "category": "фантастика",
+      "asset_index": 86,
+      "correct": 0,
+      "topic": "middle_t07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Из жидкого металла",
+      "voice_id": "v1_middle_t07"
+    },
+    {
+      "document_number": 88,
+      "level": 2,
+      "type": "cards",
+      "text": "Как зовут главную героиню фильма «Молчание ягнят»?",
+      "options": [
+        "Дана Скалли",
+        "Кларисса Старлинг",
+        "Сара Коннор"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t08",
+      "category": "персонажи",
+      "asset_index": 87,
+      "correct": 1,
+      "topic": "middle_t08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Кларисса Старлинг",
+      "voice_id": "v1_middle_t08"
+    },
+    {
+      "document_number": 89,
+      "level": 2,
+      "type": "cards",
+      "text": "Какая профессия у главной героини фильма «Прибытие» (2016)?",
+      "options": [
+        "Астрофизик",
+        "Военный психолог",
+        "Лингвист"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t09",
+      "category": "персонажи",
+      "asset_index": 88,
+      "correct": 2,
+      "topic": "middle_t09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Лингвист",
+      "voice_id": "v1_middle_t09"
+    },
+    {
+      "document_number": 90,
+      "level": 2,
+      "type": "cards",
+      "text": "Как называется родная планета Супермена?",
+      "options": [
+        "Криптон",
+        "Кибертрон",
+        "Татуин"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t10",
+      "category": "киномиры",
+      "asset_index": 89,
+      "correct": 0,
+      "topic": "middle_t10",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Криптон",
+      "voice_id": "v1_middle_t10"
+    },
+    {
+      "document_number": 91,
+      "level": 2,
+      "type": "cards",
+      "text": "Кто написал роман, по которому сняли фильм «Бойцовский клуб»?",
+      "options": [
+        "Брет Истон Эллис",
+        "Чак Паланик",
+        "Стивен Кинг"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t11",
+      "category": "экранизации",
+      "asset_index": 90,
+      "correct": 1,
+      "topic": "middle_t11",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Чак Паланик",
+      "voice_id": "v1_middle_t11"
+    },
+    {
+      "document_number": 92,
+      "level": 2,
+      "type": "cards",
+      "text": "Почему Харви Дент получил прозвище Двуликий во вселенной Бэтмена?",
+      "options": [
+        "Он умел изменять внешность",
+        "Он постоянно носил две разные маски",
+        "Одна половина его лица была обезображена"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t12",
+      "category": "персонажи",
+      "asset_index": 91,
+      "correct": 2,
+      "topic": "middle_t12",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Одна половина его лица была обезображена",
+      "voice_id": "v1_middle_t12"
+    },
+    {
+      "document_number": 93,
+      "level": 2,
+      "type": "cards",
+      "text": "Какой предмет преподавал Северус Снейп в первом фильме о Гарри Поттере?",
+      "options": [
+        "Зельеварение",
+        "Защиту от тёмных искусств",
+        "Трансфигурацию"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t13",
+      "category": "киномиры",
+      "asset_index": 92,
+      "correct": 0,
+      "topic": "middle_t13",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Зельеварение",
+      "voice_id": "v1_middle_t13"
+    },
+    {
+      "document_number": 94,
+      "level": 2,
+      "type": "cards",
+      "text": "Сколько очков приносит поимка золотого снитча в квиддиче?",
+      "options": [
+        "50",
+        "100",
+        "150"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t14",
+      "category": "киномиры",
+      "asset_index": 93,
+      "correct": 2,
+      "topic": "middle_t14",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: 150",
+      "voice_id": "v1_middle_t14"
+    },
+    {
+      "document_number": 95,
+      "level": 2,
+      "type": "cards",
+      "text": "Как звали андроида, тайно находившегося среди экипажа в первом фильме «Чужой» (1979)?",
+      "options": [
+        "Бишоп",
+        "Эш",
+        "Дэвид"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t15",
+      "category": "персонажи",
+      "asset_index": 94,
+      "correct": 1,
+      "topic": "middle_t15",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Эш",
+      "voice_id": "v1_middle_t15"
+    },
+    {
+      "document_number": 96,
+      "level": 2,
+      "type": "cards",
+      "text": "Кем работает главный герой фильма «День сурка»?",
+      "options": [
+        "Телевизионным метеорологом",
+        "Радиоведущим музыкального шоу",
+        "Фотокорреспондентом"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t16",
+      "category": "сюжет",
+      "asset_index": 95,
+      "correct": 0,
+      "topic": "middle_t16",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Телевизионным метеорологом",
+      "voice_id": "v1_middle_t16"
+    },
+    {
+      "document_number": 97,
+      "level": 2,
+      "type": "cards",
+      "text": "Какое криминальное прозвище использует Уолтер Уайт в сериале «Во все тяжкие»?",
+      "options": [
+        "Профессор",
+        "Гейзенберг",
+        "Эскобар"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t17",
+      "category": "сериалы",
+      "asset_index": 96,
+      "correct": 1,
+      "topic": "middle_t17",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Гейзенберг",
+      "voice_id": "v1_middle_t17"
+    },
+    {
+      "document_number": 98,
+      "level": 2,
+      "type": "cards",
+      "text": "Как называется компания, в которой работает Майкл Скотт в сериале «Офис»?",
+      "options": [
+        "Sterling Cooper",
+        "Pied Piper",
+        "Dunder Mifflin"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t18",
+      "category": "сериалы",
+      "asset_index": 97,
+      "correct": 2,
+      "topic": "middle_t18",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Dunder Mifflin",
+      "voice_id": "v1_middle_t18"
+    },
+    {
+      "document_number": 99,
+      "level": 2,
+      "type": "cards",
+      "text": "Чем запрещено заниматься членам семьи Мигеля в мультфильме «Тайна Коко»?",
+      "options": [
+        "Музыкой",
+        "Путешествиями",
+        "Рисованием"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t19",
+      "category": "сюжет",
+      "asset_index": 98,
+      "correct": 0,
+      "topic": "middle_t19",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Музыкой",
+      "voice_id": "v1_middle_t19"
+    },
+    {
+      "document_number": 100,
+      "level": 2,
+      "type": "cards",
+      "text": "Какое нарушение памяти есть у главного героя фильма «Помни» (2000)?",
+      "options": [
+        "Он не помнит своего детства",
+        "Он не способен формировать новые долговременные воспоминания",
+        "Он помнит только события, которые ещё не произошли"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t20",
+      "category": "сюжет",
+      "asset_index": 99,
+      "correct": 1,
+      "topic": "middle_t20",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Он не способен формировать новые долговременные воспоминания",
+      "voice_id": "v1_middle_t20"
+    },
+    {
+      "document_number": 101,
+      "level": 2,
+      "type": "cards",
+      "text": "Какая анимационная студия создала пластилиновых персонажей Уоллеса и Громита?",
+      "options": [
+        "Aardman Animations",
+        "Pixar",
+        "Illumination"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t21",
+      "category": "анимация",
+      "asset_index": 100,
+      "correct": 0,
+      "topic": "middle_t21",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Aardman Animations",
+      "voice_id": "v1_middle_t21"
+    },
+    {
+      "document_number": 102,
+      "level": 2,
+      "type": "cards",
+      "text": "Под какую песню Питер Квилл танцует в начале первых «Стражей Галактики»?",
+      "options": [
+        "Stayin’ Alive — Bee Gees",
+        "Come and Get Your Love — Redbone",
+        "Hooked on a Feeling — Blue Swede"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t22",
+      "category": "музыка в кино",
+      "asset_index": 101,
+      "correct": 1,
+      "topic": "middle_t22",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Come and Get Your Love — Redbone",
+      "voice_id": "v1_middle_t22"
+    },
+    {
+      "document_number": 103,
+      "level": 2,
+      "type": "cards",
+      "text": "В каком фильме Том Харди сыграл сразу двух братьев-близнецов, знаменитых лондонских гангстеров?",
+      "options": [
+        "«Бронсон»",
+        "«Самый пьяный округ в мире»",
+        "«Легенда»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "middle_t23",
+      "category": "актёры",
+      "asset_index": 102,
+      "correct": 2,
+      "topic": "middle_t23",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Легенда»",
+      "voice_id": "v1_middle_t23"
+    },
+    {
+      "document_number": 104,
+      "level": 2,
+      "type": "gesture",
+      "text": "«Остров проклятых» снял Кристофер Нолан?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение из игры: Режиссёр — Мартин Скорсезе."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_shutter_director_v09",
+      "category": "да или нет",
+      "asset_index": 103,
+      "correct": 0,
+      "topic": "shutter_island",
+      "source": "https://www.paramount.com/movies/shutter-island",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "gesture_shutter_director_v09"
+    },
+    {
+      "document_number": 105,
+      "level": 2,
+      "type": "gesture",
+      "text": "Первая «Миссия невыполнима» вышла в 2006 году?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение из игры: Первый фильм вышел в 1996 году."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_mission_year_v09",
+      "category": "да или нет",
+      "asset_index": 104,
+      "correct": 0,
+      "topic": "mission_impossible",
+      "source": "https://www.paramount.com/movies/mission-impossible",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "gesture_mission_year_v09"
+    },
+    {
+      "document_number": 106,
+      "level": 2,
+      "type": "gesture",
+      "text": "«Гладиатора» снял Ридли Скотт?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_gladiator_director_v09",
+      "category": "да или нет",
+      "asset_index": 105,
+      "correct": 1,
+      "topic": "gladiator",
+      "source": "https://www.paramount.com/movies/gladiator",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "gesture_gladiator_director_v09"
+    },
+    {
+      "document_number": 107,
+      "level": 2,
+      "type": "gesture",
+      "text": "Мультфильм «Унесённые призраками» создала студия Ghibli?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d01",
+      "category": "анимация",
+      "asset_index": 106,
+      "correct": 1,
+      "topic": "middle_d01",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_middle_d01"
+    },
+    {
+      "document_number": 108,
+      "level": 2,
+      "type": "gesture",
+      "text": "Мультфильм «Тайна Коко» назван в честь мальчика, который играет на гитаре?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Мальчика зовут Мигель, а Коко — его прабабушка."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d02",
+      "category": "анимация",
+      "asset_index": 107,
+      "correct": 0,
+      "topic": "middle_d02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_middle_d02"
+    },
+    {
+      "document_number": 109,
+      "level": 2,
+      "type": "gesture",
+      "text": "Санса Старк — старшая сестра Арьи Старк в сериале «Игра престолов»?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d03",
+      "category": "сериалы",
+      "asset_index": 108,
+      "correct": 1,
+      "topic": "middle_d03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_middle_d03"
+    },
+    {
+      "document_number": 110,
+      "level": 2,
+      "type": "gesture",
+      "text": "Мультфильм «Коралина в Стране Кошмаров» создан с использованием покадровой кукольной анимации?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d04",
+      "category": "анимация",
+      "asset_index": 109,
+      "correct": 1,
+      "topic": "middle_d04",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_middle_d04"
+    },
+    {
+      "document_number": 111,
+      "level": 2,
+      "type": "gesture",
+      "text": "У Морти из мультсериала «Рик и Морти» есть старшая сестра Саммер?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d05",
+      "category": "мультсериалы",
+      "asset_index": 110,
+      "correct": 1,
+      "topic": "middle_d05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_middle_d05"
+    },
+    {
+      "document_number": 112,
+      "level": 2,
+      "type": "gesture",
+      "text": "C-3PO из «Звёздных войн» — астромеханический дроид, предназначенный для ремонта космических кораблей?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: C-3PO — протокольный дроид."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d06",
+      "category": "киномиры",
+      "asset_index": 111,
+      "correct": 0,
+      "topic": "middle_d06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_middle_d06"
+    },
+    {
+      "document_number": 113,
+      "level": 2,
+      "type": "gesture",
+      "text": "Король Ночи впервые появляется в сериале «Игра престолов» только в последнем сезоне?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Персонаж появляется раньше, в четвёртом сезоне."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d07",
+      "category": "сериалы",
+      "asset_index": 112,
+      "correct": 0,
+      "topic": "middle_d07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_middle_d07"
+    },
+    {
+      "document_number": 114,
+      "level": 2,
+      "type": "gesture",
+      "text": "Сериал «Чернобыль» (2019) — документальный фильм, состоящий исключительно из архивных записей?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Это художественный драматический мини-сериал."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d08",
+      "category": "сериалы",
+      "asset_index": 113,
+      "correct": 0,
+      "topic": "middle_d08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_middle_d08"
+    },
+    {
+      "document_number": 115,
+      "level": 2,
+      "type": "gesture",
+      "text": "Главные герои фильма «Престиж» (2006) — два соперничающих иллюзиониста?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d09",
+      "category": "сюжет",
+      "asset_index": 114,
+      "correct": 1,
+      "topic": "middle_d09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_middle_d09"
+    },
+    {
+      "document_number": 116,
+      "level": 2,
+      "type": "gesture",
+      "text": "Фильм «Кто подставил кролика Роджера» полностью нарисован и в нём нет живых актёров?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: Фильм сочетает живую актёрскую игру и анимацию."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "middle_d10",
+      "category": "история кино",
+      "asset_index": 115,
+      "correct": 0,
+      "topic": "middle_d10",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_middle_d10"
+    },
+    {
+      "document_number": 117,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Лжец, лжец",
+        "Кабельщик",
+        "Шоу Трумана"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_the-truman-show",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/the-truman-show.jpg",
+      "asset_index": 116,
+      "correct": 2,
+      "topic": "the_truman_show",
+      "source": "https://www.paramount.com/movies/the-truman-show",
+      "fact": "Правильный ответ: Шоу Трумана",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/the-truman-show.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 118,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Начало",
+        "Остров проклятых",
+        "Отступники"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_shutter-island",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/shutter-island.jpg",
+      "asset_index": 117,
+      "correct": 1,
+      "topic": "shutter_island",
+      "source": "https://www.paramount.com/movies/shutter-island",
+      "fact": "Правильный ответ: Остров проклятых",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/shutter-island.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 119,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Скорость",
+        "Скала",
+        "Миссия невыполнима"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_mission-impossible",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/mission-impossible.jpg",
+      "asset_index": 118,
+      "correct": 2,
+      "topic": "mission_impossible",
+      "source": "https://www.paramount.com/movies/mission-impossible",
+      "fact": "Правильный ответ: Миссия невыполнима",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/mission-impossible.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 120,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Тонкая красная линия",
+        "Дюнкерк",
+        "Спасти рядового Райана"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_saving-private-ryan",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/saving-private-ryan.jpg",
+      "asset_index": 119,
+      "correct": 2,
+      "topic": "saving_private_ryan",
+      "source": "https://www.paramount.com/movies/saving-private-ryan",
+      "fact": "Правильный ответ: Спасти рядового Райана",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/saving-private-ryan.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 121,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Игра на понижение",
+        "Волк с Уолл-стрит",
+        "Уолл-стрит"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "poster_the-wolf-of-wall-street",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/the-wolf-of-wall-street.jpg",
+      "asset_index": 120,
+      "correct": 1,
+      "topic": "the_wolf_of_wall_street",
+      "source": "https://www.paramount.com/movies/the-wolf-of-wall-street",
+      "fact": "Правильный ответ: Волк с Уолл-стрит",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/the-wolf-of-wall-street.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 122,
+      "level": 2,
+      "type": "frame",
+      "text": "Как зовут этого персонажа?",
+      "options": [
+        "Безликий",
+        "Хаку",
+        "Камадзи"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Унесённые призраками» (2001)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image2.jpg"
+      ],
+      "id": "middle_k01",
+      "category": "анимация / персонажи",
+      "image_path": "assets/projection/middle/k01.jpg",
+      "asset_index": 121,
+      "correct": 0,
+      "topic": "middle_k01",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Безликий",
+      "voice_id": "v1_middle_k01",
+      "image": "res://assets/projection/document/image2.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 123,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого фильма сделана эта иллюстрация?",
+      "options": [
+        "«Дюна»",
+        "«Бегущий по лезвию 2049»",
+        "«Обливион»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image3.jpg"
+      ],
+      "id": "middle_k02",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/middle/k02.jpg",
+      "asset_index": 122,
+      "correct": 1,
+      "topic": "middle_k02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Бегущий по лезвию 2049»",
+      "voice_id": "v1_middle_k02",
+      "image": "res://assets/projection/document/image3.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 124,
+      "level": 2,
+      "type": "frame",
+      "text": "Кто снял фильм, которому посвящена эта иллюстрация?",
+      "options": [
+        "Тим Бёртон",
+        "Уэс Андерсон",
+        "Гильермо дель Торо"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: Фильм «Отель „Гранд Будапешт“» (2014)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image4.jpg"
+      ],
+      "id": "middle_k03",
+      "category": "режиссура",
+      "image_path": "assets/projection/middle/k03.jpg",
+      "asset_index": 123,
+      "correct": 1,
+      "topic": "middle_k03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Уэс Андерсон",
+      "voice_id": "v1_middle_k03",
+      "image": "res://assets/projection/document/image4.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 125,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого сериала сделана эта иллюстрация?",
+      "options": [
+        "«Тьма»",
+        "«Очень странные дела»",
+        "«Секретные материалы»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image5.jpg"
+      ],
+      "id": "middle_k04",
+      "category": "сериалы",
+      "image_path": "assets/projection/middle/k04.jpg",
+      "asset_index": 124,
+      "correct": 1,
+      "topic": "middle_k04",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Очень странные дела»",
+      "voice_id": "v1_middle_k04",
+      "image": "res://assets/projection/document/image5.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 126,
+      "level": 2,
+      "type": "frame",
+      "text": "Как зовут этого персонажа?",
+      "options": [
+        "Билл Шифр",
+        "Мистер Мисикс",
+        "Король Кошмаров"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Гравити Фолз»."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image6.jpg"
+      ],
+      "id": "middle_k05",
+      "category": "мультсериалы / персонажи",
+      "image_path": "assets/projection/middle/k05.jpg",
+      "asset_index": 125,
+      "correct": 0,
+      "topic": "middle_k05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Билл Шифр",
+      "voice_id": "v1_middle_k05",
+      "image": "res://assets/projection/document/image6.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 127,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого фильма сделана эта иллюстрация?",
+      "options": [
+        "«Доктор Стрэндж»",
+        "«Начало»",
+        "«Матрица: Воскрешение»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image7.jpg"
+      ],
+      "id": "middle_k06",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/middle/k06.jpg",
+      "asset_index": 126,
+      "correct": 1,
+      "topic": "middle_k06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Начало»",
+      "voice_id": "v1_middle_k06",
+      "image": "res://assets/projection/document/image7.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 128,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого мультфильма сделана эта иллюстрация?",
+      "options": [
+        "«Тайна Коко»",
+        "«Книга жизни»",
+        "«Энканто»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image8.jpg"
+      ],
+      "id": "middle_k07",
+      "category": "анимация",
+      "image_path": "assets/projection/middle/k07.jpg",
+      "asset_index": 127,
+      "correct": 0,
+      "topic": "middle_k07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Тайна Коко»",
+      "voice_id": "v1_middle_k07",
+      "image": "res://assets/projection/document/image8.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 129,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого фильма сделана эта иллюстрация?",
+      "options": [
+        "«Шоколад»",
+        "«Нежность»",
+        "«Амели»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image9.jpg"
+      ],
+      "id": "middle_k08",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/middle/k08.jpg",
+      "asset_index": 128,
+      "correct": 2,
+      "topic": "middle_k08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Амели»",
+      "voice_id": "v1_middle_k08",
+      "image": "res://assets/projection/document/image9.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 130,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого мультфильма этот персонаж?",
+      "options": [
+        "«Труп невесты»",
+        "«Коралина в Стране Кошмаров»",
+        "«Дом-монстр»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image10.jpg"
+      ],
+      "id": "middle_k09",
+      "category": "анимация",
+      "image_path": "assets/projection/middle/k09.jpg",
+      "asset_index": 129,
+      "correct": 1,
+      "topic": "middle_k09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Коралина в Стране Кошмаров»",
+      "voice_id": "v1_middle_k09",
+      "image": "res://assets/projection/document/image10.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 131,
+      "level": 2,
+      "type": "frame",
+      "text": "Как называется необычное средство передвижения из этого мультфильма?",
+      "options": [
+        "Котобус",
+        "Тоторобус",
+        "Лесной экспресс"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Мой сосед Тоторо»."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image11.jpg"
+      ],
+      "id": "middle_k10",
+      "category": "анимация / киномиры",
+      "image_path": "assets/projection/middle/k10.jpg",
+      "asset_index": 130,
+      "correct": 0,
+      "topic": "middle_k10",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Котобус",
+      "voice_id": "v1_middle_k10",
+      "image": "res://assets/projection/document/image11.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 132,
+      "level": 2,
+      "type": "frame",
+      "text": "Кто снял фильм, которому посвящена эта иллюстрация?",
+      "options": [
+        "Квентин Тарантино",
+        "Братья Коэн",
+        "Братья Фаррелли"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Большой Лебовски» (1998)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image12.jpg"
+      ],
+      "id": "middle_k11",
+      "category": "режиссура",
+      "image_path": "assets/projection/middle/k11.jpg",
+      "asset_index": 131,
+      "correct": 1,
+      "topic": "middle_k11",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Братья Коэн",
+      "voice_id": "v1_middle_k11",
+      "image": "res://assets/projection/document/image12.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 133,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма эта инопланетная оперная певица?",
+      "options": [
+        "«Пятый элемент»",
+        "«Звёздные войны»",
+        "«Валериан и город тысячи планет»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: Дива Плавалагуна."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image13.jpg"
+      ],
+      "id": "middle_k12",
+      "category": "фантастика",
+      "image_path": "assets/projection/middle/k12.jpg",
+      "asset_index": 132,
+      "correct": 0,
+      "topic": "middle_k12",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Пятый элемент»",
+      "voice_id": "v1_middle_k12",
+      "image": "res://assets/projection/document/image13.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 134,
+      "level": 2,
+      "type": "frame",
+      "text": "Как зовут этого персонажа?",
+      "options": [
+        "Чарльз Манц",
+        "Карл Фредриксен",
+        "Рассел"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Вверх» (2009)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image14.jpg"
+      ],
+      "id": "middle_k13",
+      "category": "анимация / персонажи",
+      "image_path": "assets/projection/middle/k13.jpg",
+      "asset_index": 133,
+      "correct": 1,
+      "topic": "middle_k13",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Карл Фредриксен",
+      "voice_id": "v1_middle_k13",
+      "image": "res://assets/projection/document/image14.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 135,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма это чудовище?",
+      "options": [
+        "«Хеллбой»",
+        "«Форма воды»",
+        "«Лабиринт Фавна»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image15.jpg"
+      ],
+      "id": "middle_k14",
+      "category": "хоррор / фэнтези",
+      "image_path": "assets/projection/middle/k14.jpg",
+      "asset_index": 134,
+      "correct": 2,
+      "topic": "middle_k14",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Лабиринт Фавна»",
+      "voice_id": "v1_middle_k14",
+      "image": "res://assets/projection/document/image15.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 136,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого фильма сделана эта иллюстрация?",
+      "options": [
+        "«Рэй»",
+        "«Зелёная книга»",
+        "«Одержимость»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image16.jpg"
+      ],
+      "id": "middle_k15",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/middle/k15.jpg",
+      "asset_index": 135,
+      "correct": 1,
+      "topic": "middle_k15",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Зелёная книга»",
+      "voice_id": "v1_middle_k15",
+      "image": "res://assets/projection/document/image16.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 137,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма эти часы?",
+      "options": [
+        "«День сурка»",
+        "«Петля времени»",
+        "«Исходный код»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: Кадр-стилизация часов, показывающих 6:00; рекомендуется заменить на узнаваемый кадр фильма."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image17.jpg"
+      ],
+      "id": "middle_k16",
+      "category": "узнай предмет",
+      "image_path": "assets/projection/middle/k16.jpg",
+      "asset_index": 136,
+      "correct": 0,
+      "topic": "middle_k16",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «День сурка»",
+      "voice_id": "v1_middle_k16",
+      "image": "res://assets/projection/document/image17.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 138,
+      "level": 2,
+      "type": "frame",
+      "text": "Из какого фильма этот необычный стул?",
+      "options": [
+        "«Убийство в Восточном экспрессе»",
+        "«Достать ножи»",
+        "«Смерть на Ниле»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image18.jpg"
+      ],
+      "id": "middle_k17",
+      "category": "узнай предмет",
+      "image_path": "assets/projection/middle/k17.jpg",
+      "asset_index": 137,
+      "correct": 1,
+      "topic": "middle_k17",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Достать ножи»",
+      "voice_id": "v1_middle_k17",
+      "image": "res://assets/projection/document/image18.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 139,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого фильма сделана эта иллюстрация?",
+      "options": [
+        "«Жмурки»",
+        "«Сёстры»",
+        "«Брат»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image19.jpg"
+      ],
+      "id": "middle_k18",
+      "category": "российское кино",
+      "image_path": "assets/projection/middle/k18.jpg",
+      "asset_index": 138,
+      "correct": 2,
+      "topic": "middle_k18",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Брат»",
+      "voice_id": "v1_middle_k18",
+      "image": "res://assets/projection/document/image19.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 140,
+      "level": 2,
+      "type": "frame",
+      "text": "Как зовут этого робота?",
+      "options": [
+        "Марвин",
+        "Бендер",
+        "Зим"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Футурама»."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image20.jpg"
+      ],
+      "id": "middle_k19",
+      "category": "мультсериалы / персонажи",
+      "image_path": "assets/projection/middle/k19.jpg",
+      "asset_index": 139,
+      "correct": 1,
+      "topic": "middle_k19",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Бендер",
+      "voice_id": "v1_middle_k19",
+      "image": "res://assets/projection/document/image20.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 141,
+      "level": 2,
+      "type": "frame",
+      "text": "Как зовут эту героиню?",
+      "options": [
+        "Скайлер Уайт",
+        "Ким Уэкслер",
+        "Бет Хармон"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Лучше звоните Солу»."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image21.jpg"
+      ],
+      "id": "middle_k20",
+      "category": "сериалы / персонажи",
+      "image_path": "assets/projection/middle/k20.jpg",
+      "asset_index": 140,
+      "correct": 1,
+      "topic": "middle_k20",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Ким Уэкслер",
+      "voice_id": "v1_middle_k20",
+      "image": "res://assets/projection/document/image21.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 142,
+      "level": 2,
+      "type": "frame",
+      "text": "По мотивам какого сериала сделана эта иллюстрация?",
+      "options": [
+        "«Подпольная империя»",
+        "«Острые козырьки»",
+        "«Табу»"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image22.jpg"
+      ],
+      "id": "middle_k21",
+      "category": "сериалы",
+      "image_path": "assets/projection/middle/k21.jpg",
+      "asset_index": 141,
+      "correct": 1,
+      "topic": "middle_k21",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Острые козырьки»",
+      "voice_id": "v1_middle_k21",
+      "image": "res://assets/projection/document/image22.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 143,
+      "level": 2,
+      "type": "frame",
+      "text": "Как зовут этого персонажа?",
+      "options": [
+        "Озай",
+        "Айро",
+        "Аанг"
+      ],
+      "notes": [
+        "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+        "Пояснение: «Аватар: Легенда об Аанге»."
+      ],
+      "links": [],
+      "embeds": [
+        "res://assets/projection/document/image23.jpg"
+      ],
+      "id": "middle_k22",
+      "category": "мультсериалы",
+      "image_path": "assets/projection/middle/k22.jpg",
+      "asset_index": 142,
+      "correct": 1,
+      "topic": "middle_k22",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Айро",
+      "voice_id": "v1_middle_k22",
+      "image": "res://assets/projection/document/image23.jpg",
+      "media_status": "supplied_document"
+    },
+    {
+      "document_number": 144,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто выиграл «Оскар» за лучший анимационный фильм на церемонии 2002 года?",
+      "options": [
+        "«Корпорация монстров»",
+        "«Шрек»",
+        "«Ледниковый период»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_02",
+      "category": "оскар",
+      "asset_index": 143,
+      "correct": 1,
+      "topic": "shrek",
+      "source": "https://www.oscars.org/oscars/ceremonies/2002",
+      "fact": "Правильный ответ: «Шрек»",
+      "voice_id": "question_2"
+    },
+    {
+      "document_number": 145,
+      "level": 3,
+      "type": "cards",
+      "text": "В каком году вышел фильм Альфреда Хичкока «Психо»?",
+      "options": [
+        "1960",
+        "1958",
+        "1963"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_05",
+      "category": "классика хоррора",
+      "asset_index": 144,
+      "correct": 0,
+      "topic": "psycho",
+      "source": "https://www.bfi.org.uk/film/18313136-53d5-53d4-a89b-1d19d24a30f2/psycho",
+      "fact": "Правильный ответ: 1960",
+      "voice_id": "question_5_v07"
+    },
+    {
+      "document_number": 146,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто получил «Оскар» за операторскую работу в фильме «1917»?",
+      "options": [
+        "Роджер Дикинс",
+        "Эммануэль Любецки",
+        "Хойте ван Хойтема"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_09",
+      "category": "операторская работа",
+      "asset_index": 145,
+      "correct": 0,
+      "topic": "1917",
+      "source": "https://www.oscars.org/oscars/ceremonies/2020",
+      "fact": "Правильный ответ: Роджер Дикинс",
+      "voice_id": "question_9"
+    },
+    {
+      "document_number": 147,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто написал роман «Парк юрского периода», по которому снят фильм?",
+      "options": [
+        "Стивен Кинг",
+        "Айзек Азимов",
+        "Майкл Крайтон"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_12",
+      "category": "экранизации",
+      "asset_index": 146,
+      "correct": 2,
+      "topic": "jurassic_park",
+      "source": "https://amblin.com/movie/jurassic-park/",
+      "fact": "Правильный ответ: Майкл Крайтон",
+      "voice_id": "question_12"
+    },
+    {
+      "document_number": 148,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто написал музыку к «Назад в будущее»?",
+      "options": [
+        "Алан Сильвестри",
+        "Джон Уильямс",
+        "Дэнни Эльфман"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_15",
+      "category": "музыка",
+      "asset_index": 147,
+      "correct": 0,
+      "topic": "back_future",
+      "source": "https://amblin.com/movie/back-to-the-future/",
+      "fact": "Правильный ответ: Алан Сильвестри",
+      "voice_id": "question_15"
+    },
+    {
+      "document_number": 149,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто создал сериал «Во все тяжкие»?",
+      "options": [
+        "Винс Гиллиган",
+        "Дэвид Чейз",
+        "Мэттью Вайнер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_20",
+      "category": "сериалы",
+      "asset_index": 148,
+      "correct": 0,
+      "topic": "breaking_bad",
+      "source": "https://ce.amc.com/series/breaking-bad",
+      "fact": "Правильный ответ: Винс Гиллиган",
+      "voice_id": "question_20"
+    },
+    {
+      "document_number": 150,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто режиссёр «ВАЛЛ-И»?",
+      "options": [
+        "Эндрю Стэнтон",
+        "Брэд Бёрд",
+        "Пит Доктер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_25",
+      "category": "анимация",
+      "asset_index": 149,
+      "correct": 0,
+      "topic": "walle",
+      "source": "https://www.pixar.com/stanton",
+      "fact": "Правильный ответ: Эндрю Стэнтон",
+      "voice_id": "question_25"
+    },
+    {
+      "document_number": 151,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто написал сценарий первого «Крика», вышедшего в 1996 году?",
+      "options": [
+        "Уэс Крэйвен",
+        "Кевин Уильямсон",
+        "Клайв Баркер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_27",
+      "category": "сценарий",
+      "asset_index": 150,
+      "correct": 1,
+      "topic": "scream",
+      "source": "https://www.miramax.com/movie/scream/",
+      "fact": "Правильный ответ: Кевин Уильямсон",
+      "voice_id": "question_27"
+    },
+    {
+      "document_number": 152,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто создал сериал «Чёрное зеркало»?",
+      "options": [
+        "Винс Гиллиган",
+        "Дэвид Линч",
+        "Чарли Брукер"
+      ],
+      "notes": [
+        "Дополнение редакции: 15 новых текстовых вопросов (Т01–Т14 и Т19)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "film_35",
+      "category": "сериалы",
+      "asset_index": 151,
+      "correct": 2,
+      "topic": "black_mirror",
+      "source": "https://www.netflix.com/title/70264888",
+      "fact": "Правильный ответ: Чарли Брукер",
+      "voice_id": "question_35_v07"
+    },
+    {
+      "document_number": 153,
+      "level": 3,
+      "type": "cards",
+      "text": "Какой мультфильм первым получил номинацию на «Оскар» в категории «Лучший фильм»?",
+      "options": [
+        "«Король Лев»",
+        "«Красавица и Чудовище»",
+        "«Вверх»"
+      ],
+      "notes": [
+        "Пояснение: Фильм номинировали на церемонии 1992 года.",
+        "Источник: открыть"
+      ],
+      "links": [
+        {
+          "label": "Источник: открыть",
+          "url": "https://www.oscars.org/oscars/ceremonies/1992"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_text_t01",
+      "category": "история анимации",
+      "asset_index": 152,
+      "correct": 1,
+      "topic": "hard_text_t01",
+      "source": "https://www.oscars.org/oscars/ceremonies/1992",
+      "fact": "Правильный ответ: «Красавица и Чудовище»",
+      "voice_id": "v1_hard_text_t01"
+    },
+    {
+      "document_number": 154,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто был главным оператором фильма «Гражданин Кейн» (1941)?",
+      "options": [
+        "Грегг Толанд",
+        "Джек Кардифф",
+        "Фредди Янг"
+      ],
+      "notes": [
+        "Источник: открыть"
+      ],
+      "links": [
+        {
+          "label": "Источник: открыть",
+          "url": "https://catalog.afi.com/Film/27624-CITIZEN-KANE"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_text_t02",
+      "category": "операторское искусство",
+      "asset_index": 153,
+      "correct": 0,
+      "topic": "hard_text_t02",
+      "source": "https://catalog.afi.com/Film/27624-CITIZEN-KANE",
+      "fact": "Правильный ответ: Грегг Толанд",
+      "voice_id": "v1_hard_text_t02"
+    },
+    {
+      "document_number": 155,
+      "level": 3,
+      "type": "cards",
+      "text": "Как называется операторский приём, при котором камера движется, а зум компенсирует это движение, изменяя перспективу фона?",
+      "options": [
+        "Голландский угол",
+        "Долли-зум",
+        "Рэк-фокус"
+      ],
+      "notes": [
+        "Пояснение: Известный пример — фильм «Головокружение» (1958)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t03",
+      "category": "операторские приёмы",
+      "asset_index": 154,
+      "correct": 1,
+      "topic": "hard_text_t03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Долли-зум",
+      "voice_id": "v1_hard_text_t03"
+    },
+    {
+      "document_number": 156,
+      "level": 3,
+      "type": "cards",
+      "text": "Какое произведение послужило литературной основой фильма «Апокалипсис сегодня»?",
+      "options": [
+        "«Сердце тьмы» Джозефа Конрада",
+        "«На западном фронте без перемен» Э. М. Ремарка",
+        "«Повелитель мух» Уильяма Голдинга"
+      ],
+      "notes": [
+        "Пояснение: Действие перенесено из Конго времён колониализма во Вьетнамскую войну.",
+        "Источник: открыть"
+      ],
+      "links": [
+        {
+          "label": "Источник: открыть",
+          "url": "https://www.bfi.org.uk/film/732cc9f4-21a6-5356-bb18-9130f750f332/apocalypse-now"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_text_t04",
+      "category": "экранизации",
+      "asset_index": 155,
+      "correct": 0,
+      "topic": "hard_text_t04",
+      "source": "https://www.bfi.org.uk/film/732cc9f4-21a6-5356-bb18-9130f750f332/apocalypse-now",
+      "fact": "Правильный ответ: «Сердце тьмы» Джозефа Конрада",
+      "voice_id": "v1_hard_text_t04"
+    },
+    {
+      "document_number": 157,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто озвучил компьютер HAL 9000 в оригинальной версии фильма «Космическая одиссея 2001 года»?",
+      "options": [
+        "Энтони Дэниелс",
+        "Дуглас Рейн",
+        "Джеймс Эрл Джонс"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t05",
+      "category": "актёры озвучивания",
+      "asset_index": 156,
+      "correct": 1,
+      "topic": "hard_text_t05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Дуглас Рейн",
+      "voice_id": "v1_hard_text_t05"
+    },
+    {
+      "document_number": 158,
+      "level": 3,
+      "type": "cards",
+      "text": "Что демонстрирует знаменитый «эффект Кулешова»?",
+      "options": [
+        "Восприятие выражения лица зависит от соседнего кадра",
+        "Быстрый монтаж ускоряет воспринимаемое движение",
+        "Крупные планы разрушают ощущение пространства"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t06",
+      "category": "теория монтажа",
+      "asset_index": 157,
+      "correct": 0,
+      "topic": "hard_text_t06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Восприятие выражения лица зависит от соседнего кадра",
+      "voice_id": "v1_hard_text_t06"
+    },
+    {
+      "document_number": 159,
+      "level": 3,
+      "type": "cards",
+      "text": "На протяжении скольких лет снимали фильм Ричарда Линклейтера «Отрочество»?",
+      "options": [
+        "7 лет",
+        "12 лет",
+        "18 лет"
+      ],
+      "notes": [
+        "Пояснение: Съёмки проходили с 2002 по 2013 год, в каждом календарном году."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t07",
+      "category": "кинопроизводство",
+      "asset_index": 158,
+      "correct": 1,
+      "topic": "hard_text_t07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: 12 лет",
+      "voice_id": "v1_hard_text_t07"
+    },
+    {
+      "document_number": 160,
+      "level": 3,
+      "type": "cards",
+      "text": "Какой художник создал знаменитый облик ксеноморфа для фильма «Чужой» (1979)?",
+      "options": [
+        "Рик Бейкер",
+        "Стэн Уинстон",
+        "Ханс Руди Гигер"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t08",
+      "category": "дизайн существ",
+      "asset_index": 159,
+      "correct": 2,
+      "topic": "hard_text_t08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Ханс Руди Гигер",
+      "voice_id": "v1_hard_text_t08"
+    },
+    {
+      "document_number": 161,
+      "level": 3,
+      "type": "cards",
+      "text": "Кто снял фильм «Четыреста ударов» (1959), один из ключевых фильмов французской новой волны?",
+      "options": [
+        "Жан-Люк Годар",
+        "Франсуа Трюффо",
+        "Луи Маль"
+      ],
+      "notes": [
+        "Источник: открыть"
+      ],
+      "links": [
+        {
+          "label": "Источник: открыть",
+          "url": "https://www.criterion.com/films/151-the-400-blows"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_text_t09",
+      "category": "история кино",
+      "asset_index": 160,
+      "correct": 1,
+      "topic": "hard_text_t09",
+      "source": "https://www.criterion.com/films/151-the-400-blows",
+      "fact": "Правильный ответ: Франсуа Трюффо",
+      "voice_id": "v1_hard_text_t09"
+    },
+    {
+      "document_number": 162,
+      "level": 3,
+      "type": "cards",
+      "text": "Какой фильм стал первым полнометражным фильмом, полностью снятым с использованием трёхплёночной технологии Technicolor?",
+      "options": [
+        "«Волшебник страны Оз» (1939)",
+        "«Бекки Шарп» (1935)",
+        "«Унесённые ветром» (1939)"
+      ],
+      "notes": [
+        "Источник: открыть"
+      ],
+      "links": [
+        {
+          "label": "Источник: открыть",
+          "url": "https://catalog.afi.com/Film/3647-BECKY-SHARP"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_text_t10",
+      "category": "история кино",
+      "asset_index": 161,
+      "correct": 1,
+      "topic": "hard_text_t10",
+      "source": "https://catalog.afi.com/Film/3647-BECKY-SHARP",
+      "fact": "Правильный ответ: «Бекки Шарп» (1935)",
+      "voice_id": "v1_hard_text_t10"
+    },
+    {
+      "document_number": 163,
+      "level": 3,
+      "type": "cards",
+      "text": "Какой фильм Альфреда Хичкока был снят так, чтобы создать иллюзию одного непрерывного кадра?",
+      "options": [
+        "«Окно во двор»",
+        "«Верёвка»",
+        "«Головокружение»"
+      ],
+      "notes": [
+        "Пояснение: Монтажные переходы между отдельными плёночными катушками частично замаскированы."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t11",
+      "category": "операторское искусство",
+      "asset_index": 162,
+      "correct": 1,
+      "topic": "hard_text_t11",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Верёвка»",
+      "voice_id": "v1_hard_text_t11"
+    },
+    {
+      "document_number": 164,
+      "level": 3,
+      "type": "cards",
+      "text": "В каком фильме впервые прозвучал знаменитый звуковой эффект «Крик Вильгельма»?",
+      "options": [
+        "«Звёздные войны» (1977)",
+        "«Далёкие барабаны» (1951)",
+        "«Индиана Джонс: В поисках утраченного ковчега» (1981)"
+      ],
+      "notes": [
+        "Пояснение: Своё название эффект получил позже — по персонажу из фильма 1953 года."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t12",
+      "category": "звук в кино",
+      "asset_index": 163,
+      "correct": 1,
+      "topic": "hard_text_t12",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Далёкие барабаны» (1951)",
+      "voice_id": "v1_hard_text_t12"
+    },
+    {
+      "document_number": 165,
+      "level": 3,
+      "type": "cards",
+      "text": "На какой пьесе Шекспира основан фильм Акиры Куросавы «Трон в крови» (1957)?",
+      "options": [
+        "«Гамлет»",
+        "«Король Лир»",
+        "«Макбет»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t13",
+      "category": "экранизации",
+      "asset_index": 164,
+      "correct": 2,
+      "topic": "hard_text_t13",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Макбет»",
+      "voice_id": "v1_hard_text_t13"
+    },
+    {
+      "document_number": 166,
+      "level": 3,
+      "type": "cards",
+      "text": "Кем работает главный герой фильма Федерико Феллини «8½» (1963)?",
+      "options": [
+        "Кинорежиссёром",
+        "Писателем",
+        "Театральным актёром"
+      ],
+      "notes": [
+        "Пояснение: Гвидо Ансельми переживает творческий кризис."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_text_t14",
+      "category": "авторское кино",
+      "asset_index": 165,
+      "correct": 0,
+      "topic": "hard_text_t14",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Кинорежиссёром",
+      "voice_id": "v1_hard_text_t14"
+    },
+    {
+      "document_number": 167,
+      "level": 3,
+      "type": "cards",
+      "text": "Какой фильм Альфреда Хичкока получил «Оскар» в категории «Лучший фильм»?",
+      "options": [
+        "«Психо»",
+        "«Ребекка»",
+        "«Окно во двор»"
+      ],
+      "notes": [
+        "Пояснение: Картина получила премию в 1941 году. Режиссёрского «Оскара» Хичкок за неё не получил.",
+        "Источник: открыть"
+      ],
+      "links": [
+        {
+          "label": "Источник: открыть",
+          "url": "https://www.oscars.org/oscars/ceremonies/1941"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_text_t19",
+      "category": "кинонаграды",
+      "asset_index": 166,
+      "correct": 1,
+      "topic": "hard_text_t19",
+      "source": "https://www.oscars.org/oscars/ceremonies/1941",
+      "fact": "Правильный ответ: «Ребекка»",
+      "voice_id": "v1_hard_text_t19"
+    },
+    {
+      "document_number": 168,
+      "level": 3,
+      "type": "gesture",
+      "text": "«Шоу Трумана» снял Стивен Спилберг?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение из игры: Режиссёр — Питер Уир."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_truman_director_v09",
+      "category": "да или нет",
+      "asset_index": 167,
+      "correct": 0,
+      "topic": "the_truman_show",
+      "source": "https://www.paramount.com/movies/the-truman-show",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "gesture_truman_director_v09"
+    },
+    {
+      "document_number": 169,
+      "level": 3,
+      "type": "gesture",
+      "text": "Главную героиню «Прибытия» сыграла Эми Адамс?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_arrival_actor_v09",
+      "category": "да или нет",
+      "asset_index": 168,
+      "correct": 1,
+      "topic": "arrival",
+      "source": "https://www.paramount.com/movies/arrival",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "gesture_arrival_actor_v09"
+    },
+    {
+      "document_number": 170,
+      "level": 3,
+      "type": "gesture",
+      "text": "Музыку к «Форресту Гампу» написал Ханс Циммер?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение из игры: Композитор — Алан Сильвестри.",
+        "Дополнение редакции: 3 новых вопроса «Да / Нет»."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "gesture_forrest_composer_v09",
+      "category": "да или нет",
+      "asset_index": 169,
+      "correct": 0,
+      "topic": "forrest_gump",
+      "source": "https://www.paramount.com/movies/forrest-gump",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "gesture_forrest_composer_v09"
+    },
+    {
+      "document_number": 171,
+      "level": 3,
+      "type": "gesture",
+      "text": "В фильме Альфреда Хичкока «Птицы» (1963) отсутствует традиционная оркестровая музыка?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: В фильме использована электронная звуковая атмосфера, традиционной оркестровой партитуры нет."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_yesno_d01",
+      "category": "звук в кино",
+      "asset_index": 170,
+      "correct": 1,
+      "topic": "hard_yesno_d01",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_hard_yesno_d01"
+    },
+    {
+      "document_number": 172,
+      "level": 3,
+      "type": "gesture",
+      "text": "Аниме «Акира» (1988) было полностью создано с использованием компьютерной 3D-анимации?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да.",
+        "Пояснение: В основе картины — рисованная анимация."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_yesno_d02",
+      "category": "история анимации",
+      "asset_index": 171,
+      "correct": 0,
+      "topic": "hard_yesno_d02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Нет",
+      "voice_id": "v1_hard_yesno_d02"
+    },
+    {
+      "document_number": 173,
+      "level": 3,
+      "type": "gesture",
+      "text": "Над сценарием фильма «Андалузский пёс» (1929) вместе работали Луис Бунюэль и Сальвадор Дали?",
+      "options": [
+        "Нет",
+        "Да"
+      ],
+      "notes": [
+        "Варианты ответа: Нет / Да."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_yesno_d03",
+      "category": "история кино",
+      "asset_index": 172,
+      "correct": 1,
+      "topic": "hard_yesno_d03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Да",
+      "voice_id": "v1_hard_yesno_d03"
+    },
+    {
+      "document_number": 174,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Кабинет доктора Калигари»",
+        "«Носферату, симфония ужаса»",
+        "«Дракула»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_10",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/nosferatu_boxed.png",
+      "asset_index": 173,
+      "correct": 1,
+      "topic": "nosferatu",
+      "source": "https://commons.wikimedia.org/wiki/File:Nosferatu_Doorway_Frame.webp",
+      "fact": "Правильный ответ: «Носферату, симфония ужаса»",
+      "voice_id": "question_10",
+      "image": "res://assets/projection/nosferatu_boxed.png",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 175,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Носферату»",
+        "«Кабинет доктора Калигари»",
+        "«Метрополис»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_37",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/caligari.png",
+      "asset_index": 174,
+      "correct": 1,
+      "topic": "caligari",
+      "source": "https://commons.wikimedia.org/wiki/File:CABINETOFDRCALIGARI-08.jpg",
+      "fact": "Правильный ответ: «Кабинет доктора Калигари»",
+      "voice_id": "question_10",
+      "image": "res://assets/projection/caligari.png",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 176,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Ночь живых мертвецов»",
+        "«Рассвет мертвецов»",
+        "«Возвращение живых мертвецов»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_38",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/living_dead.png",
+      "asset_index": 175,
+      "correct": 0,
+      "topic": "living_dead",
+      "source": "https://commons.wikimedia.org/wiki/File:Zombies%20NightoftheLivingDead.jpg",
+      "fact": "Правильный ответ: «Ночь живых мертвецов»",
+      "voice_id": "question_10",
+      "image": "res://assets/projection/living_dead.png",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 177,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого фильма этот кадр?",
+      "options": [
+        "«Метрополис»",
+        "«Прибытие поезда»",
+        "«Путешествие на Луну»"
+      ],
+      "notes": [],
+      "links": [],
+      "embeds": [],
+      "id": "film_39",
+      "category": "узнай кадр",
+      "image_path": "assets/projection/moon.png",
+      "asset_index": 176,
+      "correct": 2,
+      "topic": "moon",
+      "source": "https://commons.wikimedia.org/wiki/File:Le%20Voyage%20dans%20la%20lune.jpg",
+      "fact": "Правильный ответ: «Путешествие на Луну»",
+      "voice_id": "question_10",
+      "image": "res://assets/projection/moon.png",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 178,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого фильма этот постер?",
+      "options": [
+        "Прибытие",
+        "Контакт",
+        "Война миров"
+      ],
+      "notes": [
+        "Дополнение редакции: 22 вопроса с кинокадрами.",
+        "Кадры пока представлены проверяемыми внешними ссылками на оригинальные изображения. Это не встроенные медиафайлы: при подготовке игровой сборки их нужно скачать с учётом прав использования."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "poster_arrival",
+      "category": "узнай постер",
+      "image_path": "assets/projection/modern/arrival.jpg",
+      "asset_index": 177,
+      "correct": 0,
+      "topic": "arrival",
+      "source": "https://www.paramount.com/movies/arrival",
+      "fact": "Правильный ответ: Прибытие",
+      "voice_id": "poster_question_v09",
+      "image": "res://assets/projection/modern/arrival.jpg",
+      "media_status": "existing_game"
+    },
+    {
+      "document_number": 179,
+      "level": 3,
+      "type": "frame",
+      "text": "В каком фильме появляется этот загадочный чёрный монолит?",
+      "options": [
+        "«Космическая одиссея 2001 года»",
+        "«Солярис»",
+        "«Прометей»"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Космическая одиссея 2001 года» (1968)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://reactormag.com/wp-content/uploads/2021/08/2001-A-Space-Odyssey-Apes-Monolith.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k01",
+      "category": "узнай кадр",
+      "asset_index": 178,
+      "correct": 0,
+      "topic": "hard_image_k01",
+      "source": "https://reactormag.com/wp-content/uploads/2021/08/2001-A-Space-Odyssey-Apes-Monolith.jpg",
+      "fact": "Правильный ответ: «Космическая одиссея 2001 года»",
+      "voice_id": "v1_hard_image_k01",
+      "image": "res://assets/projection/document/hard_image_k01.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://reactormag.com/wp-content/uploads/2021/08/2001-A-Space-Odyssey-Apes-Monolith.jpg"
+    },
+    {
+      "document_number": 180,
+      "level": 3,
+      "type": "frame",
+      "text": "С кем играет в шахматы рыцарь на этом кадре?",
+      "options": [
+        "С дьяволом",
+        "Со Смертью",
+        "С призраком своего отца"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Седьмая печать» (1957)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://www.criterionforum.org/api/media/captures/2000w/51FC0BE9-9BF0-6D8E-6198-E69822DC47B4.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k02",
+      "category": "сюжет / символизм",
+      "asset_index": 179,
+      "correct": 1,
+      "topic": "hard_image_k02",
+      "source": "https://www.criterionforum.org/api/media/captures/2000w/51FC0BE9-9BF0-6D8E-6198-E69822DC47B4.jpg",
+      "fact": "Правильный ответ: Со Смертью",
+      "voice_id": "v1_hard_image_k02",
+      "image": "res://assets/projection/document/hard_image_k02.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://www.criterionforum.org/api/media/captures/2000w/51FC0BE9-9BF0-6D8E-6198-E69822DC47B4.jpg"
+    },
+    {
+      "document_number": 181,
+      "level": 3,
+      "type": "frame",
+      "text": "Кто снял фильм, показанный на этом кадре?",
+      "options": [
+        "Акира Куросава",
+        "Ясудзиро Одзу",
+        "Кэндзи Мидзогути"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Семь самураев» (1954)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://br.web.img3.acsta.net/pictures/210/120/21012051_20130612153147084.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k03",
+      "category": "мировая классика",
+      "asset_index": 180,
+      "correct": 0,
+      "topic": "hard_image_k03",
+      "source": "https://br.web.img3.acsta.net/pictures/210/120/21012051_20130612153147084.jpg",
+      "fact": "Правильный ответ: Акира Куросава",
+      "voice_id": "v1_hard_image_k03",
+      "image": "res://assets/projection/document/hard_image_k03.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://br.web.img3.acsta.net/pictures/210/120/21012051_20130612153147084.jpg"
+    },
+    {
+      "document_number": 182,
+      "level": 3,
+      "type": "frame",
+      "text": "Роман какого писателя экранизирован в этом фильме?",
+      "options": [
+        "Станислава Лема",
+        "Рэя Брэдбери",
+        "Аркадия и Бориса Стругацких"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Солярис» (1972)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://s3.amazonaws.com/criterion-production/janus_stills/2564-/553id_178_w1600.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k04",
+      "category": "экранизации",
+      "asset_index": 181,
+      "correct": 0,
+      "topic": "hard_image_k04",
+      "source": "https://s3.amazonaws.com/criterion-production/janus_stills/2564-/553id_178_w1600.jpg",
+      "fact": "Правильный ответ: Станислава Лема",
+      "voice_id": "v1_hard_image_k04",
+      "image": "res://assets/projection/document/hard_image_k04.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://s3.amazonaws.com/criterion-production/janus_stills/2564-/553id_178_w1600.jpg"
+    },
+    {
+      "document_number": 183,
+      "level": 3,
+      "type": "frame",
+      "text": "Произведение каких писателей вдохновило создание этого фильма?",
+      "options": [
+        "Айзека Азимова",
+        "Аркадия и Бориса Стругацких",
+        "Станислава Лема"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Сталкер» (1979); литературная основа — «Пикник на обочине»."
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://bloximages.newyork1.vip.townnews.com/nashvillescene.com/content/tncms/assets/v3/editorial/6/fc/6fc9bf6e-d896-5870-bfb1-5bebe81cc27b/5ffd5fe081d90.image.png?crop=800%2C420%2C0%2C169"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k05",
+      "category": "экранизации",
+      "asset_index": 182,
+      "correct": 1,
+      "topic": "hard_image_k05",
+      "source": "https://bloximages.newyork1.vip.townnews.com/nashvillescene.com/content/tncms/assets/v3/editorial/6/fc/6fc9bf6e-d896-5870-bfb1-5bebe81cc27b/5ffd5fe081d90.image.png?crop=800%2C420%2C0%2C169",
+      "fact": "Правильный ответ: Аркадия и Бориса Стругацких",
+      "voice_id": "v1_hard_image_k05",
+      "image": "res://assets/projection/document/hard_image_k05.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://bloximages.newyork1.vip.townnews.com/nashvillescene.com/content/tncms/assets/v3/editorial/6/fc/6fc9bf6e-d896-5870-bfb1-5bebe81cc27b/5ffd5fe081d90.image.png?crop=800%2C420%2C0%2C169"
+    },
+    {
+      "document_number": 184,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого немого фантастического фильма этот кадр?",
+      "options": [
+        "«Метрополис»",
+        "«Женщина на Луне»",
+        "«Кабинет доктора Калигари»"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Метрополис» (1927)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://www.raicultura.it/dl/img/2019/08/22/1566465464409_andride2.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k06",
+      "category": "история кино",
+      "asset_index": 183,
+      "correct": 0,
+      "topic": "hard_image_k06",
+      "source": "https://www.raicultura.it/dl/img/2019/08/22/1566465464409_andride2.jpg",
+      "fact": "Правильный ответ: «Метрополис»",
+      "voice_id": "v1_hard_image_k06",
+      "image": "res://assets/projection/document/hard_image_k06.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://www.raicultura.it/dl/img/2019/08/22/1566465464409_andride2.jpg"
+    },
+    {
+      "document_number": 185,
+      "level": 3,
+      "type": "frame",
+      "text": "Сколько присяжных первоначально голосуют «невиновен» в фильме «12 разгневанных мужчин»?",
+      "options": [
+        "Ни одного",
+        "Один",
+        "Двое"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «12 разгневанных мужчин» (1957)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/tj6ipnz18hgfr0lkqwmg6cp3nio.png"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k07",
+      "category": "сюжет",
+      "asset_index": 184,
+      "correct": 1,
+      "topic": "hard_image_k07",
+      "source": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/tj6ipnz18hgfr0lkqwmg6cp3nio.png",
+      "fact": "Правильный ответ: Один",
+      "voice_id": "v1_hard_image_k07",
+      "image": "res://assets/projection/document/hard_image_k07.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/tj6ipnz18hgfr0lkqwmg6cp3nio.png"
+    },
+    {
+      "document_number": 186,
+      "level": 3,
+      "type": "frame",
+      "text": "Из какого фильма это существо?",
+      "options": [
+        "«Муха»",
+        "«Нечто»",
+        "«Капля»"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Нечто» (1982)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/u/unkosuzou/20250516/20250516160513.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k08",
+      "category": "хоррор",
+      "asset_index": 185,
+      "correct": 1,
+      "topic": "hard_image_k08",
+      "source": "https://cdn-ak.f.st-hatena.com/images/fotolife/u/unkosuzou/20250516/20250516160513.jpg",
+      "fact": "Правильный ответ: «Нечто»",
+      "voice_id": "v1_hard_image_k08",
+      "image": "res://assets/projection/document/hard_image_k08.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/u/unkosuzou/20250516/20250516160513.jpg"
+    },
+    {
+      "document_number": 187,
+      "level": 3,
+      "type": "frame",
+      "text": "Как зовут персонажа, управляющего этим красным мотоциклом?",
+      "options": [
+        "Тэцуо",
+        "Канэда",
+        "Акира"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Акира» (1988)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://media.wired.jp/photos/61ce794aaf482862fc16c181/master/w_2560%2Cc_limit/77ac31cd225e89b048c1b54c205c9da8.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k09",
+      "category": "аниме",
+      "asset_index": 186,
+      "correct": 1,
+      "topic": "hard_image_k09",
+      "source": "https://media.wired.jp/photos/61ce794aaf482862fc16c181/master/w_2560%2Cc_limit/77ac31cd225e89b048c1b54c205c9da8.jpg",
+      "fact": "Правильный ответ: Канэда",
+      "voice_id": "v1_hard_image_k09",
+      "image": "res://assets/projection/document/hard_image_k09.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://media.wired.jp/photos/61ce794aaf482862fc16c181/master/w_2560%2Cc_limit/77ac31cd225e89b048c1b54c205c9da8.jpg"
+    },
+    {
+      "document_number": 188,
+      "level": 3,
+      "type": "frame",
+      "text": "Как зовут главную героиню этого аниме?",
+      "options": [
+        "Мотоко Кусанаги",
+        "Фэй Валентайн",
+        "Рэй Аянами"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Призрак в доспехах» (1995)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://storage.googleapis.com/tghff_outland/image/photo/2017/GHFFF/350/huge/photo_634b57d1ced566bca1209171e87932a2.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k10",
+      "category": "аниме / персонажи",
+      "asset_index": 187,
+      "correct": 0,
+      "topic": "hard_image_k10",
+      "source": "https://storage.googleapis.com/tghff_outland/image/photo/2017/GHFFF/350/huge/photo_634b57d1ced566bca1209171e87932a2.jpg",
+      "fact": "Правильный ответ: Мотоко Кусанаги",
+      "voice_id": "v1_hard_image_k10",
+      "image": "res://assets/projection/document/hard_image_k10.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://storage.googleapis.com/tghff_outland/image/photo/2017/GHFFF/350/huge/photo_634b57d1ced566bca1209171e87932a2.jpg"
+    },
+    {
+      "document_number": 189,
+      "level": 3,
+      "type": "frame",
+      "text": "Кем работала главная героиня этого аниме до начала актёрской карьеры?",
+      "options": [
+        "Фотомоделью",
+        "Телеведущей",
+        "Певицей-айдолом"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Истинная грусть» (1997)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://m.media-amazon.com/images/M/MV5BYTljMzA2MWMtNjgzOS00OWE5LTg2ZDEtMzlhZTU5NWYyZGZmXkEyXkFqcGc%40._V1_.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k11",
+      "category": "аниме / сюжет",
+      "asset_index": 188,
+      "correct": 2,
+      "topic": "hard_image_k11",
+      "source": "https://m.media-amazon.com/images/M/MV5BYTljMzA2MWMtNjgzOS00OWE5LTg2ZDEtMzlhZTU5NWYyZGZmXkEyXkFqcGc%40._V1_.jpg",
+      "fact": "Правильный ответ: Певицей-айдолом",
+      "voice_id": "v1_hard_image_k11",
+      "image": "res://assets/projection/document/hard_image_k11.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://m.media-amazon.com/images/M/MV5BYTljMzA2MWMtNjgzOS00OWE5LTg2ZDEtMzlhZTU5NWYyZGZmXkEyXkFqcGc%40._V1_.jpg"
+    },
+    {
+      "document_number": 190,
+      "level": 3,
+      "type": "frame",
+      "text": "Кто написал музыку к этому знаменитому вестерну?",
+      "options": [
+        "Нино Рота",
+        "Эннио Морриконе",
+        "Джерри Голдсмит"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Хороший, плохой, злой» (1966)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://substackcdn.com/image/fetch/%24s_%21hJNc%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f89ee4-5f19-45f5-81dd-82049be16f79_1390x886.png"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k12",
+      "category": "музыка в кино",
+      "asset_index": 189,
+      "correct": 1,
+      "topic": "hard_image_k12",
+      "source": "https://substackcdn.com/image/fetch/%24s_%21hJNc%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f89ee4-5f19-45f5-81dd-82049be16f79_1390x886.png",
+      "fact": "Правильный ответ: Эннио Морриконе",
+      "voice_id": "v1_hard_image_k12",
+      "image": "res://assets/projection/document/hard_image_k12.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://substackcdn.com/image/fetch/%24s_%21hJNc%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f89ee4-5f19-45f5-81dd-82049be16f79_1390x886.png"
+    },
+    {
+      "document_number": 191,
+      "level": 3,
+      "type": "frame",
+      "text": "Как зовут главного героя этого фильма?",
+      "options": [
+        "Алекс ДеЛардж",
+        "Патрик Бейтман",
+        "Трэвис Бикл"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Заводной апельсин» (1971)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://mcmag.ru/wp-content/uploads/2018/03/the-droogs-by-waterfront.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k13",
+      "category": "персонажи",
+      "asset_index": 190,
+      "correct": 0,
+      "topic": "hard_image_k13",
+      "source": "https://mcmag.ru/wp-content/uploads/2018/03/the-droogs-by-waterfront.jpg",
+      "fact": "Правильный ответ: Алекс ДеЛардж",
+      "voice_id": "v1_hard_image_k13",
+      "image": "res://assets/projection/document/hard_image_k13.jpg",
+      "media_status": "replacement_same_film",
+      "resolved_image_url": "https://kinorotterdam.nl/content/uploads/2023/04/A-Clockwork-Orange-06.webp"
+    },
+    {
+      "document_number": 192,
+      "level": 3,
+      "type": "frame",
+      "text": "Кто сыграл главную роль в этом фильме?",
+      "options": [
+        "Энтони Хопкинс",
+        "Джон Хёрт",
+        "Гэри Олдмен"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Человек-слон» (1980)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://static-a.eventive.org/2224c1426213a84572f0957af5597c75.jpg?w=1850"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k14",
+      "category": "актёры",
+      "asset_index": 191,
+      "correct": 1,
+      "topic": "hard_image_k14",
+      "source": "https://static-a.eventive.org/2224c1426213a84572f0957af5597c75.jpg?w=1850",
+      "fact": "Правильный ответ: Джон Хёрт",
+      "voice_id": "v1_hard_image_k14",
+      "image": "res://assets/projection/document/hard_image_k14.jpg",
+      "media_status": "replacement_same_film",
+      "resolved_image_url": "https://cdn2.bigcommerce.com/server4900/364bb/products/241064/images/192526/e6039ce7-a767-5600-aaa4-c9d07a846d95__42973.1659946541.1280.1280.jpg?c=2"
+    },
+    {
+      "document_number": 193,
+      "level": 3,
+      "type": "frame",
+      "text": "Какую главную награду Каннского кинофестиваля получил фильм, представленный на кадре?",
+      "options": [
+        "«Золотую пальмовую ветвь»",
+        "«Золотого льва»",
+        "«Золотого медведя»"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Летят журавли» (1957); награда получена в 1958 году."
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://cdn8.openculture.com/2020/08/27212932/the-cranes-are-flying.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k15",
+      "category": "история кино",
+      "asset_index": 192,
+      "correct": 0,
+      "topic": "hard_image_k15",
+      "source": "https://cdn8.openculture.com/2020/08/27212932/the-cranes-are-flying.jpg",
+      "fact": "Правильный ответ: «Золотую пальмовую ветвь»",
+      "voice_id": "v1_hard_image_k15",
+      "image": "res://assets/projection/document/hard_image_k15.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://cdn8.openculture.com/2020/08/27212932/the-cranes-are-flying.jpg"
+    },
+    {
+      "document_number": 194,
+      "level": 3,
+      "type": "frame",
+      "text": "Кто снял фильм, из которого этот кадр?",
+      "options": [
+        "Алексей Герман",
+        "Элем Климов",
+        "Андрей Кончаловский"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Иди и смотри» (1985)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://media.timeout.com/images/121043/image.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k16",
+      "category": "советское кино",
+      "asset_index": 193,
+      "correct": 1,
+      "topic": "hard_image_k16",
+      "source": "https://media.timeout.com/images/121043/image.jpg",
+      "fact": "Правильный ответ: Элем Климов",
+      "voice_id": "v1_hard_image_k16",
+      "image": "res://assets/projection/document/hard_image_k16.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://media.timeout.com/images/121043/image.jpg"
+    },
+    {
+      "document_number": 195,
+      "level": 3,
+      "type": "frame",
+      "text": "Как называется планета, на которой оказываются герои этого фильма?",
+      "options": [
+        "Плюк",
+        "Пандора",
+        "Альдераан"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Кин-дза-дза!» (1986)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://resizer.mail.ru/p/a4b492d4-62df-5b3f-bd9e-243b7f9559df/AQACgMiAG2XPCv-gCzulFzyY_4gvIMbpBK75eH9CwDymhT4lV5up4jGEX35471I6wsyA4ToEF10pKwqgHoMLWt22eFo.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k17",
+      "category": "советская фантастика",
+      "asset_index": 194,
+      "correct": 0,
+      "topic": "hard_image_k17",
+      "source": "https://resizer.mail.ru/p/a4b492d4-62df-5b3f-bd9e-243b7f9559df/AQACgMiAG2XPCv-gCzulFzyY_4gvIMbpBK75eH9CwDymhT4lV5up4jGEX35471I6wsyA4ToEF10pKwqgHoMLWt22eFo.jpg",
+      "fact": "Правильный ответ: Плюк",
+      "voice_id": "v1_hard_image_k17",
+      "image": "res://assets/projection/document/hard_image_k17.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://resizer.mail.ru/p/a4b492d4-62df-5b3f-bd9e-243b7f9559df/AQACgMiAG2XPCv-gCzulFzyY_4gvIMbpBK75eH9CwDymhT4lV5up4jGEX35471I6wsyA4ToEF10pKwqgHoMLWt22eFo.jpg"
+    },
+    {
+      "document_number": 196,
+      "level": 3,
+      "type": "frame",
+      "text": "Кто снял этот полнометражный мультфильм?",
+      "options": [
+        "Брэд Бёрд",
+        "Пит Доктер",
+        "Крис Сандерс"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Стальной гигант» (1999)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://2.bp.blogspot.com/-jeAIbE9UIMg/WzE8xBVfyqI/AAAAAAAAGw0/7CqkdwWuE-ESIKPEAO8GIvZKaqLSEEKlwCLcBGAs/s1600/theirongiant.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k18",
+      "category": "история анимации",
+      "asset_index": 195,
+      "correct": 0,
+      "topic": "hard_image_k18",
+      "source": "https://2.bp.blogspot.com/-jeAIbE9UIMg/WzE8xBVfyqI/AAAAAAAAGw0/7CqkdwWuE-ESIKPEAO8GIvZKaqLSEEKlwCLcBGAs/s1600/theirongiant.jpg",
+      "fact": "Правильный ответ: Брэд Бёрд",
+      "voice_id": "v1_hard_image_k18",
+      "image": "res://assets/projection/document/hard_image_k18.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://2.bp.blogspot.com/-jeAIbE9UIMg/WzE8xBVfyqI/AAAAAAAAGw0/7CqkdwWuE-ESIKPEAO8GIvZKaqLSEEKlwCLcBGAs/s1600/theirongiant.jpg"
+    },
+    {
+      "document_number": 197,
+      "level": 3,
+      "type": "frame",
+      "text": "Как зовут девушку, воспитанную волками, из этого мультфильма?",
+      "options": [
+        "Наусикая",
+        "Сан",
+        "Тихиро"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Принцесса Мононоке» (1997)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://www.barbican.org.uk/sites/default/files/styles/hero_constrained_small/public/images/2022-05/RGA-0081002%20%281%29.jpg?itok=BX-H_mFr"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k19",
+      "category": "аниме / персонажи",
+      "asset_index": 196,
+      "correct": 1,
+      "topic": "hard_image_k19",
+      "source": "https://www.barbican.org.uk/sites/default/files/styles/hero_constrained_small/public/images/2022-05/RGA-0081002%20%281%29.jpg?itok=BX-H_mFr",
+      "fact": "Правильный ответ: Сан",
+      "voice_id": "v1_hard_image_k19",
+      "image": "res://assets/projection/document/hard_image_k19.jpg",
+      "media_status": "replacement_same_film",
+      "resolved_image_url": "https://cdni.fancaps.net/file/fancaps-movieimages/549923.jpg"
+    },
+    {
+      "document_number": 198,
+      "level": 3,
+      "type": "frame",
+      "text": "Как называется отель, в котором происходят события этого фильма?",
+      "options": [
+        "«Оверлук»",
+        "«Бейтс»",
+        "«Нормандия»"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Сияние» (1980)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D637x10000%3Aformat%3Djpg/path/se92683c1190d29b1/image/ibd4ddb192fb439bc/version/1561891542/image.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k20",
+      "category": "киномиры",
+      "asset_index": 197,
+      "correct": 0,
+      "topic": "hard_image_k20",
+      "source": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D637x10000%3Aformat%3Djpg/path/se92683c1190d29b1/image/ibd4ddb192fb439bc/version/1561891542/image.jpg",
+      "fact": "Правильный ответ: «Оверлук»",
+      "voice_id": "v1_hard_image_k20",
+      "image": "res://assets/projection/document/hard_image_k20.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D637x10000%3Aformat%3Djpg/path/se92683c1190d29b1/image/ibd4ddb192fb439bc/version/1561891542/image.jpg"
+    },
+    {
+      "document_number": 199,
+      "level": 3,
+      "type": "frame",
+      "text": "В чём главная особенность повествования в фильме, показанном на кадре?",
+      "options": [
+        "Одно событие показано через противоречивые свидетельства",
+        "Действие разворачивается в обратном порядке",
+        "Всё рассказано исключительно от лица убийцы"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Расёмон» (1950)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://stat.ameba.jp/user_images/20170922/18/pmds90l80/1c/3d/j/o0600040014032901510.jpg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k21",
+      "category": "кинодраматургия",
+      "asset_index": 198,
+      "correct": 0,
+      "topic": "hard_image_k21",
+      "source": "https://stat.ameba.jp/user_images/20170922/18/pmds90l80/1c/3d/j/o0600040014032901510.jpg",
+      "fact": "Правильный ответ: Одно событие показано через противоречивые свидетельства",
+      "voice_id": "v1_hard_image_k21",
+      "image": "res://assets/projection/document/hard_image_k21.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://stat.ameba.jp/user_images/20170922/18/pmds90l80/1c/3d/j/o0600040014032901510.jpg"
+    },
+    {
+      "document_number": 200,
+      "level": 3,
+      "type": "frame",
+      "text": "Кто снял фильм, из которого этот кадр?",
+      "options": [
+        "Дэвид Линч",
+        "Пол Верховен",
+        "Терри Гиллиам"
+      ],
+      "notes": [
+        "Кадр: открыть оригинальный кадр",
+        "Пояснение для редактора (не показывать игроку): «Бразилия» (1985)"
+      ],
+      "links": [
+        {
+          "label": "Кадр: открыть оригинальный кадр",
+          "url": "https://i.blogs.es/b0853f/curiosidades-sobre-brasil-2/840_560.jpeg"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_image_k22",
+      "category": "режиссура",
+      "asset_index": 199,
+      "correct": 2,
+      "topic": "hard_image_k22",
+      "source": "https://i.blogs.es/b0853f/curiosidades-sobre-brasil-2/840_560.jpeg",
+      "fact": "Правильный ответ: Терри Гиллиам",
+      "voice_id": "v1_hard_image_k22",
+      "image": "res://assets/projection/document/hard_image_k22.jpg",
+      "media_status": "downloaded_document_link",
+      "resolved_image_url": "https://i.blogs.es/b0853f/curiosidades-sobre-brasil-2/840_560.jpeg"
+    },
+    {
+      "document_number": 201,
+      "level": 3,
+      "type": "audio",
+      "text": "Заставка какой анимационной студии звучит?",
+      "options": [
+        "Pixar",
+        "DreamWorks",
+        "Illumination"
+      ],
+      "notes": [
+        "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+        "Редакторская расшифровка (игроку не показывать): Механизм лампы Luxo Jr.; звуковой логотип Pixar."
+      ],
+      "links": [
+        {
+          "label": "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+          "url": "https://www.pixar.com/luxo-jr/"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_audio_a01",
+      "category": "аудио",
+      "audio_file": "A01_DEMO_studio.mp3",
+      "asset_index": 200,
+      "correct": 0,
+      "topic": "hard_audio_a01",
+      "source": "https://www.pixar.com/luxo-jr/",
+      "fact": "Правильный ответ: Pixar",
+      "voice_id": "v1_hard_audio_a01",
+      "audio": "res://assets/audio/questions/A01_DEMO_studio.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 202,
+      "level": 3,
+      "type": "audio",
+      "text": "Заставка какой киностудии звучит?",
+      "options": [
+        "Universal Pictures",
+        "Metro-Goldwyn-Mayer (MGM)",
+        "Paramount Pictures"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): Оригинальный рёв льва MGM."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a02",
+      "category": "аудио",
+      "audio_file": "A02_DEMO_studio.mp3",
+      "asset_index": 201,
+      "correct": 1,
+      "topic": "hard_audio_a02",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: Metro-Goldwyn-Mayer (MGM)",
+      "voice_id": "v1_hard_audio_a02",
+      "audio": "res://assets/audio/questions/A02_DEMO_studio.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 203,
+      "level": 3,
+      "type": "audio",
+      "text": "Заставка какой киностудии звучит?",
+      "options": [
+        "Warner Bros. Pictures",
+        "Columbia Pictures",
+        "20th Century Studios"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): Оригинальные фанфары студии."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a03",
+      "category": "аудио",
+      "audio_file": "A03_DEMO_studio.mp3",
+      "asset_index": 202,
+      "correct": 2,
+      "topic": "hard_audio_a03",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: 20th Century Studios",
+      "voice_id": "v1_hard_audio_a03",
+      "audio": "res://assets/audio/questions/A03_DEMO_studio.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 204,
+      "level": 3,
+      "type": "audio",
+      "text": "Какой компании принадлежит этот звуковой логотип?",
+      "options": [
+        "Dolby",
+        "THX",
+        "DTS"
+      ],
+      "notes": [
+        "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+        "Редакторская расшифровка (игроку не показывать): Звуковой логотип Deep Note."
+      ],
+      "links": [
+        {
+          "label": "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+          "url": "https://www.thx.com/deepnote/"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_audio_a04",
+      "category": "аудио",
+      "audio_file": "A04_DEMO_studio.mp3",
+      "asset_index": 203,
+      "correct": 1,
+      "topic": "hard_audio_a04",
+      "source": "https://www.thx.com/deepnote/",
+      "fact": "Правильный ответ: THX",
+      "voice_id": "v1_hard_audio_a04",
+      "audio": "res://assets/audio/questions/A04_DEMO_studio.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 205,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Таксист»",
+        "«Бешеный бык»",
+        "«Злые улицы»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “You talkin' to me?” (Роберт Де Ниро, 1976)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a05",
+      "category": "аудио",
+      "audio_file": "A05_DEMO_voice.mp3",
+      "asset_index": 204,
+      "correct": 0,
+      "topic": "hard_audio_a05",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Таксист»",
+      "voice_id": "v1_hard_audio_a05",
+      "audio": "res://assets/audio/questions/A05_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 206,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Взвод»",
+        "«Апокалипсис сегодня»",
+        "«Цельнометаллическая оболочка»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “I love the smell of napalm in the morning.” (Роберт Дюваль, 1979)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a06",
+      "category": "аудио",
+      "audio_file": "A06_DEMO_voice.mp3",
+      "asset_index": 205,
+      "correct": 1,
+      "topic": "hard_audio_a06",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Апокалипсис сегодня»",
+      "voice_id": "v1_hard_audio_a06",
+      "audio": "res://assets/audio/questions/A06_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 207,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Чужой»",
+        "«Космическая одиссея 2001 года»",
+        "«Солярис»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “I'm sorry, Dave. I'm afraid I can't do that.” (HAL 9000)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a07",
+      "category": "аудио",
+      "audio_file": "A07_DEMO_voice.mp3",
+      "asset_index": 206,
+      "correct": 1,
+      "topic": "hard_audio_a07",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Космическая одиссея 2001 года»",
+      "voice_id": "v1_hard_audio_a07",
+      "audio": "res://assets/audio/questions/A07_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 208,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Бегущий по лезвию»",
+        "«Бегущий по лезвию 2049»",
+        "«Вспомнить всё»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “All those moments will be lost in time.” (Рой Батти, 1982)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a08",
+      "category": "аудио",
+      "audio_file": "A08_DEMO_voice.mp3",
+      "asset_index": 207,
+      "correct": 0,
+      "topic": "hard_audio_a08",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Бегущий по лезвию»",
+      "voice_id": "v1_hard_audio_a08",
+      "audio": "res://assets/audio/questions/A08_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 209,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Мизери»",
+        "«Изгоняющий дьявола»",
+        "«Сияние»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “Here's Johnny!” (Джек Николсон, 1980)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a09",
+      "category": "аудио",
+      "audio_file": "A09_DEMO_voice.mp3",
+      "asset_index": 208,
+      "correct": 2,
+      "topic": "hard_audio_a09",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Сияние»",
+      "voice_id": "v1_hard_audio_a09",
+      "audio": "res://assets/audio/questions/A09_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 210,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Мастер»",
+        "«Нефть»",
+        "«Старикам тут не место»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “I drink your milkshake!” (Дэниел Дэй-Льюис, 2007)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a10",
+      "category": "аудио",
+      "audio_file": "A10_DEMO_voice.mp3",
+      "asset_index": 209,
+      "correct": 1,
+      "topic": "hard_audio_a10",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Нефть»",
+      "voice_id": "v1_hard_audio_a10",
+      "audio": "res://assets/audio/questions/A10_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 211,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Несколько хороших парней»",
+        "«Вердикт»",
+        "«Джон Ф. Кеннеди. Выстрелы в Далласе»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “You can't handle the truth!” (Джек Николсон, 1992)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a11",
+      "category": "аудио",
+      "audio_file": "A11_DEMO_voice.mp3",
+      "asset_index": 210,
+      "correct": 0,
+      "topic": "hard_audio_a11",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Несколько хороших парней»",
+      "voice_id": "v1_hard_audio_a11",
+      "audio": "res://assets/audio/questions/A11_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 212,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Другие»",
+        "«Звонок»",
+        "«Шестое чувство»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “I see dead people.” (Хэйли Джоэл Осмент, 1999)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a12",
+      "category": "аудио",
+      "audio_file": "A12_DEMO_voice.mp3",
+      "asset_index": 211,
+      "correct": 2,
+      "topic": "hard_audio_a12",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Шестое чувство»",
+      "voice_id": "v1_hard_audio_a12",
+      "audio": "res://assets/audio/questions/A12_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 213,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Бесславные ублюдки»",
+        "«Однажды в Голливуде»",
+        "«Операция „Валькирия“»"
+      ],
+      "notes": [
+        "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+        "Нужный фрагмент: 01:54:16–01:54:20 фильма «Бесславные ублюдки» (Blu-ray); Дони Доновиц в исполнении Эли Рота произносит «Antonio Margheriti». Оригинальный звук в ZIP не включён.",
+        "Редакторская расшифровка (игроку не показывать): Дони Доновиц (Эли Рот): “Antonio Margheriti” / “Margheriti”. Нужен оригинальный фрагмент 3–5 секунд, примерно 01:54:16–01:54:20 (версия Blu-ray); демо — синтезированный голос, не звук из фильма."
+      ],
+      "links": [
+        {
+          "label": "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+          "url": "https://movie-sounds.org/war/inglourious-basterds/363197"
+        }
+      ],
+      "embeds": [],
+      "id": "hard_audio_a13",
+      "category": "аудио",
+      "audio_file": "A13_DEMO_voice.mp3",
+      "asset_index": 212,
+      "correct": 0,
+      "topic": "hard_audio_a13",
+      "source": "https://movie-sounds.org/war/inglourious-basterds/363197",
+      "fact": "Правильный ответ: «Бесславные ублюдки»",
+      "voice_id": "v1_hard_audio_a13",
+      "audio": "res://assets/audio/questions/A13_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 214,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Бесславные ублюдки»",
+        "«Джанго освобождённый»",
+        "«Кролик Джоджо»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “Au revoir, Shosanna!” (Ганс Ланда, Кристоф Вальц, 2009)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a14",
+      "category": "аудио",
+      "audio_file": "A14_DEMO_voice.mp3",
+      "asset_index": 213,
+      "correct": 0,
+      "topic": "hard_audio_a14",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Бесславные ублюдки»",
+      "voice_id": "v1_hard_audio_a14",
+      "audio": "res://assets/audio/questions/A14_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 215,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Бешеные псы»",
+        "«Криминальное чтиво»",
+        "«Джеки Браун»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “Royale with cheese.” (Джон Траволта, 1994)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a15",
+      "category": "аудио",
+      "audio_file": "A15_DEMO_voice.mp3",
+      "asset_index": 214,
+      "correct": 1,
+      "topic": "hard_audio_a15",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Криминальное чтиво»",
+      "voice_id": "v1_hard_audio_a15",
+      "audio": "res://assets/audio/questions/A15_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    },
+    {
+      "document_number": 216,
+      "level": 3,
+      "type": "audio",
+      "text": "Из какого фильма эта цитата?",
+      "options": [
+        "«Всё о Еве»",
+        "«Касабланка»",
+        "«Бульвар Сансет»"
+      ],
+      "notes": [
+        "Редакторская расшифровка (игроку не показывать): “I am big. It's the pictures that got small.” (Глория Свенсон, 1950)."
+      ],
+      "links": [],
+      "embeds": [],
+      "id": "hard_audio_a16",
+      "category": "аудио",
+      "audio_file": "A16_DEMO_voice.mp3",
+      "asset_index": 215,
+      "correct": 2,
+      "topic": "hard_audio_a16",
+      "source": "LastTake_All_216_Questions(2).docx",
+      "fact": "Правильный ответ: «Бульвар Сансет»",
+      "voice_id": "v1_hard_audio_a16",
+      "audio": "res://assets/audio/questions/A16_DEMO_voice.mp3",
+      "media_status": "supplied_demo"
+    }
+  ],
+  "intro": [
+    {
+      "id": "intro_short_0_v09",
+      "text": "Проснулся? Проверим, что ты знаешь о кино.",
+      "action": "wake"
+    },
+    {
+      "id": "intro_short_1_v09",
+      "text": "Выбирай карточку взглядом и щелчком. Да — кивни. Нет — покачай головой.",
+      "action": "answers"
+    },
+    {
+      "id": "intro_rules_v1",
+      "text": "Восемнадцать секунд. Ошибёшься — новый дубль. Три ошибки — конец. Дойдёшь до финала — отпущу.",
+      "action": "timer"
+    }
+  ],
+  "lines": [
+    {
+      "id": "retake",
+      "text": "Нет. Будет дубль.",
+      "parts": [
+        [
+          "Нет.",
+          1.18,
+          0.88
+        ],
+        [
+          "Будет дубль.",
+          1.22,
+          0.91
+        ]
+      ]
+    },
+    {
+      "id": "correct_0",
+      "text": "Верно. Продолжим."
+    },
+    {
+      "id": "correct_1",
+      "text": "Ты это помнишь. Хорошо."
+    },
+    {
+      "id": "correct_2",
+      "text": "Неплохо. Но сеанс ещё не окончен."
+    },
+    {
+      "id": "timeout",
+      "text": "Время вышло. Титры.",
+      "parts": [
+        [
+          "Время вышло.",
+          1.15,
+          0.89
+        ],
+        [
+          "Титры.",
+          1.22,
+          0.86
+        ]
+      ]
+    },
+    {
+      "id": "wrong_v1",
+      "text": "Третья ошибка. Сеанс окончен."
+    },
+    {
+      "id": "win",
+      "text": "Окей. Ты свободен.",
+      "parts": [
+        [
+          "Окей.",
+          1.16,
+          0.91
+        ],
+        [
+          "Ты свободен.",
+          1.2,
+          0.9
+        ]
+      ]
+    }
+  ],
+  "version": "1.0",
+  "session_rules": {
+    "levels": 3,
+    "questions_per_level": 7,
+    "lives": 3,
+    "wrong_answer": "advance",
+    "timeout": "lose_life_and_advance",
+    "mixes": [
+      {
+        "cards": 2,
+        "gesture": 2,
+        "frame": 3
+      },
+      {
+        "cards": 2,
+        "gesture": 2,
+        "frame": 3
+      },
+      {
+        "cards": 2,
+        "gesture": 1,
+        "frame": 2,
+        "audio": 2
+      }
+    ]
+  }
+}

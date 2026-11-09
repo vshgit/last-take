@@ -1,0 +1,17 @@
+{
+  "water_drop": {
+    "seconds": 0.29483333333333334,
+    "rms_db": -25.784439812300846,
+    "loop": false
+  },
+  "film_transport": {
+    "seconds": 8.0,
+    "rms_db": -25.999999982669376,
+    "loop": true
+  },
+  "slide_click": {
+    "seconds": 0.33,
+    "rms_db": -25.43474659647424,
+    "loop": false
+  }
+}

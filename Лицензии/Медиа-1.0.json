@@ -1,0 +1,1241 @@
+[
+  {
+    "id": "poster_interstellar",
+    "document_number": 52,
+    "type": "frame",
+    "image": "res://assets/projection/modern/interstellar.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/interstellar",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_forrest-gump",
+    "document_number": 53,
+    "type": "frame",
+    "image": "res://assets/projection/modern/forrest-gump.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/forrest-gump",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_titanic",
+    "document_number": 54,
+    "type": "frame",
+    "image": "res://assets/projection/modern/titanic.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/titanic",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_gladiator",
+    "document_number": 55,
+    "type": "frame",
+    "image": "res://assets/projection/modern/gladiator.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/gladiator",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "easy_image_01",
+    "document_number": 56,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_01.jpg",
+    "media_status": "replacement_same_film",
+    "source": "https://imageresizer.static9.net.au/_J4DXfHwJhnctsGd8b92-7n1YjA%3D/1200x900/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2F2017%2F12%2F16%2F13%2F42%2Fkevinmcallisterfix1612_2_corrected.jpg",
+    "resolved_image_url": "https://m.media-amazon.com/images/M/MV5BMjk5Y2E2YmUtMTQ0MS00YmU4LWJlM2UtMTdiMGZhMmExY2ZmXkEyXkFqcGc%40._V1_.jpg",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://imageresizer.static9.net.au/_J4DXfHwJhnctsGd8b92-7n1YjA%3D/1200x900/https%3A%2F%2Fprod.static9.net.au%2F_%2Fmedia%2F2017%2F12%2F16%2F13%2F42%2Fkevinmcallisterfix1612_2_corrected.jpg"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_02",
+    "document_number": 57,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_02.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://filmartgallery.com/cdn/shop/files/Ghostbusters-Ghost-Busters-Vintage-Movie-Poster-Original_e31d561e_5000x.jpg?v=1771978963",
+    "resolved_image_url": "https://filmartgallery.com/cdn/shop/files/Ghostbusters-Ghost-Busters-Vintage-Movie-Poster-Original_e31d561e_5000x.jpg?v=1771978963",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://filmartgallery.com/cdn/shop/files/Ghostbusters-Ghost-Busters-Vintage-Movie-Poster-Original_e31d561e_5000x.jpg?v=1771978963"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_03",
+    "document_number": 58,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_03.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/20/1463579252-jurassicpark.jpg?resize=980%3A%2A",
+    "resolved_image_url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/20/1463579252-jurassicpark.jpg?resize=980%3A%2A",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/20/1463579252-jurassicpark.jpg?resize=980%3A%2A"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_04",
+    "document_number": 59,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_04.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://miro.medium.com/1%2A1NBmaEDUukdTYdxc0hYQgQ.jpeg",
+    "resolved_image_url": "https://miro.medium.com/1%2A1NBmaEDUukdTYdxc0hYQgQ.jpeg",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://miro.medium.com/1%2A1NBmaEDUukdTYdxc0hYQgQ.jpeg"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_05",
+    "document_number": 60,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_05.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://www.slashfilm.com/img/gallery/80s-kids-movies-everyone-needs-to-watch-at-least-once/e-t-the-extra-terrestrial-1762979735.jpg",
+    "resolved_image_url": "https://www.slashfilm.com/img/gallery/80s-kids-movies-everyone-needs-to-watch-at-least-once/e-t-the-extra-terrestrial-1762979735.jpg",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://www.slashfilm.com/img/gallery/80s-kids-movies-everyone-needs-to-watch-at-least-once/e-t-the-extra-terrestrial-1762979735.jpg"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_06",
+    "document_number": 61,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_06.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://i.insider.com/624dd88c1096d50018d1caf0?width=700",
+    "resolved_image_url": "https://i.insider.com/624dd88c1096d50018d1caf0?width=700",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://i.insider.com/624dd88c1096d50018d1caf0?width=700"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_07",
+    "document_number": 62,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_07.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://www.looper.com/img/gallery/where-is-the-cast-of-scream-today-upgrade/intro-1688690480.jpg",
+    "resolved_image_url": "https://www.looper.com/img/gallery/where-is-the-cast-of-scream-today-upgrade/intro-1688690480.jpg",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://www.looper.com/img/gallery/where-is-the-cast-of-scream-today-upgrade/intro-1688690480.jpg"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_08",
+    "document_number": 63,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_08.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://news.nateimg.co.kr/orgImg/ch/2022/02/17/IWJI3XPWBZAX5PFATHT4CIAMI4.jpg",
+    "resolved_image_url": "https://news.nateimg.co.kr/orgImg/ch/2022/02/17/IWJI3XPWBZAX5PFATHT4CIAMI4.jpg",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://news.nateimg.co.kr/orgImg/ch/2022/02/17/IWJI3XPWBZAX5PFATHT4CIAMI4.jpg"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_09",
+    "document_number": 64,
+    "type": "frame",
+    "image": "res://assets/projection/document/image1.png",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: кадр пользователя, встроен в этот документ."
+    ]
+  },
+  {
+    "id": "easy_image_10",
+    "document_number": 65,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_10.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://www.slashfilm.com/img/gallery/gene-wilder-saw-tim-burtons-charlie-and-the-chocolate-factory-as-more-of-an-insult-than-an-homage/some-original-castmembers-enjoyed-the-remake-1668533816.jpg",
+    "resolved_image_url": "https://www.slashfilm.com/img/gallery/gene-wilder-saw-tim-burtons-charlie-and-the-chocolate-factory-as-more-of-an-insult-than-an-homage/some-original-castmembers-enjoyed-the-remake-1668533816.jpg",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://www.slashfilm.com/img/gallery/gene-wilder-saw-tim-burtons-charlie-and-the-chocolate-factory-as-more-of-an-insult-than-an-homage/some-original-castmembers-enjoyed-the-remake-1668533816.jpg"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "easy_image_11",
+    "document_number": 66,
+    "type": "frame",
+    "image": "res://assets/projection/document/easy_image_11.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://maximum.fm/uploads/media_news/2019/10/5d99eda20b208784217210.jpg?h=675&il=&output=jpg&q=90&w=1200",
+    "resolved_image_url": "https://maximum.fm/uploads/media_news/2019/10/5d99eda20b208784217210.jpg?h=675&il=&output=jpg&q=90&w=1200",
+    "links": [
+      {
+        "label": "Изображение: открыть референс кадра/постера (внешняя ссылка)",
+        "url": "https://maximum.fm/uploads/media_news/2019/10/5d99eda20b208784217210.jpg?h=675&il=&output=jpg&q=90&w=1200"
+      }
+    ],
+    "notes": [
+      "Изображение: открыть референс кадра/постера (внешняя ссылка)"
+    ]
+  },
+  {
+    "id": "poster_the-truman-show",
+    "document_number": 117,
+    "type": "frame",
+    "image": "res://assets/projection/modern/the-truman-show.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/the-truman-show",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_shutter-island",
+    "document_number": 118,
+    "type": "frame",
+    "image": "res://assets/projection/modern/shutter-island.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/shutter-island",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_mission-impossible",
+    "document_number": 119,
+    "type": "frame",
+    "image": "res://assets/projection/modern/mission-impossible.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/mission-impossible",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_saving-private-ryan",
+    "document_number": 120,
+    "type": "frame",
+    "image": "res://assets/projection/modern/saving-private-ryan.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/saving-private-ryan",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_the-wolf-of-wall-street",
+    "document_number": 121,
+    "type": "frame",
+    "image": "res://assets/projection/modern/the-wolf-of-wall-street.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/the-wolf-of-wall-street",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "middle_k01",
+    "document_number": 122,
+    "type": "frame",
+    "image": "res://assets/projection/document/image2.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Унесённые призраками» (2001)."
+    ]
+  },
+  {
+    "id": "middle_k02",
+    "document_number": 123,
+    "type": "frame",
+    "image": "res://assets/projection/document/image3.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k03",
+    "document_number": 124,
+    "type": "frame",
+    "image": "res://assets/projection/document/image4.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: Фильм «Отель „Гранд Будапешт“» (2014)."
+    ]
+  },
+  {
+    "id": "middle_k04",
+    "document_number": 125,
+    "type": "frame",
+    "image": "res://assets/projection/document/image5.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k05",
+    "document_number": 126,
+    "type": "frame",
+    "image": "res://assets/projection/document/image6.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Гравити Фолз»."
+    ]
+  },
+  {
+    "id": "middle_k06",
+    "document_number": 127,
+    "type": "frame",
+    "image": "res://assets/projection/document/image7.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k07",
+    "document_number": 128,
+    "type": "frame",
+    "image": "res://assets/projection/document/image8.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k08",
+    "document_number": 129,
+    "type": "frame",
+    "image": "res://assets/projection/document/image9.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k09",
+    "document_number": 130,
+    "type": "frame",
+    "image": "res://assets/projection/document/image10.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k10",
+    "document_number": 131,
+    "type": "frame",
+    "image": "res://assets/projection/document/image11.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Мой сосед Тоторо»."
+    ]
+  },
+  {
+    "id": "middle_k11",
+    "document_number": 132,
+    "type": "frame",
+    "image": "res://assets/projection/document/image12.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Большой Лебовски» (1998)."
+    ]
+  },
+  {
+    "id": "middle_k12",
+    "document_number": 133,
+    "type": "frame",
+    "image": "res://assets/projection/document/image13.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: Дива Плавалагуна."
+    ]
+  },
+  {
+    "id": "middle_k13",
+    "document_number": 134,
+    "type": "frame",
+    "image": "res://assets/projection/document/image14.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Вверх» (2009)."
+    ]
+  },
+  {
+    "id": "middle_k14",
+    "document_number": 135,
+    "type": "frame",
+    "image": "res://assets/projection/document/image15.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k15",
+    "document_number": 136,
+    "type": "frame",
+    "image": "res://assets/projection/document/image16.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k16",
+    "document_number": 137,
+    "type": "frame",
+    "image": "res://assets/projection/document/image17.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: Кадр-стилизация часов, показывающих 6:00; рекомендуется заменить на узнаваемый кадр фильма."
+    ]
+  },
+  {
+    "id": "middle_k17",
+    "document_number": 138,
+    "type": "frame",
+    "image": "res://assets/projection/document/image18.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k18",
+    "document_number": 139,
+    "type": "frame",
+    "image": "res://assets/projection/document/image19.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k19",
+    "document_number": 140,
+    "type": "frame",
+    "image": "res://assets/projection/document/image20.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Футурама»."
+    ]
+  },
+  {
+    "id": "middle_k20",
+    "document_number": 141,
+    "type": "frame",
+    "image": "res://assets/projection/document/image21.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Лучше звоните Солу»."
+    ]
+  },
+  {
+    "id": "middle_k21",
+    "document_number": 142,
+    "type": "frame",
+    "image": "res://assets/projection/document/image22.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр)."
+    ]
+  },
+  {
+    "id": "middle_k22",
+    "document_number": 143,
+    "type": "frame",
+    "image": "res://assets/projection/document/image23.jpg",
+    "media_status": "supplied_document",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Изображение: авторская иллюстрация/карикатура по мотивам произведения (не оригинальный кадр).",
+      "Пояснение: «Аватар: Легенда об Аанге»."
+    ]
+  },
+  {
+    "id": "film_10",
+    "document_number": 174,
+    "type": "frame",
+    "image": "res://assets/projection/nosferatu_boxed.png",
+    "media_status": "existing_game",
+    "source": "https://commons.wikimedia.org/wiki/File:Nosferatu_Doorway_Frame.webp",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "film_37",
+    "document_number": 175,
+    "type": "frame",
+    "image": "res://assets/projection/caligari.png",
+    "media_status": "existing_game",
+    "source": "https://commons.wikimedia.org/wiki/File:CABINETOFDRCALIGARI-08.jpg",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "film_38",
+    "document_number": 176,
+    "type": "frame",
+    "image": "res://assets/projection/living_dead.png",
+    "media_status": "existing_game",
+    "source": "https://commons.wikimedia.org/wiki/File:Zombies%20NightoftheLivingDead.jpg",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "film_39",
+    "document_number": 177,
+    "type": "frame",
+    "image": "res://assets/projection/moon.png",
+    "media_status": "existing_game",
+    "source": "https://commons.wikimedia.org/wiki/File:Le%20Voyage%20dans%20la%20lune.jpg",
+    "links": [],
+    "notes": []
+  },
+  {
+    "id": "poster_arrival",
+    "document_number": 178,
+    "type": "frame",
+    "image": "res://assets/projection/modern/arrival.jpg",
+    "media_status": "existing_game",
+    "source": "https://www.paramount.com/movies/arrival",
+    "links": [],
+    "notes": [
+      "Дополнение редакции: 22 вопроса с кинокадрами.",
+      "Кадры пока представлены проверяемыми внешними ссылками на оригинальные изображения. Это не встроенные медиафайлы: при подготовке игровой сборки их нужно скачать с учётом прав использования."
+    ]
+  },
+  {
+    "id": "hard_image_k01",
+    "document_number": 179,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k01.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://reactormag.com/wp-content/uploads/2021/08/2001-A-Space-Odyssey-Apes-Monolith.jpg",
+    "resolved_image_url": "https://reactormag.com/wp-content/uploads/2021/08/2001-A-Space-Odyssey-Apes-Monolith.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://reactormag.com/wp-content/uploads/2021/08/2001-A-Space-Odyssey-Apes-Monolith.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Космическая одиссея 2001 года» (1968)"
+    ]
+  },
+  {
+    "id": "hard_image_k02",
+    "document_number": 180,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k02.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://www.criterionforum.org/api/media/captures/2000w/51FC0BE9-9BF0-6D8E-6198-E69822DC47B4.jpg",
+    "resolved_image_url": "https://www.criterionforum.org/api/media/captures/2000w/51FC0BE9-9BF0-6D8E-6198-E69822DC47B4.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://www.criterionforum.org/api/media/captures/2000w/51FC0BE9-9BF0-6D8E-6198-E69822DC47B4.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Седьмая печать» (1957)"
+    ]
+  },
+  {
+    "id": "hard_image_k03",
+    "document_number": 181,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k03.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://br.web.img3.acsta.net/pictures/210/120/21012051_20130612153147084.jpg",
+    "resolved_image_url": "https://br.web.img3.acsta.net/pictures/210/120/21012051_20130612153147084.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://br.web.img3.acsta.net/pictures/210/120/21012051_20130612153147084.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Семь самураев» (1954)"
+    ]
+  },
+  {
+    "id": "hard_image_k04",
+    "document_number": 182,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k04.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://s3.amazonaws.com/criterion-production/janus_stills/2564-/553id_178_w1600.jpg",
+    "resolved_image_url": "https://s3.amazonaws.com/criterion-production/janus_stills/2564-/553id_178_w1600.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://s3.amazonaws.com/criterion-production/janus_stills/2564-/553id_178_w1600.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Солярис» (1972)"
+    ]
+  },
+  {
+    "id": "hard_image_k05",
+    "document_number": 183,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k05.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://bloximages.newyork1.vip.townnews.com/nashvillescene.com/content/tncms/assets/v3/editorial/6/fc/6fc9bf6e-d896-5870-bfb1-5bebe81cc27b/5ffd5fe081d90.image.png?crop=800%2C420%2C0%2C169",
+    "resolved_image_url": "https://bloximages.newyork1.vip.townnews.com/nashvillescene.com/content/tncms/assets/v3/editorial/6/fc/6fc9bf6e-d896-5870-bfb1-5bebe81cc27b/5ffd5fe081d90.image.png?crop=800%2C420%2C0%2C169",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://bloximages.newyork1.vip.townnews.com/nashvillescene.com/content/tncms/assets/v3/editorial/6/fc/6fc9bf6e-d896-5870-bfb1-5bebe81cc27b/5ffd5fe081d90.image.png?crop=800%2C420%2C0%2C169"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Сталкер» (1979); литературная основа — «Пикник на обочине»."
+    ]
+  },
+  {
+    "id": "hard_image_k06",
+    "document_number": 184,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k06.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://www.raicultura.it/dl/img/2019/08/22/1566465464409_andride2.jpg",
+    "resolved_image_url": "https://www.raicultura.it/dl/img/2019/08/22/1566465464409_andride2.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://www.raicultura.it/dl/img/2019/08/22/1566465464409_andride2.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Метрополис» (1927)"
+    ]
+  },
+  {
+    "id": "hard_image_k07",
+    "document_number": 185,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k07.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/tj6ipnz18hgfr0lkqwmg6cp3nio.png",
+    "resolved_image_url": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/tj6ipnz18hgfr0lkqwmg6cp3nio.png",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://playhousecinema.ca/files/princesscinemas/imagecache/homepage_slideshow/tj6ipnz18hgfr0lkqwmg6cp3nio.png"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «12 разгневанных мужчин» (1957)"
+    ]
+  },
+  {
+    "id": "hard_image_k08",
+    "document_number": 186,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k08.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://cdn-ak.f.st-hatena.com/images/fotolife/u/unkosuzou/20250516/20250516160513.jpg",
+    "resolved_image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/u/unkosuzou/20250516/20250516160513.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/u/unkosuzou/20250516/20250516160513.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Нечто» (1982)"
+    ]
+  },
+  {
+    "id": "hard_image_k09",
+    "document_number": 187,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k09.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://media.wired.jp/photos/61ce794aaf482862fc16c181/master/w_2560%2Cc_limit/77ac31cd225e89b048c1b54c205c9da8.jpg",
+    "resolved_image_url": "https://media.wired.jp/photos/61ce794aaf482862fc16c181/master/w_2560%2Cc_limit/77ac31cd225e89b048c1b54c205c9da8.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://media.wired.jp/photos/61ce794aaf482862fc16c181/master/w_2560%2Cc_limit/77ac31cd225e89b048c1b54c205c9da8.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Акира» (1988)"
+    ]
+  },
+  {
+    "id": "hard_image_k10",
+    "document_number": 188,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k10.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://storage.googleapis.com/tghff_outland/image/photo/2017/GHFFF/350/huge/photo_634b57d1ced566bca1209171e87932a2.jpg",
+    "resolved_image_url": "https://storage.googleapis.com/tghff_outland/image/photo/2017/GHFFF/350/huge/photo_634b57d1ced566bca1209171e87932a2.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://storage.googleapis.com/tghff_outland/image/photo/2017/GHFFF/350/huge/photo_634b57d1ced566bca1209171e87932a2.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Призрак в доспехах» (1995)"
+    ]
+  },
+  {
+    "id": "hard_image_k11",
+    "document_number": 189,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k11.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://m.media-amazon.com/images/M/MV5BYTljMzA2MWMtNjgzOS00OWE5LTg2ZDEtMzlhZTU5NWYyZGZmXkEyXkFqcGc%40._V1_.jpg",
+    "resolved_image_url": "https://m.media-amazon.com/images/M/MV5BYTljMzA2MWMtNjgzOS00OWE5LTg2ZDEtMzlhZTU5NWYyZGZmXkEyXkFqcGc%40._V1_.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://m.media-amazon.com/images/M/MV5BYTljMzA2MWMtNjgzOS00OWE5LTg2ZDEtMzlhZTU5NWYyZGZmXkEyXkFqcGc%40._V1_.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Истинная грусть» (1997)"
+    ]
+  },
+  {
+    "id": "hard_image_k12",
+    "document_number": 190,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k12.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://substackcdn.com/image/fetch/%24s_%21hJNc%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f89ee4-5f19-45f5-81dd-82049be16f79_1390x886.png",
+    "resolved_image_url": "https://substackcdn.com/image/fetch/%24s_%21hJNc%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f89ee4-5f19-45f5-81dd-82049be16f79_1390x886.png",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://substackcdn.com/image/fetch/%24s_%21hJNc%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f89ee4-5f19-45f5-81dd-82049be16f79_1390x886.png"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Хороший, плохой, злой» (1966)"
+    ]
+  },
+  {
+    "id": "hard_image_k13",
+    "document_number": 191,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k13.jpg",
+    "media_status": "replacement_same_film",
+    "source": "https://mcmag.ru/wp-content/uploads/2018/03/the-droogs-by-waterfront.jpg",
+    "resolved_image_url": "https://kinorotterdam.nl/content/uploads/2023/04/A-Clockwork-Orange-06.webp",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://mcmag.ru/wp-content/uploads/2018/03/the-droogs-by-waterfront.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Заводной апельсин» (1971)"
+    ]
+  },
+  {
+    "id": "hard_image_k14",
+    "document_number": 192,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k14.jpg",
+    "media_status": "replacement_same_film",
+    "source": "https://static-a.eventive.org/2224c1426213a84572f0957af5597c75.jpg?w=1850",
+    "resolved_image_url": "https://cdn2.bigcommerce.com/server4900/364bb/products/241064/images/192526/e6039ce7-a767-5600-aaa4-c9d07a846d95__42973.1659946541.1280.1280.jpg?c=2",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://static-a.eventive.org/2224c1426213a84572f0957af5597c75.jpg?w=1850"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Человек-слон» (1980)"
+    ]
+  },
+  {
+    "id": "hard_image_k15",
+    "document_number": 193,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k15.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://cdn8.openculture.com/2020/08/27212932/the-cranes-are-flying.jpg",
+    "resolved_image_url": "https://cdn8.openculture.com/2020/08/27212932/the-cranes-are-flying.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://cdn8.openculture.com/2020/08/27212932/the-cranes-are-flying.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Летят журавли» (1957); награда получена в 1958 году."
+    ]
+  },
+  {
+    "id": "hard_image_k16",
+    "document_number": 194,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k16.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://media.timeout.com/images/121043/image.jpg",
+    "resolved_image_url": "https://media.timeout.com/images/121043/image.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://media.timeout.com/images/121043/image.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Иди и смотри» (1985)"
+    ]
+  },
+  {
+    "id": "hard_image_k17",
+    "document_number": 195,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k17.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://resizer.mail.ru/p/a4b492d4-62df-5b3f-bd9e-243b7f9559df/AQACgMiAG2XPCv-gCzulFzyY_4gvIMbpBK75eH9CwDymhT4lV5up4jGEX35471I6wsyA4ToEF10pKwqgHoMLWt22eFo.jpg",
+    "resolved_image_url": "https://resizer.mail.ru/p/a4b492d4-62df-5b3f-bd9e-243b7f9559df/AQACgMiAG2XPCv-gCzulFzyY_4gvIMbpBK75eH9CwDymhT4lV5up4jGEX35471I6wsyA4ToEF10pKwqgHoMLWt22eFo.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://resizer.mail.ru/p/a4b492d4-62df-5b3f-bd9e-243b7f9559df/AQACgMiAG2XPCv-gCzulFzyY_4gvIMbpBK75eH9CwDymhT4lV5up4jGEX35471I6wsyA4ToEF10pKwqgHoMLWt22eFo.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Кин-дза-дза!» (1986)"
+    ]
+  },
+  {
+    "id": "hard_image_k18",
+    "document_number": 196,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k18.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://2.bp.blogspot.com/-jeAIbE9UIMg/WzE8xBVfyqI/AAAAAAAAGw0/7CqkdwWuE-ESIKPEAO8GIvZKaqLSEEKlwCLcBGAs/s1600/theirongiant.jpg",
+    "resolved_image_url": "https://2.bp.blogspot.com/-jeAIbE9UIMg/WzE8xBVfyqI/AAAAAAAAGw0/7CqkdwWuE-ESIKPEAO8GIvZKaqLSEEKlwCLcBGAs/s1600/theirongiant.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://2.bp.blogspot.com/-jeAIbE9UIMg/WzE8xBVfyqI/AAAAAAAAGw0/7CqkdwWuE-ESIKPEAO8GIvZKaqLSEEKlwCLcBGAs/s1600/theirongiant.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Стальной гигант» (1999)"
+    ]
+  },
+  {
+    "id": "hard_image_k19",
+    "document_number": 197,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k19.jpg",
+    "media_status": "replacement_same_film",
+    "source": "https://www.barbican.org.uk/sites/default/files/styles/hero_constrained_small/public/images/2022-05/RGA-0081002%20%281%29.jpg?itok=BX-H_mFr",
+    "resolved_image_url": "https://cdni.fancaps.net/file/fancaps-movieimages/549923.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://www.barbican.org.uk/sites/default/files/styles/hero_constrained_small/public/images/2022-05/RGA-0081002%20%281%29.jpg?itok=BX-H_mFr"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Принцесса Мононоке» (1997)"
+    ]
+  },
+  {
+    "id": "hard_image_k20",
+    "document_number": 198,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k20.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D637x10000%3Aformat%3Djpg/path/se92683c1190d29b1/image/ibd4ddb192fb439bc/version/1561891542/image.jpg",
+    "resolved_image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D637x10000%3Aformat%3Djpg/path/se92683c1190d29b1/image/ibd4ddb192fb439bc/version/1561891542/image.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://image.jimcdn.com/app/cms/image/transf/dimension%3D637x10000%3Aformat%3Djpg/path/se92683c1190d29b1/image/ibd4ddb192fb439bc/version/1561891542/image.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Сияние» (1980)"
+    ]
+  },
+  {
+    "id": "hard_image_k21",
+    "document_number": 199,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k21.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://stat.ameba.jp/user_images/20170922/18/pmds90l80/1c/3d/j/o0600040014032901510.jpg",
+    "resolved_image_url": "https://stat.ameba.jp/user_images/20170922/18/pmds90l80/1c/3d/j/o0600040014032901510.jpg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://stat.ameba.jp/user_images/20170922/18/pmds90l80/1c/3d/j/o0600040014032901510.jpg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Расёмон» (1950)"
+    ]
+  },
+  {
+    "id": "hard_image_k22",
+    "document_number": 200,
+    "type": "frame",
+    "image": "res://assets/projection/document/hard_image_k22.jpg",
+    "media_status": "downloaded_document_link",
+    "source": "https://i.blogs.es/b0853f/curiosidades-sobre-brasil-2/840_560.jpeg",
+    "resolved_image_url": "https://i.blogs.es/b0853f/curiosidades-sobre-brasil-2/840_560.jpeg",
+    "links": [
+      {
+        "label": "Кадр: открыть оригинальный кадр",
+        "url": "https://i.blogs.es/b0853f/curiosidades-sobre-brasil-2/840_560.jpeg"
+      }
+    ],
+    "notes": [
+      "Кадр: открыть оригинальный кадр",
+      "Пояснение для редактора (не показывать игроку): «Бразилия» (1985)"
+    ]
+  },
+  {
+    "id": "hard_audio_a01",
+    "document_number": 201,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A01_DEMO_studio.mp3",
+    "media_status": "supplied_demo",
+    "source": "https://www.pixar.com/luxo-jr/",
+    "links": [
+      {
+        "label": "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+        "url": "https://www.pixar.com/luxo-jr/"
+      }
+    ],
+    "notes": [
+      "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+      "Редакторская расшифровка (игроку не показывать): Механизм лампы Luxo Jr.; звуковой логотип Pixar."
+    ]
+  },
+  {
+    "id": "hard_audio_a02",
+    "document_number": 202,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A02_DEMO_studio.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): Оригинальный рёв льва MGM."
+    ]
+  },
+  {
+    "id": "hard_audio_a03",
+    "document_number": 203,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A03_DEMO_studio.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): Оригинальные фанфары студии."
+    ]
+  },
+  {
+    "id": "hard_audio_a04",
+    "document_number": 204,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A04_DEMO_studio.mp3",
+    "media_status": "supplied_demo",
+    "source": "https://www.thx.com/deepnote/",
+    "links": [
+      {
+        "label": "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+        "url": "https://www.thx.com/deepnote/"
+      }
+    ],
+    "notes": [
+      "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+      "Редакторская расшифровка (игроку не показывать): Звуковой логотип Deep Note."
+    ]
+  },
+  {
+    "id": "hard_audio_a05",
+    "document_number": 205,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A05_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “You talkin' to me?” (Роберт Де Ниро, 1976)."
+    ]
+  },
+  {
+    "id": "hard_audio_a06",
+    "document_number": 206,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A06_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “I love the smell of napalm in the morning.” (Роберт Дюваль, 1979)."
+    ]
+  },
+  {
+    "id": "hard_audio_a07",
+    "document_number": 207,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A07_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “I'm sorry, Dave. I'm afraid I can't do that.” (HAL 9000)."
+    ]
+  },
+  {
+    "id": "hard_audio_a08",
+    "document_number": 208,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A08_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “All those moments will be lost in time.” (Рой Батти, 1982)."
+    ]
+  },
+  {
+    "id": "hard_audio_a09",
+    "document_number": 209,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A09_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “Here's Johnny!” (Джек Николсон, 1980)."
+    ]
+  },
+  {
+    "id": "hard_audio_a10",
+    "document_number": 210,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A10_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “I drink your milkshake!” (Дэниел Дэй-Льюис, 2007)."
+    ]
+  },
+  {
+    "id": "hard_audio_a11",
+    "document_number": 211,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A11_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “You can't handle the truth!” (Джек Николсон, 1992)."
+    ]
+  },
+  {
+    "id": "hard_audio_a12",
+    "document_number": 212,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A12_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “I see dead people.” (Хэйли Джоэл Осмент, 1999)."
+    ]
+  },
+  {
+    "id": "hard_audio_a13",
+    "document_number": 213,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A13_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "https://movie-sounds.org/war/inglourious-basterds/363197",
+    "links": [
+      {
+        "label": "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+        "url": "https://movie-sounds.org/war/inglourious-basterds/363197"
+      }
+    ],
+    "notes": [
+      "Источник оригинального фрагмента: открыть страницу со звуком / сценой",
+      "Нужный фрагмент: 01:54:16–01:54:20 фильма «Бесславные ублюдки» (Blu-ray); Дони Доновиц в исполнении Эли Рота произносит «Antonio Margheriti». Оригинальный звук в ZIP не включён.",
+      "Редакторская расшифровка (игроку не показывать): Дони Доновиц (Эли Рот): “Antonio Margheriti” / “Margheriti”. Нужен оригинальный фрагмент 3–5 секунд, примерно 01:54:16–01:54:20 (версия Blu-ray); демо — синтезированный голос, не звук из фильма."
+    ]
+  },
+  {
+    "id": "hard_audio_a14",
+    "document_number": 214,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A14_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “Au revoir, Shosanna!” (Ганс Ланда, Кристоф Вальц, 2009)."
+    ]
+  },
+  {
+    "id": "hard_audio_a15",
+    "document_number": 215,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A15_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “Royale with cheese.” (Джон Траволта, 1994)."
+    ]
+  },
+  {
+    "id": "hard_audio_a16",
+    "document_number": 216,
+    "type": "audio",
+    "audio": "res://assets/audio/questions/A16_DEMO_voice.mp3",
+    "media_status": "supplied_demo",
+    "source": "LastTake_All_216_Questions(2).docx",
+    "links": [],
+    "notes": [
+      "Редакторская расшифровка (игроку не показывать): “I am big. It's the pictures that got small.” (Глория Свенсон, 1950)."
+    ]
+  }
+]

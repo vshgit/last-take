@@ -1,0 +1,28 @@
+Last Take 0.8 — новые ассеты
+
+Оригинальные модели: облегающие плетёные верёвки, разбитый горшок, земля и кактус.
+Созданы процедурно в Blender; исходник Source/tools/build_v08_props.py.
+
+Записи звуков (публичные MP3-превью, лицензия CC0 1.0):
+
+breathing — ThatMisfit
+https://freesound.org/people/ThatMisfit/sounds/388773/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+sniff — Shain_T
+https://freesound.org/people/Shain_T/sounds/352964/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+steps — NachtmahrTV
+https://freesound.org/people/NachtmahrTV/sounds/553226/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+city — felix.blume
+https://freesound.org/people/felix.blume/sounds/689362/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Обработка: обрезка, нормализация, фильтрация, плавные переходы, бесшовная петля улицы.
+Гудки, гул лампы, крылья мухи, капля воды и щелчок курка — оригинальный процедурный синтез.
+Исходник Source/tools/build_audio_v08.py.
+
+Исходные CC0-превью и ссылки включены в ArtSource/audio-v08.

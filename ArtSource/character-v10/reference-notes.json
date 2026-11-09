@@ -1,0 +1,6 @@
+{
+  "portrait": "portrait-reference.png",
+  "turnaround": "turnaround-reference.png",
+  "method": "Reference-guided mesh reconstruction from the existing CC0 rig, not photogrammetry. Clean-shaven variant retained from prior game brief.",
+  "rebuild": "Source/tools/build_villain_v10.py (Blender 4.0.2)"
+}

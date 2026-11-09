@@ -1,0 +1,1 @@
+Overlay LastTake/ on the full 0.10 archive. Delete obsolete assets/cards/*.png and regenerate cards with Source/tools/build_cards.py. All new question content, voices and images are included. Import, test and export Godot 4.5.1. This checkpoint is not a playable Windows release.
