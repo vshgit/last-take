@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-14",
+  "source_commit": "81943f502b95dd021626bd4d1c1fdbdfca6af446",
+  "source_tree": "6e99b9e957fdd501cbed1c296ab851fd4b2398e5",
+  "bank_sha256": "8bad99372f4a6edcbfe89870ebcd46796ebb1f58dfed1064782b3c132ba5c60a",
+  "workflow": {
+    "url": "https://github.com/vshgit/last-take/actions/runs/43612297228",
+    "overall": "failure",
+    "build": {
+      "job_id": 132499748763,
+      "conclusion": "success"
+    },
+    "pages": {
+      "job_id": 132500768430,
+      "conclusion": "failure",
+      "error": "Create Pages site failed. Resource not accessible by integration",
+      "prior_error": "Get Pages site failed. Not Found",
+      "owner_action": "Settings > Pages > Build and deployment > Source: GitHub Actions; then rerun failed Pages job (full same-source run if artifact expired)"
+    }
+  },
+  "release": {
+    "url": "https://github.com/vshgit/last-take/releases/tag/web-prototype-43612297228-1-81943f50",
+    "prerelease": true,
+    "zip_bytes": 47269921,
+    "zip_sha256": "ab56bb61603fa6e3057a162762c5486af0d96dc081cac12857ee81ef990014e2",
+    "downloaded_zip_verified": true,
+    "zip_crc_checked_entries": 315
+  },
+  "package": {
+    "initial_file_bytes": 27390552,
+    "pck_bytes": 17202928,
+    "pck_entries": 199,
+    "wasm_gzip_bytes": 9796751,
+    "deferred_media_bytes": 21321034,
+    "deferred_assets": 305,
+    "questions": 225,
+    "audio_questions": 23,
+    "source_unchanged": true,
+    "note": "File weights, not measured cold-network transfer; full ZIP includes all deferred media."
+  },
+  "checks": {
+    "source_qa": "passed; historical 4-resource teardown recorded separately",
+    "native_shared": "5 event scenarios +100 selection sessions; no teardown diagnostics",
+    "web_native_http": "shared scenarios, 404/retry, timer/lives/ID/pause, real MP3/frame/cache passed; no teardown diagnostics",
+    "package": "all PCK entry MD5/size and external SHA-256 checked"
+  },
+  "unverified": [
+    "Pages URL",
+    "actual WebGL 2 scene",
+    "visual fidelity",
+    "browser FPS",
+    "audible output",
+    "full browser session"
+  ],
+  "acceptance": "pending",
+  "windows_source_commit": "c4a7215ee569e313b3ab3cba9f7e22a0620489ef",
+  "windows_acceptance": "pending"
+}
