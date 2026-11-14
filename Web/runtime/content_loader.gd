@@ -47,7 +47,7 @@ func configure() -> void:
 	loading_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	loading_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	loading_label.hide()
-	retry_button = g._button("ПОВТОРИТЬ ЗАГРУЗКУ",func(): g._begin_question(),g.ui)
+	retry_button = g._button("ПОВТОРИТЬ ЗАГРУЗКУ",_retry_question,g.ui)
 	retry_button.set_anchors_and_offsets_preset(Control.PRESET_CENTER)
 	retry_button.position = Vector2(-135,65)
 	retry_button.hide()
@@ -65,7 +65,13 @@ func _start_from_gesture(_args: Array) -> void:
 	g._start(false)
 
 func _pointer_unlocked(_args: Array) -> void:
+	if g.phase == "loading" and retry_button.visible: return
 	if not g.qa_mode: g._pause()
+
+func _retry_question() -> void:
+	# Capture from the button's fresh user gesture, before the asynchronous request.
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	g._begin_question()
 
 func batch_static_room() -> void:
 	# Merge static meshes sharing the same material into one draw surface. Keep named
