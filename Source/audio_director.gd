@@ -76,6 +76,9 @@ func spatial(label: String, parent: Node3D, pos: Vector3, asset: String, db: flo
 	if loop:
 		p.stream = p.stream.duplicate()
 		p.stream.loop = true
+	# Select the Web backend before set_ambience() makes the first play call.
+	if g.web_mode and p.stream.get_length() > 2.0:
+		p.playback_type = AudioServer.PLAYBACK_TYPE_STREAM
 	p.volume_db = db
 	p.unit_size = 3.0
 	p.max_distance = 16.0

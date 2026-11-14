@@ -8,6 +8,10 @@ static func run(g) -> void:
 	for player in players: modes.append(player.playback_type)
 	var native_mode: bool = g.web_mode
 	g.web_mode = true
+	var initial_audio = g.soundscape.spatial("WebInitialAudioProbe",g,Vector3.ZERO,"city_behind_glass",-80,true)
+	assert(initial_audio.playback_type == AudioServer.PLAYBACK_TYPE_STREAM,"Long ambience must use Stream before its first play")
+	g.soundscape.players.erase(initial_audio)
+	initial_audio.queue_free()
 	runtime.configure(g)
 	assert(g.voice.playback_type == AudioServer.PLAYBACK_TYPE_STREAM)
 	assert(g.question_audio.playback_type == AudioServer.PLAYBACK_TYPE_STREAM)
