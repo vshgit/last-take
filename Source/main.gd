@@ -1233,7 +1233,7 @@ func _close_test() -> void:
 func _run_checks() -> void:
 	var bank = preload("res://question_bank.gd")
 	assert(is_instance_valid(skeleton) and is_instance_valid(player_body))
-	assert(question_pool.size() == 216)
+	assert(question_pool.size() == 225)
 	assert(soundscape.street.playing and settings.ambience,"Room ambience should start by default")
 	var pool_ids = bank.ids(question_pool)
 	var unique_ids: Dictionary = {}
@@ -1275,7 +1275,7 @@ func _run_checks() -> void:
 			new_sorted.sort()
 			assert(old_sorted != new_sorted,"Restart kept the same question set")
 		previous = current_ids
-	assert(coverage.size() == 216,"Some questions are never selected")
+	assert(coverage.size() == 225,"Some questions are never selected")
 	# Force the same RNG seed twice: the previous-set guard must still work.
 	rng.seed = 19
 	var first = bank.make_session(question_pool,rng)
@@ -1306,7 +1306,7 @@ func _run_checks() -> void:
 			assert(absf(cards[i].position.x)+.16 < 1.16 and cards[i].position.z+.11 < .95)
 			card_count += 1
 	camera.transform = camera_before
-	assert(card_count == 537)
+	assert(card_count == 564)
 	# Full opening: no rules until eyes are open, three seconds have passed, and entrance ends.
 	_start(false)
 	_process(EYE_OPEN_SECONDS-.01)
@@ -1393,5 +1393,5 @@ func _run_checks() -> void:
 	await preload("res://tests/sound_checks.gd").run(self)
 	preload("res://tests/gesture_checks.gd").run(self)
 	preload("res://tests/v09_checks.gd").run(self)
-	print("GAMEPLAY_CHECKS_PASSED: 216 questions, 500 randomized 3x7 sessions, all categories per level, 537 selectable cards, 3 lives, audio loops, 69 images and existing room/gesture/sound/ending checks")
+	print("GAMEPLAY_CHECKS_PASSED: 225 questions, 500 randomized 3x7 sessions, all categories per level, 564 selectable cards, 3 lives, audio loops, 70 images and existing room/gesture/sound/ending checks")
 	await _close_test()
