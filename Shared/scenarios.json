@@ -1,7 +1,122 @@
 [
-  {"name": "speech_and_pause", "events": ["answer_during_speech", "pause", "advance_clock", "answer_while_paused"], "expected": {"lives": 3, "question_index": 0}},
-  {"name": "three_wrong_answers", "events": ["wrong", "feedback", "wrong", "feedback", "wrong"], "expected": {"lives": 0, "question_index": 2, "phase": "death"}},
-  {"name": "timeout", "events": ["timeout", "feedback"], "expected": {"lives": 2, "question_index": 1, "phase": "question"}},
-  {"name": "final_error_with_lives", "start_question_index": 20, "events": ["wrong", "feedback"], "expected": {"lives": 2, "question_index": 21, "phase": "victory"}},
-  {"name": "network_wait_and_retry", "events": ["network_failure", "advance_clock", "pause", "retry"], "expected": {"lives": 3, "question_index": 0, "same_id": true}}
+  {
+    "name": "speech_and_pause",
+    "events": [
+      "answer_during_speech",
+      "pause",
+      "advance_clock",
+      "answer_while_paused"
+    ],
+    "expected": {
+      "lives": 3,
+      "question_index": 0
+    }
+  },
+  {
+    "name": "three_wrong_answers",
+    "events": [
+      "wrong",
+      "feedback",
+      "wrong",
+      "feedback",
+      "wrong"
+    ],
+    "expected": {
+      "lives": 0,
+      "question_index": 2,
+      "phase": "death"
+    }
+  },
+  {
+    "name": "timeout",
+    "events": [
+      "timeout",
+      "feedback"
+    ],
+    "expected": {
+      "lives": 2,
+      "question_index": 1,
+      "phase": "question"
+    }
+  },
+  {
+    "name": "final_error_with_lives",
+    "start_question_index": 20,
+    "events": [
+      "wrong",
+      "feedback"
+    ],
+    "expected": {
+      "lives": 2,
+      "question_index": 21,
+      "phase": "victory"
+    }
+  },
+  {
+    "name": "full_session_two_errors",
+    "events": [
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "wrong",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "wrong",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback",
+      "correct",
+      "feedback"
+    ],
+    "expected": {
+      "lives": 1,
+      "question_index": 21,
+      "phase": "victory",
+      "correct_count": 19
+    }
+  },
+  {
+    "name": "network_wait_and_retry",
+    "events": [
+      "network_failure",
+      "advance_clock",
+      "pause",
+      "retry"
+    ],
+    "expected": {
+      "lives": 3,
+      "question_index": 0,
+      "same_id": true
+    }
+  }
 ]

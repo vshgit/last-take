@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-14",
+  "engine": "4.5.1.stable.official.f62fdbde1",
+  "source_tree_unchanged": "6e99b9e957fdd501cbed1c296ab851fd4b2398e5",
+  "native_original_QA_markers": 6,
+  "native_original_questions": 225,
+  "shared_event_scenarios": 5,
+  "shared_selection_sessions": 100,
+  "web_http_retry_404": true,
+  "web_cache_current_plus_two": true,
+  "full_21_question_two_error_session": {
+    "correct": 19,
+    "lives": 1,
+    "phase": "victory"
+  },
+  "native_source_teardown_resources": 2,
+  "web_adapter_teardown_resources": 0,
+  "local_initial_files_approx_bytes": 27380376,
+  "local_PCK_approx_bytes": 17192752,
+  "deferred_media_bytes": 21321034,
+  "deferred_asset_records": 305,
+  "PCK_records": 199,
+  "real_browser_GPU_FPS_hearing": "not yet verified; native HTTP does not prove WebGL",
+  "note": "Local diagnostic measurements; final downloadable build must use successful CI commit and BUILD-INFO."
+}

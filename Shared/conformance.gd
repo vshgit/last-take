@@ -37,6 +37,8 @@ static func run(g, scenarios: Array) -> int:
 				"pause": g._pause()
 				"advance_clock": g._process(40)
 				"answer_while_paused": g._answer(int(q.correct))
+				"correct":
+					silence(g);g._answer(int(q.correct))
 				"wrong":
 					silence(g)
 					g._answer((int(q.correct)+1)%q.options.size())
