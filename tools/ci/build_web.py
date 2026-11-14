@@ -1,5 +1,6 @@
 """Godot 4.5.1 Web preview; preserve native renderer and all source assets."""
 import hashlib
+import gzip
 import json
 import os
 from pathlib import Path
@@ -41,12 +42,18 @@ def package(source_commit=None):
         with path.open('rb') as stream:
             while chunk := stream.read(16 * 1024 * 1024):
                 filename = '%s-%s-%02d.bin' % (name, digest[:12], len(chunks))
-                (dist / filename).write_bytes(chunk)
+                # Compress only the transport representation of Wasm. The loader
+                # restores its exact bytes, keeping the expanded hosting tree <256 MiB.
+                (dist / filename).write_bytes(gzip.compress(chunk, mtime=0) if name.endswith('.wasm') else chunk)
                 chunks.append(filename)
         manifest[name] = {'size': path.stat().st_size, 'sha256': digest, 'chunks': chunks}
+        if name.endswith('.wasm'):
+            manifest[name]['compression'] = 'gzip'
     for path in export.glob('*.js'):
         shutil.copyfile(path, dist / path.name)
     shell = (ROOT / 'tools/ci/web_shell.html').read_text(encoding='utf-8')
+    transport_size = sum(p.stat().st_size for p in dist.iterdir())
+    shell = shell.replace('__DOWNLOAD_MIB__', str(round(transport_size / (1024 * 1024))))
     (dist / 'index.html').write_text(shell, encoding='utf-8')
     (dist / 'pack-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     info = {'platform': 'web', 'engine': '4.5.1', 'source_commit': source_commit,
@@ -56,6 +63,19 @@ def package(source_commit=None):
                               os.environ.get('GITHUB_RUN_ID', 'local'))),
             'manual_acceptance': 'ждёт проверки Дмитрия', 'files': manifest}
     (dist / 'BUILD-INFO.json').write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n')
+    if sum(p.stat().st_size for p in dist.iterdir()) >= 256 * 1024 * 1024 - 65536:
+        raise RuntimeError('Static output exceeds the hosting 256 MiB expanded archive limit')
+    for entry in manifest.values():
+        restored = hashlib.sha256()
+        restored_size = 0
+        for filename in entry['chunks']:
+            raw = (dist / filename).read_bytes()
+            if entry.get('compression') == 'gzip':
+                raw = gzip.decompress(raw)
+            restored.update(raw)
+            restored_size += len(raw)
+        if restored.hexdigest() != entry['sha256'] or restored_size != entry['size']:
+            raise RuntimeError('Transport does not restore exact exported bytes')
     print('WEB_PACKAGE_READY', json.dumps({k: v['size'] for k, v in manifest.items()}))
     return dist
 

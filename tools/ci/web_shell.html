@@ -10,7 +10,7 @@
 .panel{width:min(500px,88vw);text-align:center}.eyebrow{font-size:12px;letter-spacing:4px;color:#8d937d}h1{font-family:Georgia,serif;letter-spacing:7px;font-size:clamp(40px,9vw,68px);font-weight:400;margin:25px 0}p{color:#a8aa99;line-height:1.6}button{border:1px solid #b9bc9f;background:#b9bc9f;color:#151b16;font-size:14px;letter-spacing:2px;padding:18px 35px;cursor:pointer;margin:18px 0}button:focus-visible{outline:2px solid white;outline-offset:5px}button:disabled{opacity:.45;cursor:wait}progress{width:100%;accent-color:#b9bc9f;height:5px;margin:20px 0}small{display:block;color:#7e8576;line-height:1.6}#message{min-height:25px}#resume{display:none;position:fixed;right:16px;top:12px;z-index:1;font-size:12px;padding:10px;letter-spacing:0}
 </style>
 <canvas id="canvas" tabindex="0">Нужен браузер с поддержкой WebGL 2.</canvas>
-<div id="loader"><div class="panel"><div class="eyebrow">ХОРРОР-КВИЗ О КИНО</div><h1>LAST TAKE</h1><p>Карточки на столе. Киноман напротив.<br>Твой следующий ответ решит, что будет дальше.</p><button id="play">ЗАГРУЗИТЬ ИГРУ</button><progress id="progress" max="1" value="0" hidden></progress><p id="message" aria-live="polite"></p><small>Для компьютера с клавиатурой и мышью.<br>Звук включается при взаимодействии с игрой.<br>Первая загрузка — около 273 МБ.</small></div></div>
+<div id="loader"><div class="panel"><div class="eyebrow">ХОРРОР-КВИЗ О КИНО</div><h1>LAST TAKE</h1><p>Карточки на столе. Киноман напротив.<br>Твой следующий ответ решит, что будет дальше.</p><button id="play">ЗАГРУЗИТЬ ИГРУ</button><progress id="progress" max="1" value="0" hidden></progress><p id="message" aria-live="polite"></p><small>Для компьютера с клавиатурой и мышью.<br>Звук включается при взаимодействии с игрой.<br>Первая загрузка — около __DOWNLOAD_MIB__ МБ.</small></div></div>
 
 <noscript>Для игры нужно включить JavaScript.</noscript>
 <script src="index.js"></script>
@@ -20,6 +20,7 @@ const canvas=document.getElementById('canvas'),overlay=document.getElementById('
 const nativeFetch=window.fetch.bind(window);
 let engine;
 const missing=Engine.getMissingFeatures({threads:false});
+if(typeof DecompressionStream==='undefined')missing.push('gzip decompression');
 if(missing.length){play.disabled=true;play.textContent='БРАУЗЕР НЕ ПОДДЕРЖИВАЕТ ИГРУ';message.textContent='Нужны WebGL 2 и аппаратное ускорение. Открой игру в современном браузере на компьютере.';}
 play.addEventListener('click',async()=>{
  play.disabled=true;play.textContent='ЗАГРУЗКА…';progress.hidden=false;message.textContent='Получаем файлы игры…';
@@ -36,7 +37,8 @@ play.addEventListener('click',async()=>{
     try{
      if(index===entry.chunks.length){controller.close();return;}
      const result=await nativeFetch(entry.chunks[index++],options);if(!result.ok)throw Error('Ошибка загрузки части игры: '+result.status);
-     const bytes=new Uint8Array(await result.arrayBuffer());received+=bytes.byteLength;progress.value=received/total;message.textContent='Загрузка '+Math.floor(received/total*100)+'%';controller.enqueue(bytes);
+     const content=entry.compression==='gzip'?new Response(result.body.pipeThrough(new DecompressionStream('gzip'))):result;
+     const bytes=new Uint8Array(await content.arrayBuffer());received+=bytes.byteLength;progress.value=received/total;message.textContent='Загрузка '+Math.floor(received/total*100)+'%';controller.enqueue(bytes);
     }catch(error){controller.error(error);}
    }});
    return new Response(body,{status:200,headers:{'Content-Type':name.endsWith('.wasm')?'application/wasm':'application/octet-stream','Content-Length':String(entry.size)}});
