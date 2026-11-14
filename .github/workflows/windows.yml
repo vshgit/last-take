@@ -23,7 +23,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  target:
+    runs-on: ubuntu-24.04
+    outputs:
+      platform: ${{ steps.target.outputs.platform }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - id: target
+        run: python3 -c "import json,os; p=json.load(open('.github/build-target.json'))['platform']; open(os.environ['GITHUB_OUTPUT'],'a').write('platform='+p+'\n')"
   export:
+    needs: target
+    if: needs.target.outputs.platform == 'windows'
     runs-on: ubuntu-24.04
     timeout-minutes: 30
     permissions:

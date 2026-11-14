@@ -69,7 +69,7 @@ static func run(g) -> void:
 		g._begin_question();g._set_menu();assert(not g.question_audio.playing)
 		g.data.questions=[q];g.question_index=0;g._begin_question();g._start(false)
 		assert(not g.question_audio.playing and g.lives==3)
-	assert(audio_count==16)
+	assert(audio_count==23)
 	var sample:Dictionary
 	for q in g.question_pool:
 		if q.type=="audio":sample=q;break
@@ -79,4 +79,4 @@ static func run(g) -> void:
 	assert(g.question_audio.playing and g.phase=="question" and g.question_index==0)
 	assert(g.question_audio.get_playback_position()<1.5)
 	g._set_menu();assert(not g.hud.visible and not g.retakes_label.is_visible_in_tree())
-	print("V1_CHECKS_PASSED: three lives, wrong/timeout progression, level boundaries, terminal and last-question errors, all 16 audio projections, pause, stream wrap and cleanup")
+	print("V1_CHECKS_PASSED: three lives, wrong/timeout progression, level boundaries, terminal and last-question errors, all 23 audio projections, pause, stream wrap and cleanup")

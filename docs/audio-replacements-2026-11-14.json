@@ -1,0 +1,216 @@
+{
+  "source_folder": "https://drive.google.com/drive/folders/1aoLhUQL-aEVPnY36ptNvR0Nn6zPpMMmF",
+  "files": [
+    {
+      "id": "hard_audio_a01",
+      "path": "Source/assets/audio/questions/supplied/A01.mp3",
+      "original_filename": "A01.MP3",
+      "drive_file_id": "1XKXL-Ck99jHC_D2Z9vb9CAUaVc-aZvXt",
+      "sha256": "01a82feee29d74719c8ca0aa2f18c583c5693cb7e924d6373b7acdbd84a61686",
+      "bytes": 263364,
+      "duration": 10.971417
+    },
+    {
+      "id": "hard_audio_a02",
+      "path": "Source/assets/audio/questions/supplied/A02.mp3",
+      "original_filename": "A02.MP3",
+      "drive_file_id": "1dH1FkN2xqNjQOGv-4PjIhxt7WOQOHDFA",
+      "sha256": "da49d75b153c94784a1e27010bf86a0f060c486206c9290064e3e72388c58ba8",
+      "bytes": 356778,
+      "duration": 14.863667
+    },
+    {
+      "id": "hard_audio_a03",
+      "path": "Source/assets/audio/questions/supplied/A03.mp3",
+      "original_filename": "A03.MP3",
+      "drive_file_id": "1CmKic9iN4L9f6mDc6MHw4ZCCRLrXMOQc",
+      "sha256": "19d59aa374293dfc03134c48d4ad3853d14d8d01f5bf7c585c828e3cf938bedf",
+      "bytes": 445176,
+      "duration": 18.546917
+    },
+    {
+      "id": "hard_audio_a04",
+      "path": "Source/assets/audio/questions/supplied/A04.mp3",
+      "original_filename": "A04.MP3",
+      "drive_file_id": "1vbXKlt3q8DjQpXRdkk2C9KBCP3RT-4Q1",
+      "sha256": "d3168575b2da45b54c335de8361f32251c47ae8d80c4bb5d5916001bd7ab147f",
+      "bytes": 235779,
+      "duration": 9.822042
+    },
+    {
+      "id": "hard_audio_a05",
+      "path": "Source/assets/audio/questions/supplied/A05.mp3",
+      "original_filename": "A05.таксист.MP3",
+      "drive_file_id": "1BDnxPpEPw-TwaIsYeex4ylmViE9O8pMy",
+      "sha256": "54a2dd118f22166d0b0b0707a815012fced54db6a29a8b29087ac0ae65596270",
+      "bytes": 221986,
+      "duration": 9.247333
+    },
+    {
+      "id": "hard_audio_a06",
+      "path": "Source/assets/audio/questions/supplied/A06.mp3",
+      "original_filename": "A06.MP3",
+      "drive_file_id": "164pS_QykTWlC4uPbqqjzj9HIYq9JgenP",
+      "sha256": "130b5655b4be44cf3cb5048cacee2a494b09bc6b01c0a8758444260ce44c392a",
+      "bytes": 126064,
+      "duration": 5.250583
+    },
+    {
+      "id": "hard_audio_a07",
+      "path": "Source/assets/audio/questions/supplied/A07.mp3",
+      "original_filename": "A07.MP3",
+      "drive_file_id": "107z13KP59KRofzEnOoWWHgb4xg-HMWYI",
+      "sha256": "b8924f4823d243b3edcc3ff41d9b119fc2db40fc170ff8fc028714fe9663e2df",
+      "bytes": 127318,
+      "duration": 5.302833
+    },
+    {
+      "id": "hard_audio_a08",
+      "path": "Source/assets/audio/questions/supplied/A08.mp3",
+      "original_filename": "A08.MP3",
+      "drive_file_id": "1XyjZOV751vlgmndcqkoF1dE8ox5_HHZC",
+      "sha256": "0f23f0ba45fa8b77f5e259e107e5421c4ad77f53c2e7f17fffd70be1f287e09d",
+      "bytes": 311011,
+      "duration": 12.956708
+    },
+    {
+      "id": "hard_audio_a09",
+      "path": "Source/assets/audio/questions/supplied/A09.mp3",
+      "original_filename": "A09.MP3",
+      "drive_file_id": "1qT_xs-y8L7FwaEyJdVThN6HSpBGKgCEH",
+      "sha256": "39b94e9be288388760579c3f5846ea65acf4cceeed74da5eab62e7993c499192",
+      "bytes": 97225,
+      "duration": 4.048958
+    },
+    {
+      "id": "hard_audio_a10",
+      "path": "Source/assets/audio/questions/supplied/A10.mp3",
+      "original_filename": "A10.MP3",
+      "drive_file_id": "1dZ2JGZEH2f35VqeBcoJUHOVUoL3ZejRl",
+      "sha256": "e40327d03babdfd5e94fec934226b709cb213d9f4e2168cd86ee3cca0bb2eeff",
+      "bytes": 140484,
+      "duration": 5.851417
+    },
+    {
+      "id": "hard_audio_a11",
+      "path": "Source/assets/audio/questions/supplied/A11.mp3",
+      "original_filename": "A11.MP3",
+      "drive_file_id": "1H39MDhw77RbVBKbdi6mcQuH1nD32mUYW",
+      "sha256": "f5d4c253c73deb35967dc2362ae63859f55ff217530d742274e8cae07e60515c",
+      "bytes": 144245,
+      "duration": 6.008125
+    },
+    {
+      "id": "hard_audio_a12",
+      "path": "Source/assets/audio/questions/supplied/A12.mp3",
+      "original_filename": "A12.MP3",
+      "drive_file_id": "1LzzWMPBHvayzhDv27jJTqfk69X1ocS0a",
+      "sha256": "962eb1de5e832ed201c1b573b125663a490b389387f145e44d33251193a3f601",
+      "bytes": 122930,
+      "duration": 5.12
+    },
+    {
+      "id": "hard_audio_a13",
+      "path": "Source/assets/audio/questions/supplied/A13.mp3",
+      "original_filename": "A13.MP3",
+      "drive_file_id": "17k3j6d8eCzBbnsObOrRK2quMx-KtEkgF",
+      "sha256": "29a596e93b722022e55ae7b58ec9cd140babc6e50d8150ccb661f30e6fcf7f18",
+      "bytes": 216343,
+      "duration": 9.012208
+    },
+    {
+      "id": "hard_audio_a14",
+      "path": "Source/assets/audio/questions/supplied/A14.mp3",
+      "original_filename": "A14.MP3",
+      "drive_file_id": "1MZIqKCChc9LNaPHo5CxsZMOahMlCETvw",
+      "sha256": "5120cb45f08ae9158119129d3dfccd8ece238b3c8a273d201ce7ae9248cdcf40",
+      "bytes": 77163,
+      "duration": 3.213042
+    },
+    {
+      "id": "hard_audio_a15",
+      "path": "Source/assets/audio/questions/supplied/A15.mp3",
+      "original_filename": "A15.MP3",
+      "drive_file_id": "1GKHgStSHrKnxc9WagcbNZfjI5zh-DS74",
+      "sha256": "c8a875527ed841d21629c2a1fa86a4c22d8fbaecaf75ee945ca06ca797e94838",
+      "bytes": 99106,
+      "duration": 4.127333
+    },
+    {
+      "id": "hard_audio_a16a",
+      "path": "Source/assets/audio/questions/supplied/A16A.mp3",
+      "original_filename": "A16a. ЗАСТАВКА КАКОЙ КИНОСТУДИИ - ИЛЛЮМИНЭЙШН.MP3",
+      "drive_file_id": "1odyXrHIqFQYEEozQqN1AapR3585L_uqW",
+      "sha256": "563bbdf3de10d3669b7908cc614490a6512287485d1faf7f14b0ad8afdf6974b",
+      "bytes": 292203,
+      "duration": 12.173042
+    },
+    {
+      "id": "hard_audio_a17",
+      "path": "Source/assets/audio/questions/supplied/A17.mp3",
+      "original_filename": "A17. САЙНДТРЕК К ФИЛЬМУ НОЧНЙО ДОЗОР.MP3",
+      "drive_file_id": "1i8yFb7hQ5mz6lBB7QlXHc5dKO88vm9nl",
+      "sha256": "fad27beb7a39cfff6e66aec652bd9eded73dbcd1f12b34222051c3871fcc8821",
+      "bytes": 482165,
+      "duration": 20.088125
+    },
+    {
+      "id": "hard_audio_a18",
+      "path": "Source/assets/audio/questions/supplied/A18.mp3",
+      "original_filename": "A18. ЗВУКОВАЯ ДОРОЖКА ИЗ МУМИЯ 1999.MP3",
+      "drive_file_id": "1XSnihff8X-tDP9KAE7H0tTQ5rQWd3H22",
+      "sha256": "0e512c061d7f7c57dbe5353f726fd2b3e7c02f905968665a50ada555bd55722d",
+      "bytes": 360539,
+      "duration": 15.020375
+    },
+    {
+      "id": "hard_audio_a19",
+      "path": "Source/assets/audio/questions/supplied/A19.mp3",
+      "original_filename": "A19. САУНДТРЕК УНЕСЕННЫЕ ВЕТРОМ.MP3",
+      "drive_file_id": "1VYJOomUtIlknzGT4xFVX0a3jNMrGumj1",
+      "sha256": "17c6b966145c62b75cca8b302088ed604d7bf1626c34798a60385fe1de959170",
+      "bytes": 482165,
+      "duration": 20.088125
+    },
+    {
+      "id": "hard_audio_a20",
+      "path": "Source/assets/audio/questions/supplied/A20.mp3",
+      "original_filename": "A20. ИЗ БРАТ 2.MP3",
+      "drive_file_id": "1iplICghvBRiIbKKy8fAr7GbRrxcUNpnn",
+      "sha256": "06f9d7d34c784f263bbd4789fb053f2dfcc4a975e0d047bb20c2047c4fd7ca76",
+      "bytes": 178727,
+      "duration": 7.444875
+    },
+    {
+      "id": "hard_audio_a21",
+      "path": "Source/assets/audio/questions/supplied/A21.mp3",
+      "original_filename": "A21. ИЗ 12 РАЗГНЕВАННЫХ МУЖЧИН.MP3",
+      "drive_file_id": "1duuQm2pkWJVSf2UjDHJqJ1vdFcHqeS2s",
+      "sha256": "43bd9a55362156e2400dfbf75646a5fdcb494675d52c70d6f49b2622abc6286a",
+      "bytes": 361793,
+      "duration": 15.072625
+    },
+    {
+      "id": "hard_audio_a22",
+      "path": "Source/assets/audio/questions/supplied/A22.mp3",
+      "original_filename": "A22. САУНДТРЕК ИЗ ХОРОШИЙ, ПЛОХОЙ, ЗЛОЙ.MP3",
+      "drive_file_id": "1681FdCo-h7AS4GVeQHIgLh945Lqaztze",
+      "sha256": "01f434df614cf291ec3079f8c2c30bd129d98694dbc2ed7c7493d7ac637b668f",
+      "bytes": 455834,
+      "duration": 18.991
+    },
+    {
+      "id": "hard_audio_a23",
+      "path": "Source/assets/audio/questions/supplied/A23.mp3",
+      "original_filename": "A23. ИГРА ПРЕСТОЛОВ-ИЗ КАКОГО СЕРИАЛА ФРАЗА.MP3",
+      "drive_file_id": "13mlrd3xxc_fftJ89hLSmOpQfIvLMGytb",
+      "sha256": "c4bea964584ba3383b71387a5a18ff7919cb95ef25226f1e67ef58c37ababd18",
+      "bytes": 94090,
+      "duration": 3.918333
+    }
+  ],
+  "image": {
+    "path": "Source/assets/projection/document/lock_stock_2026_11_14.jpg",
+    "sha256": "6940277d1e1f697521a43a6f03f2c7a1bab71d85f6e0d168d2733fb5da3d2ce2"
+  }
+}

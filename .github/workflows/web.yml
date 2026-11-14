@@ -1,0 +1,62 @@
+name: Web preview
+run-name: Web check · ${{ github.ref_name }} · ${{ github.run_number }}
+on:
+  push:
+    branches: ['work/**']
+    paths: ['Source/**', 'tools/ci/**', '.github/build-target.json', '.github/workflows/web.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: web-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  target:
+    runs-on: ubuntu-24.04
+    outputs:
+      platform: ${{ steps.target.outputs.platform }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - id: target
+        run: python3 -c "import json,os; p=json.load(open('.github/build-target.json'))['platform']; open(os.environ['GITHUB_OUTPUT'],'a').write('platform='+p+'\n')"
+  web:
+    needs: target
+    if: needs.target.outputs.platform == 'web'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - name: Validate content and pipeline
+        run: |
+          python3 -m unittest discover -s tools/ci -p 'test_*.py' -v
+          python3 tools/ci/check_content.py
+      - name: Install verified Godot 4.5.1 and matching Web templates
+        run: python3 tools/ci/build_web.py install
+      - name: Import, run gameplay assertions, export and package Web
+        run: python3 tools/ci/build_web.py build
+      - name: Preserve exact Web export
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4
+        with:
+          name: last-take-web-${{ github.sha }}
+          path: builds/web-dist/
+          retention-days: 14
+          if-no-files-found: error
+      - name: Publish test archive without stable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="web-test-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${GITHUB_SHA:0:8}"
+          gh release create "$tag" builds/LastTake-Web.zip builds/web-dist/BUILD-INFO.json --target "$GITHUB_SHA" --prerelease --latest=false --title "Web — проверка ${GITHUB_SHA:0:8}" --notes "Браузерный экспорт Godot 4.5.1. Архив для размещения на HTTP(S)-сервере, не EXE. Ждёт проверки Дмитрия."
+      - name: Keep diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4
+        with:
+          name: web-logs-${{ github.run_id }}
+          path: builds/logs/
+          retention-days: 7
