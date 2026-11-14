@@ -46,6 +46,9 @@ var timer = 18.0
 var next_tick = 18
 var voice_id = ""
 var web_pointer_callback: JavaScriptObject
+var web_start_callback: JavaScriptObject
+var web_mode = OS.has_feature("web")
+var speech_elapsed = 0.0
 var speaking = false
 var retake_spoken = false
 var shot = false
@@ -137,10 +140,14 @@ func _ready() -> void:
 	camera.near = 0.025
 	camera.far = 35
 	_set_menu()
-	if OS.has_feature("web"):
+	if web_mode:
+		preload("res://web_runtime.gd").configure(self)
 		web_pointer_callback = JavaScriptBridge.create_callback(_web_pointer_unlocked)
+		web_start_callback = JavaScriptBridge.create_callback(_web_begin)
 		JavaScriptBridge.get_interface("window").lastTakePointerUnlocked = web_pointer_callback
+		JavaScriptBridge.get_interface("window").lastTakeBegin = web_start_callback
 		JavaScriptBridge.eval("document.addEventListener('pointerlockchange',()=>{if(!document.pointerLockElement)window.lastTakePointerUnlocked();});")
+		JavaScriptBridge.eval("window.lastTakeGameReady=true;window.dispatchEvent(new Event('lasttake-ready'));")
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--capture="):
 			screenshot_path = arg.substr(10)
@@ -435,6 +442,7 @@ func _speak(id: String, text: String) -> void:
 	soundscape.stop_sniff()
 	voice.stop()
 	voice_id = id
+	speech_elapsed = 0.0
 	subtitle.text = text
 	subtitle.visible = true
 	speaker_label.visible = true
@@ -920,6 +928,9 @@ func _web_pointer_unlocked(_args: Array) -> void:
 	if not qa_mode:
 		_pause()
 
+func _web_begin(_args: Array) -> void:
+	_start(false)
+
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_APPLICATION_FOCUS_OUT and is_instance_valid(voice) and not qa_mode:
 		_pause()
@@ -960,6 +971,8 @@ func _process(delta: float) -> void:
 		return
 	if phase == "paused":
 		return
+	if web_mode:
+		preload("res://web_runtime.gd").update_speech(self,delta)
 	if screenshot_path!="" and capture_mode=="window":clock=dynamics.passer_starts[0]+.5-delta
 	clock += delta
 	phase_time += delta
@@ -1402,5 +1415,6 @@ func _run_checks() -> void:
 	await preload("res://tests/sound_checks.gd").run(self)
 	preload("res://tests/gesture_checks.gd").run(self)
 	preload("res://tests/v09_checks.gd").run(self)
+	preload("res://tests/web_checks.gd").run(self)
 	print("GAMEPLAY_CHECKS_PASSED: 225 questions, 500 randomized 3x7 sessions, all categories per level, 564 selectable cards, 3 lives, audio loops, 70 images and existing room/gesture/sound/ending checks")
 	await _close_test()

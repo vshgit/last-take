@@ -36,6 +36,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tools/ci -p 'test_*.py' -v
           python3 tools/ci/check_content.py
+          node tools/ci/test_web_shell.cjs
       - name: Install verified Godot 4.5.1 and matching Web templates
         run: python3 tools/ci/build_web.py install
       - name: Import, run gameplay assertions, export and package Web

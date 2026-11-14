@@ -10,7 +10,7 @@
 .panel{width:min(500px,88vw);text-align:center}.eyebrow{font-size:12px;letter-spacing:4px;color:#8d937d}h1{font-family:Georgia,serif;letter-spacing:7px;font-size:clamp(40px,9vw,68px);font-weight:400;margin:25px 0}p{color:#a8aa99;line-height:1.6}button{border:1px solid #b9bc9f;background:#b9bc9f;color:#151b16;font-size:14px;letter-spacing:2px;padding:18px 35px;cursor:pointer;margin:18px 0}button:focus-visible{outline:2px solid white;outline-offset:5px}button:disabled{opacity:.45;cursor:wait}progress{width:100%;accent-color:#b9bc9f;height:5px;margin:20px 0}small{display:block;color:#7e8576;line-height:1.6}#message{min-height:25px}#resume{display:none;position:fixed;right:16px;top:12px;z-index:1;font-size:12px;padding:10px;letter-spacing:0}
 </style>
 <canvas id="canvas" tabindex="0">Нужен браузер с поддержкой WebGL 2.</canvas>
-<div id="loader"><div class="panel"><div class="eyebrow">ХОРРОР-КВИЗ О КИНО</div><h1>LAST TAKE</h1><p>Карточки на столе. Киноман напротив.<br>Твой следующий ответ решит, что будет дальше.</p><button id="play">ЗАГРУЗИТЬ ИГРУ</button><progress id="progress" max="1" value="0" hidden></progress><p id="message" aria-live="polite"></p><small>Для компьютера с клавиатурой и мышью.<br>Звук включается при взаимодействии с игрой.<br>Первая загрузка — около __DOWNLOAD_MIB__ МБ.</small></div></div>
+<div id="loader"><div class="panel"><div class="eyebrow">ХОРРОР-КВИЗ О КИНО</div><h1>LAST TAKE</h1><button id="play">ЗАГРУЗИТЬ ИГРУ</button><progress id="progress" max="1" value="0" hidden></progress><p id="message" aria-live="polite"></p><small>Для компьютера с клавиатурой и мышью.<br>Первая загрузка — около __DOWNLOAD_MIB__ МБ.</small></div></div>
 
 <noscript>Для игры нужно включить JavaScript.</noscript>
 <script src="index.js"></script>
@@ -19,6 +19,24 @@
 const canvas=document.getElementById('canvas'),overlay=document.getElementById('loader'),message=document.getElementById('message'),progress=document.getElementById('progress'),play=document.getElementById('play');
 const nativeFetch=window.fetch.bind(window);
 let engine;
+let audioContext;
+window.lastTakeAudioContextCreated=(context)=>{audioContext=context;};
+async function enterGame(){
+ // Resume the engine's actual context from a fresh user gesture after loading.
+ play.disabled=true;
+ try{
+  if(!audioContext || audioContext.state==='closed')throw Error('Звуковой движок не готов. Обнови страницу.');
+  if(audioContext.state!=='running')await audioContext.resume();
+  if(audioContext.state!=='running')throw Error('Разреши звук для этой страницы и нажми ещё раз.');
+  overlay.style.display='none';canvas.focus();
+  if(typeof window.lastTakeBegin==='function')window.lastTakeBegin();
+ }catch(error){message.textContent=error.message;play.disabled=false;}
+}
+function resumeAudio(){
+ if(audioContext && audioContext.state==='suspended')audioContext.resume().catch(()=>{});
+}
+document.addEventListener('pointerdown',resumeAudio,true);
+document.addEventListener('keydown',resumeAudio,true);
 const missing=Engine.getMissingFeatures({threads:false});
 if(typeof DecompressionStream==='undefined')missing.push('gzip decompression');
 if(missing.length){play.disabled=true;play.textContent='БРАУЗЕР НЕ ПОДДЕРЖИВАЕТ ИГРУ';message.textContent='Нужны WebGL 2 и аппаратное ускорение. Открой игру в современном браузере на компьютере.';}
@@ -47,8 +65,15 @@ play.addEventListener('click',async()=>{
     fileSizes:Object.fromEntries(Object.entries(manifest).map(([name,file])=>[name,file.size])),
     onPrint:(...args)=>console.log(...args),onPrintError:(...args)=>console.error(...args),
     onExit:()=>{message.textContent='Сеанс завершён. Обнови страницу, чтобы начать снова.';play.hidden=true;progress.hidden=true;overlay.style.display='grid';}});
-  await engine.startGame();overlay.style.display='none';canvas.focus();
+  const gameReady=new Promise((resolve,reject)=>{
+   const timeout=setTimeout(()=>reject(Error('Сцена не ответила. Обнови страницу.')),60000);
+   const ready=()=>{clearTimeout(timeout);resolve();};
+   if(window.lastTakeGameReady)ready();else window.addEventListener('lasttake-ready',ready,{once:true});
+  });
+  await Promise.all([engine.startGame(),gameReady]);
+  progress.hidden=true;play.disabled=false;play.textContent='НАЧАТЬ ИГРУ';
+  message.textContent='Нажми, чтобы начать со звуком.';play.onclick=enterGame;
  }catch(error){message.textContent='Не удалось запустить игру: '+error.message;play.disabled=false;play.textContent='ОБНОВИТЬ СТРАНИЦУ';play.onclick=()=>location.reload();console.error(error);}
-});
+},{once:true});
 </script>
 </html>

@@ -199,7 +199,8 @@ func update(clock:float) -> void:
 	var t=fmod(clock,19.7);var flicker=1.0
 	if g.settings.flicker and t>17.8 and t<18.16:flicker=.89+.06*sin(t*79.0)
 	g.key_light.light_energy=2.8*flicker;g.key_light.shadow_enabled=g.settings.shadows
-	window_light.shadow_enabled=g.settings.shadows;g.projector_fill.shadow_enabled=g.settings.shadows
+	window_light.shadow_enabled=g.settings.shadows and not g.web_mode
+	g.projector_fill.shadow_enabled=g.settings.shadows and not g.web_mode
 	g.bulb_mesh.material_override.emission_energy_multiplier=4.0*flicker
 	_update_fly(clock,delta)
 	var blocked=0.0;var shadow_passage=-1.0

@@ -50,7 +50,15 @@ def package(source_commit=None):
         if name.endswith('.wasm'):
             manifest[name]['compression'] = 'gzip'
     for path in export.glob('*.js'):
-        shutil.copyfile(path, dist / path.name)
+        if path.name == 'index.js':
+            script = path.read_text(encoding='utf-8')
+            anchor = 'GodotAudio.ctx=ctx;'
+            if script.count(anchor) != 1:
+                raise RuntimeError('Pinned engine audio-context hook no longer matches')
+            script = script.replace(anchor, anchor + 'if(window.lastTakeAudioContextCreated)window.lastTakeAudioContextCreated(ctx);')
+            (dist / path.name).write_text(script, encoding='utf-8')
+        else:
+            shutil.copyfile(path, dist / path.name)
     shell = (ROOT / 'tools/ci/web_shell.html').read_text(encoding='utf-8')
     transport_size = sum(p.stat().st_size for p in dist.iterdir())
     shell = shell.replace('__DOWNLOAD_MIB__', str(round(transport_size / (1024 * 1024))))
