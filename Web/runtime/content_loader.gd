@@ -60,7 +60,6 @@ func configure() -> void:
 		JavaScriptBridge.eval("window.lastTakeGameReady=true;window.dispatchEvent(new Event('lasttake-ready'))")
 		if bool(JavaScriptBridge.eval("new URLSearchParams(location.search).get('qa')==='1'")):
 			g.qa_mode = true
-			g._run_checks.call_deferred()
 
 func _start_from_gesture(_args: Array) -> void:
 	g._start(false)
@@ -80,7 +79,8 @@ func batch_static_room() -> void:
 		var skip = false
 		for dynamic in excluded:
 			if dynamic == node or dynamic.is_ancestor_of(node): skip=true;break
-		if skip or not node.mesh or node.skin: continue
+		# Hiding a partially batched multi-surface/parent mesh would hide its remaining parts.
+		if skip or not node.mesh or node.skin or node.mesh.get_surface_count()!=1 or node.get_child_count()>0: continue
 		for surface in range(node.mesh.get_surface_count()):
 			var material: Material = node.get_active_material(surface)
 			if not material: continue
