@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "content_source": "Source/content.json",
+  "platform_status": "Windows remains primary; Web prototype unaccepted",
+  "levels": 3,
+  "questions_per_level": 7,
+  "session_size": 21,
+  "lives": 3,
+  "answer_seconds": 18,
+  "level_mixes": [
+    {"cards": 2, "frame": 3, "gesture": 2},
+    {"cards": 2, "frame": 3, "gesture": 2},
+    {"cards": 2, "frame": 2, "gesture": 1, "audio": 2}
+  ],
+  "wrong_answer": "lose_one_life_and_advance",
+  "timeout": "lose_one_life_and_advance",
+  "third_error": "defeat",
+  "last_question_with_remaining_lives": "victory",
+  "speech": "block_answers_and_answer_timer",
+  "pause": "freeze_timers_and_audio",
+  "network_wait": "freeze_timers_and_audio_without_spending_life",
+  "network_retry": "same_question_id_and_same_session"
+}

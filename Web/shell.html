@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Last Take — Web-прототип</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#0b0d0c;color:#ddd9c7;font:16px Arial,sans-serif;overflow:hidden}canvas{width:100%;height:100%;display:block}#overlay{position:fixed;inset:0;display:grid;place-items:center;background:radial-gradient(ellipse at top,#29302a,#0b0d0c 75%);z-index:3}.panel{width:min(520px,90vw);text-align:center}h1{font:54px Georgia,serif;letter-spacing:8px;font-weight:400}button{padding:16px 28px;background:#c1c3a6;color:#15201a;border:0;cursor:pointer;font-size:15px;letter-spacing:1px}button:disabled{opacity:.5;cursor:wait}progress{width:100%;height:6px;margin:20px 0;accent-color:#c1c3a6}small{display:block;color:#999f91;line-height:1.6;margin:20px 0}#diagnostics{position:fixed;right:0;bottom:0;max-height:40vh;width:540px;overflow:auto;background:#fff;color:#111;white-space:pre-wrap;font:12px monospace;z-index:4;display:none}
+</style>
+<canvas id="canvas" tabindex="0"></canvas>
+<div id="overlay"><div class="panel"><h1>LAST TAKE</h1><p>Экспериментальная браузерная версия</p><button id="play">ЗАГРУЗИТЬ ИГРУ</button><progress id="progress" max="1" value="0" hidden></progress><p id="message" role="status"></p><small>Компьютер, клавиатура и мышь.<br>Начальные файлы: около __INITIAL_MB__ МБ.<br>Вопросы подгружаются по мере прохождения.</small></div></div>
+<pre id="diagnostics"></pre>
+<script src="__PREFIX__.js"></script>
+<script>
+const prefix='__PREFIX__', canvas=document.querySelector('canvas'), overlay=document.querySelector('#overlay'), button=document.querySelector('#play'), progress=document.querySelector('#progress'), message=document.querySelector('#message'), panel=document.querySelector('#diagnostics');
+const nativeFetch=window.fetch.bind(window);let engine,loading=false;
+window.fetch=async(input,options)=>{const url=new URL(typeof input==='string'?input:input.url,location.href);if(url.origin===location.origin&&url.pathname.endsWith(prefix+'.wasm')){const result=await nativeFetch(url.href+'.gz',options);if(!result.ok)throw Error('Не удалось загрузить движок: '+result.status);return new Response(result.body.pipeThrough(new DecompressionStream('gzip')),{headers:{'Content-Type':'application/wasm'}});}return nativeFetch(input,options);};
+const missing=Engine.getMissingFeatures({threads:false});
+if(missing.length||typeof DecompressionStream==='undefined'){button.disabled=true;message.textContent='Нужны WebGL 2 и аппаратное ускорение. Этот браузер сейчас не поддерживает запуск.';}
+function resumeAudio(){if(window.lastTakeAudio?.state==='suspended')window.lastTakeAudio.resume().catch(()=>{});}
+document.addEventListener('pointerdown',resumeAudio,true);document.addEventListener('keydown',resumeAudio,true);
+document.addEventListener('pointerlockchange',()=>{if(!document.pointerLockElement)window.lastTakePointerUnlocked?.();});
+async function begin(){try{button.disabled=true;if(!window.lastTakeAudio)throw Error('Звуковой движок ещё не готов.');await window.lastTakeAudio.resume();if(window.lastTakeAudio.state!=='running')throw Error('Разреши звук и нажми ещё раз.');overlay.style.display='none';canvas.focus();window.lastTakeBegin();}catch(e){message.textContent=e.message;button.disabled=false;}}
+button.onclick=async()=>{if(loading)return;loading=true;button.disabled=true;progress.hidden=false;message.textContent='Загружаем сцену…';try{
+engine=new Engine({canvas,executable:prefix,canvasResizePolicy:2,focusCanvas:true,ensureCrossOriginIsolationHeaders:false,fileSizes:{[prefix+'.pck']:__PCK_SIZE__,[prefix+'.wasm']:__WASM_SIZE__},onProgress:(current,total)=>{if(total)progress.value=current/total;},onPrint:(...args)=>console.log(...args),onPrintError:(...args)=>console.error(...args),onExit:()=>{overlay.style.display='grid';message.textContent='Сеанс завершён. Обнови страницу.';}});
+// Loading may take longer than scene startup. The ready timeout starts only afterwards.
+await engine.startGame();if(!window.lastTakeGameReady)await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(Error('Сцена не ответила после загрузки.')),30000);window.addEventListener('lasttake-ready',()=>{clearTimeout(timeout);resolve();},{once:true});});
+progress.hidden=true;button.disabled=false;button.textContent='НАЧАТЬ ИГРУ';button.onclick=begin;message.textContent='Сцена готова. Нажми, чтобы начать со звуком.';
+}catch(e){progress.hidden=true;message.textContent='Не удалось запустить: '+e.message;button.textContent='ОБНОВИТЬ СТРАНИЦУ';button.disabled=false;button.onclick=()=>location.reload();}};
+if(new URLSearchParams(location.search).has('diagnostics'))panel.style.display='block';
+setInterval(()=>{const r=window.lastTakeReport;if(r){panel.textContent=JSON.stringify(r,null,2);document.body.dataset.phase=r.phase;document.body.dataset.qa=r.test?.passed?'passed':'pending';}},1000);
+</script></html>
