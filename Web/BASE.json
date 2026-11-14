@@ -1,0 +1,8 @@
+{
+  "windows_preview_source": "c4a7215ee569e313b3ab3cba9f7e22a0620489ef",
+  "branch_base": "8b4dd66a4e20a6eed35e4418b9443da5d556d7e4",
+  "source_tree": "6e99b9e957fdd501cbed1c296ab851fd4b2398e5",
+  "bank_sha256": "8bad99372f4a6edcbfe89870ebcd46796ebb1f58dfed1064782b3c132ba5c60a",
+  "windows_acceptance": "pending",
+  "original_content_location": "Source/content.json; no permanent move until Windows acceptance"
+}
