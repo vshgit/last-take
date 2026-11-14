@@ -1,0 +1,147 @@
+{
+  "audited_at": "2026-11-14",
+  "web_source_commit": "43edd09b07c87c30d83bd8abb3a289ccaeb3553d",
+  "web_run": 43588259662,
+  "zip_sha256": "5bfa917733af3db731ff482a7ec75cdf563815a76c327976e85c2b462c59f3fd",
+  "pck_sha256": "4beeb1ff5e053dee5fb532883ede8d7d5f97227f18a4ea27ebd0225e1787c92a",
+  "pck_size_bytes": 247965664,
+  "pck_entries": 2438,
+  "payload_bytes": 247714556,
+  "entry_md5_validation": "all 2438 passed; no encrypted entries; source mapping uses import metadata",
+  "content_json_bytes": 218606,
+  "content_matches_windows_bank": true,
+  "category_payload_bytes": {
+    "other": 1051549,
+    "all_audio": 13886034,
+    "other_images": 12469753,
+    "text_slides": 28346579,
+    "props_and_textures": 21603434,
+    "characters_and_textures": 65661617,
+    "room_materials": 9742143,
+    "answer_cards": 94953447
+  },
+  "wasm_uncompressed_bytes": 38034280,
+  "wasm_transport_gzip_bytes": 9241600,
+  "static_directory_bytes": 257532049,
+  "zip_bytes": 252542597,
+  "source_card_jpgs": {
+    "count": 567,
+    "dimensions": [
+      1024,
+      640
+    ],
+    "used_by_current_bank": 564
+  },
+  "source_text_slide_jpgs": {
+    "count": 157,
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "glb_triangle_counts": {
+    "method": "Sum TRIANGLES primitive index/position accessor counts / 3, unique source meshes; NOT measured visible frame geometry",
+    "cinemaniac_v10": 341858,
+    "gripping_hand_v09": 186904,
+    "player_ropes_v08": 127272,
+    "popcorn_v09": 117148
+  },
+  "unreferenced_model_candidates": {
+    "cinemaniac.glb": 10288710,
+    "cinemaniac_v09.glb": 9309239,
+    "projector_v07.glb": 1737113
+  },
+  "limits": [
+    "No real WebGL GPU profiling in this audit",
+    "No deferred content loader implemented or browser-tested",
+    "Category totals include small import/remap entries",
+    "HTTP compression/cache may alter network transferSize",
+    "Source mesh triangles do not equal rendered frame triangles"
+  ],
+  "largest_entries": [
+    {
+      "path": "res://.godot/imported/cinemaniac_v10.glb-571799017a10d5cf4265ac74d3142910.scn",
+      "size": 10655813,
+      "offset": 142397984,
+      "source": "res://assets/character/cinemaniac_v10.glb",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/cinemaniac.glb-3f62f0d2436f34664ed8a23011835b93.scn",
+      "size": 10288710,
+      "offset": 108909552,
+      "source": "res://assets/character/cinemaniac.glb",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/cinemaniac_v09.glb-31fb6796476e53a90f66ca68b2098ec5.scn",
+      "size": 9309239,
+      "offset": 125111792,
+      "source": "res://assets/character/cinemaniac_v09.glb",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/gripping_hand_v09.glb-939147fd9d815aede3298d946e96fecd.scn",
+      "size": 4966664,
+      "offset": 226107632,
+      "source": "res://assets/props/gripping_hand_v09.glb",
+      "category": "props"
+    },
+    {
+      "path": "res://.godot/imported/cinemaniac_v09_skin_albedo.jpg-b83aceb6ac89ed775b8527f26c49c4f7.ctex",
+      "size": 3661632,
+      "offset": 137076912,
+      "source": "res://assets/character/cinemaniac_v09_skin_albedo.jpg",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/cinemaniac_v10_skin_albedo.jpg-424b35164c974e48e957e215e703d1c6.ctex",
+      "size": 3661632,
+      "offset": 154224368,
+      "source": "res://assets/character/cinemaniac_v10_skin_albedo.jpg",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/player_ropes_v08.glb-7410945efc661e8fd0709cf46b7b7a6c.scn",
+      "size": 3651870,
+      "offset": 231074496,
+      "source": "res://assets/props/player_ropes_v08.glb",
+      "category": "props"
+    },
+    {
+      "path": "res://.godot/imported/popcorn_v09.glb-c0e53d8e1061a6da821f9a70a54df7eb.scn",
+      "size": 3594365,
+      "offset": 234726560,
+      "source": "res://assets/props/popcorn_v09.glb",
+      "category": "props"
+    },
+    {
+      "path": "res://.godot/imported/player_skin_cc0_normal.png-e012306f63fdcaeb8c55b541d5a5008e.ctex",
+      "size": 3386732,
+      "offset": 167067568,
+      "source": "res://assets/character/player_skin_cc0_normal.png",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/villain_skin_cc0.png-a5ab1c4fa9ee2ac7420de975c60ee3fd.ctex",
+      "size": 2900556,
+      "offset": 171618320,
+      "source": "res://assets/character/villain_skin_cc0.png",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/player_skin_cc0.png-1f021ae4e05924c56c951a2b460720bd.ctex",
+      "size": 2783896,
+      "offset": 164283456,
+      "source": "res://assets/character/player_skin_cc0.png",
+      "category": "character"
+    },
+    {
+      "path": "res://.godot/imported/cinemaniac_skin_albedo.jpg-8857afc6e2a3bc73785a785dbf374d6e.ctex",
+      "size": 2437846,
+      "offset": 121509904,
+      "source": "res://assets/character/cinemaniac_skin_albedo.jpg",
+      "category": "character"
+    }
+  ]
+}

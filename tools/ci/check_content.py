@@ -11,11 +11,11 @@ def check(root=ROOT):
     questions = json.loads((source / 'content.json').read_text(encoding='utf-8'))['questions']
     voices = json.loads((source / 'assets/audio/voice_meta.json').read_text(encoding='utf-8'))
     ids = [q['id'] for q in questions]
-    if len(ids) != 216 or len(set(ids)) != 216:
-        raise ValueError('Expected 216 unique question IDs')
-    if collections.Counter(int(q['level']) for q in questions) != {1: 66, 2: 77, 3: 73}:
+    if len(ids) != 225 or len(set(ids)) != 225:
+        raise ValueError('Expected 225 unique question IDs')
+    if collections.Counter(int(q['level']) for q in questions) != {1: 66, 2: 78, 3: 81}:
         raise ValueError('Unexpected level counts; update the test only for an agreed bank change')
-    if collections.Counter(q['type'] for q in questions) != {'cards': 94, 'gesture': 37, 'frame': 69, 'audio': 16}:
+    if collections.Counter(q['type'] for q in questions) != {'cards': 95, 'gesture': 37, 'frame': 70, 'audio': 23}:
         raise ValueError('Unexpected question category counts')
     checked = set()
 
@@ -40,6 +40,8 @@ def check(root=ROOT):
             media(q['image'])
         if q['type'] == 'audio':
             media(q['audio'])
+        if q['type'] != 'frame':
+            media('assets/projection/text/' + q['id'] + '.jpg')
     print(json.dumps({'questions': len(ids), 'media_paths': len(checked), 'result': 'passed'}))
 
 
