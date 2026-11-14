@@ -13,7 +13,7 @@
     "lives": 1,
     "phase": "victory"
   },
-  "native_source_teardown_resources": 2,
+  "native_source_teardown_resources": 0,
   "web_adapter_teardown_resources": 0,
   "local_initial_files_approx_bytes": 27380376,
   "local_PCK_approx_bytes": 17192752,
@@ -21,5 +21,6 @@
   "deferred_asset_records": 305,
   "PCK_records": 199,
   "real_browser_GPU_FPS_hearing": "not yet verified; native HTTP does not prove WebGL",
-  "note": "Local diagnostic measurements; final downloadable build must use successful CI commit and BUILD-INFO."
+  "note": "Local diagnostic measurements; final downloadable build must use successful CI commit and BUILD-INFO.",
+  "cleanup_note": "Shared runner now uses the existing deferred game cleanup; both local adapters finish without resource diagnostics. Original Source QA retains its historical 4-resource diagnostic."
 }

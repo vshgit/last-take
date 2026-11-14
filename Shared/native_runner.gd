@@ -12,6 +12,5 @@ func _run() -> void:
 		if arg.begins_with("--scenarios="): scenarios_path=arg.substr(12)
 	var scenarios: Array=JSON.parse_string(FileAccess.get_file_as_string(scenarios_path))
 	await load(get_script().resource_path.get_base_dir()+"/conformance.gd").run(game,scenarios)
-	game.voice.stop();game.soundscape.shutdown();game.queue_free()
-	await process_frame
-	quit()
+	# Reuse the game's normal cleanup and allow its deferred frees to complete.
+	await game._close_test()
