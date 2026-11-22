@@ -19,9 +19,12 @@
     "run_id": 45010567169,
     "restore_job_id": 137171758058,
     "restore": "success",
-    "pages_job_id": 137171794666,
-    "pages": "failure before runner",
-    "error": "Branch \"work/web-prototype\" is not allowed to deploy to github-pages due to environment protection rules."
+    "pages_job_id": 137173109289,
+    "pages": "success",
+    "error": null,
+    "attempt": 2,
+    "conclusion": "success",
+    "url": "https://vshgit.github.io/last-take/"
   },
   "artifact": {
     "id": 14749188032,
@@ -39,8 +42,50 @@
     "all_external_media_hashes": true
   },
   "owner_action": "Settings > Environments > github-pages > Deployment branches and tags: add Branch work/web-prototype while keeping existing restrictions",
-  "live_url": null,
+  "live_url": "https://vshgit.github.io/last-take/",
   "browser_acceptance": "pending",
   "windows_acceptance": "pending",
-  "source_changed": false
+  "source_changed": false,
+  "http_verification": {
+    "source_commit": "81943f502b95dd021626bd4d1c1fdbdfca6af446",
+    "pck_bytes": 17202928,
+    "wasm_decompressed_bytes": 36145869,
+    "all_305_media_sha256_passed": true,
+    "external_media_bytes": 21321034
+  },
+  "browser_observations": {
+    "browser": "Chrome extension, WebGL 2 / Godot 4.5.1 Compatibility",
+    "test_url": "https://vshgit.github.io/last-take/?diagnostics=1",
+    "observed_phases": [
+      "menu",
+      "awakening",
+      "lookaround",
+      "question",
+      "retake"
+    ],
+    "first_question_id": "easy_yesno_04",
+    "readable_question": true,
+    "normal_http_loader": {
+      "cached_assets": 4,
+      "received_media_bytes": 148077,
+      "failures": {},
+      "current_and_next_two": true
+    },
+    "fps_samples": {
+      "awakening": 28,
+      "lookaround": 31,
+      "question": [
+        6,
+        4
+      ],
+      "retake": 5
+    },
+    "performance_budget": "not met in this browser test; reference user hardware not yet measured",
+    "console_error": "WrongDocumentError: The root document of this element is not valid for pointer lock.",
+    "console_error_cause": "not established",
+    "audibility": "not verified",
+    "full_session": "not verified",
+    "manual_acceptance": "pending",
+    "automation_response": "intermittent CDP timeouts"
+  }
 }
