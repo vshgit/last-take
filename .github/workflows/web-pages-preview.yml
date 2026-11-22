@@ -32,7 +32,7 @@ jobs:
           with zipfile.ZipFile(io.BytesIO(data)) as archive:
               assert archive.testzip() is None, 'Archive CRC mismatch'
               files = [entry for entry in archive.infolist() if not entry.is_dir()]
-              assert len(files) == 315, 'Archive file count changed'
+              assert len(archive.infolist()) == 315, 'Archive entry count changed'
               for entry in files:
                   path = pathlib.PurePosixPath(entry.filename)
                   assert not path.is_absolute() and '..' not in path.parts
