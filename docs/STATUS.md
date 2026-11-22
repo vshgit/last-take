@@ -1,3 +1,17 @@
+# Текущий статус — Pages: ветка заблокирована правилом среды · 2026-11-22
+
+- Пользователь сообщил «готово» после инструкции включить Pages. Публикация продолжена; живой URL нового прототипа **ещё не готов**.
+- Активная ветка `work/web-prototype`, draft PR https://github.com/vshgit/last-take/pull/6 . Опубликованные игровые файлы не менялись: source `81943f502b95dd021626bd4d1c1fdbdfca6af446`. Windows source c4a7215e по-прежнему ждёт отдельной приёмки; это сообщение не является приёмкой.
+- Старый Pages artifact истёк. Повторный build run 43612297228/attempt 2 остановился на `Web/check_source.py`: исходный QA и пять общих сценариев/100 выборок прошли, но при завершении снова обнаружены ObjectDB warning и **6 ресурсов**. Проверка не ослаблялась; причина непостоянного teardown пока не установлена. Это уточняет прежний результат attempt 1, не заменяя его историческое прохождение.
+- Для доставки прежней сборки добавлен `.github/workflows/web-pages-preview.yml`: скачивание ровно Release web-prototype-43612297228-1-81943f50, SHA-256/размер/CRC, source/bank в BUILD-INFO и все 305 SHA-256/размеры внешних медиа → Pages artifact → deploy. Без новой компиляции, смены игровых материалов и обхода правил среды.
+- Workflow source `1036300355363b62f7bebcff8f7864db36c11c4a`; run https://github.com/vshgit/last-take/actions/runs/45010567169 . **restore success**: ZIP 47269921 байт, SHA-256 `ab56bb61603fa6e3057a162762c5486af0d96dc081cac12857ee81ef990014e2`; 315 ZIP-записей = 314 файлов + каталог (уточнение прежней записи «315 файлов»). Все медиа проверены.
+- **Pages failure до запуска runner:** `Branch "work/web-prototype" is not allowed to deploy to github-pages due to environment protection rules.` Затем `The deployment was rejected or didn't satisfy other protection rules.` Это отдельный блокер после первоначального включения Pages. Подключённый GitHub не предоставляет administration; доступный браузер не вошёл в GitHub.
+- Действие владельца: Settings → Environments → **github-pages** → Deployment branches and tags → добавить разрешение Branch `work/web-prototype` к существующим правилам. Не выбирать «разрешить все ветки», не отключать защиту и не переносить непринятые игровые изменения в main.
+- После подтверждения агент повторяет failed Pages job run **45010567169**, job **137171794666**. Готовый artifact github-pages **14749188032**, SHA-256 `4ec3f182dc20fc92359d4184550ffabe74a73270f10c63c58c9fc1906c8d9a50`, expires 2026-11-29 10:03:58 UTC (15:03:58 Алматы). Если истёк — повторить restore job 137171758058 вместе с зависимым pages.
+- Далее проверить фактический URL, source и сетевую доставку, запустить в браузере с WebGL 2; видимость, слышимость, FPS и полный браузерный сеанс пока не подтверждены. Windows/банк/оригиналы не переносились, merge/стабильного выпуска нет. PlayCanvas не начинался.
+
+## История до продолжения 22 ноября
+
 # Last Take — оптимизированный Web-прототип Godot
 
 Дата: 2026-11-14. Основная платформа остаётся Windows.

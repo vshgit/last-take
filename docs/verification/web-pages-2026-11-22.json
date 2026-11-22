@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-22",
+  "game_source_commit": "81943f502b95dd021626bd4d1c1fdbdfca6af446",
+  "delivery_commit": "1036300355363b62f7bebcff8f7864db36c11c4a",
+  "build_retry": {
+    "run_id": 43612297228,
+    "attempt": 2,
+    "conclusion": "failure",
+    "job_id": 137170435364,
+    "passed": [
+      "original QA",
+      "5 shared event scenarios",
+      "100 selection sessions"
+    ],
+    "failure": "Native shared contract failed due to 6 resources still in use at exit; ObjectDB warning",
+    "underlying_teardown_cause": "unknown"
+  },
+  "delivery": {
+    "run_id": 45010567169,
+    "restore_job_id": 137171758058,
+    "restore": "success",
+    "pages_job_id": 137171794666,
+    "pages": "failure before runner",
+    "error": "Branch \"work/web-prototype\" is not allowed to deploy to github-pages due to environment protection rules."
+  },
+  "artifact": {
+    "id": 14749188032,
+    "name": "github-pages",
+    "bytes": 46899061,
+    "sha256": "4ec3f182dc20fc92359d4184550ffabe74a73270f10c63c58c9fc1906c8d9a50",
+    "expires_at": "2026-11-29T10:03:58Z"
+  },
+  "verified_archive": {
+    "sha256": "ab56bb61603fa6e3057a162762c5486af0d96dc081cac12857ee81ef990014e2",
+    "bytes": 47269921,
+    "entries": 315,
+    "files": 314,
+    "external_media": 305,
+    "all_external_media_hashes": true
+  },
+  "owner_action": "Settings > Environments > github-pages > Deployment branches and tags: add Branch work/web-prototype while keeping existing restrictions",
+  "live_url": null,
+  "browser_acceptance": "pending",
+  "windows_acceptance": "pending",
+  "source_changed": false
+}
