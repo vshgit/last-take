@@ -1,11 +1,11 @@
-# Текущая работа — Pages блокирует рабочую ветку · 2026-11-22
+# Текущая работа — прототип на Pages, требуется оптимизация · 2026-11-22
 
-- Web-прототип `work/web-prototype`, PR https://github.com/vshgit/last-take/pull/6 . Итоговая фиксация `239c16cf6f266b8eec7e877e6b02fd9d59d5f76f`; подробное продолжение — STATUS этой ветки.
-- Пользователь сообщил «готово» после включения Pages. Старый artifact истёк. Повторный build run 43612297228 attempt 2 прошёл исходный QA/общие сценарии, но завершился ошибкой из-за 6 ресурсов при teardown; причина непостоянной диагностики не установлена. Лог-проверки не ослаблялись.
-- Добавлена доставка **того же** сохранённого preview source 81943f50 без пересборки. Run https://github.com/vshgit/last-take/actions/runs/45010567169 : restore success (SHA-256/CRC/source/все 305 медиа проверены), pages failure **до запуска** из-за `Branch "work/web-prototype" is not allowed to deploy to github-pages due to environment protection rules.` Живой URL ещё не готов.
-- Позови Варю: Settings → Environments → **github-pages** → Deployment branches and tags → добавить разрешение Branch `work/web-prototype`, сохранив остальные ограничения. После подтверждения агент повторяет Pages job 137171794666 run 45010567169. Artifact 14749188032 хранится до 29 ноября 2026 15:03 Алматы; после истечения повторить restore job 137171758058 с зависимым pages.
-- Игровой source/Windows preview не изменены, Windows PR #5 source c4a7215e по-прежнему ждёт отдельной приёмки: https://github.com/vshgit/last-take/releases/tag/test-43592706902-1-c4a7215e . Shared-оригиналы не переносились; merge/стабильного выпуска нет. WebGL/FPS/видимость/слышимость и полный браузерный сеанс пока не подтверждены.
-- Уточнение прежних записей: в Web ZIP 315 записей, из них **314 файлов и каталог**. SHA-256 прежний `ab56bb61603fa6e3057a162762c5486af0d96dc081cac12857ee81ef990014e2`.
+- **Играть:** https://vshgit.github.io/last-take/ . Диагностика https://vshgit.github.io/last-take/?diagnostics=1 . Source игровых файлов **81943f502b95dd021626bd4d1c1fdbdfca6af446**. Статус — **ждёт проверки Дмитрия**, не принят.
+- Публикация прежнего SHA-256-pinned архива без пересборки: https://github.com/vshgit/last-take/actions/runs/45010567169 , attempt2 success, Pages job137173109289. Включение Pages и разрешение ветки исправлены владельцем; технического блокера размещения больше нет.
+- Реальное HTTP: source/BUILD-INFO, PCK, распаковка Wasm и все305 медиа SHA-256/размеры прошли. Первый вопрос запущен в Chrome/WebGL2; текущий+два следующих вопроса скачали4ресурса/148077байт, failures нет. Полный банк сразу не скачивается.
+- **Плавность неудовлетворительна в браузерном тесте агента:** samples28/31FPS во вступлении и4–6 на первом вопросе,5 в retake. Нужны диагностика и замеры на выбранном устройстве; это не подтверждение результата на компьютере пользователя. Console pointer lock WrongDocumentError, причина не установлена; ввод/жесты/слышимость и полный сеанс требуют проверки.
+- Активная ветка `work/web-prototype`, PR https://github.com/vshgit/last-take/pull/6 . Итоговая фиксация **99ced4e6956ead83bab6a7ca4075d7756750ac9f**. Её STATUS и `docs/verification/web-pages-2026-11-22.json` содержат точные наблюдения/ограничения. Следом — узкое место FPS/ввод и непостоянный native QA teardown; PlayCanvas остаётся условным сравнением.
+- Windows preview source c4a7215e не менялась и отдельно **ждёт приёмки**: https://github.com/vshgit/last-take/releases/tag/test-43592706902-1-c4a7215e . Оригиналы/банк не переносились; merge/стабильного выпуска нет. Старый Web-эксперимент сохранён.
 
 ## Архив предыдущих статусов
 
