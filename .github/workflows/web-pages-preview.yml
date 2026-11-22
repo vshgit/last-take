@@ -1,0 +1,82 @@
+name: Publish saved Web preview
+run-name: Publish saved Web preview · 81943f50
+on:
+  push:
+    branches: ['work/web-prototype']
+    paths: ['.github/workflows/web-pages-preview.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: saved-web-preview-pages
+  cancel-in-progress: false
+jobs:
+  restore:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Download and verify the exact saved preview
+        run: |
+          python3 - <<'PY'
+          import hashlib, io, json, pathlib, stat, urllib.request, zipfile
+          tag = 'web-prototype-43612297228-1-81943f50'
+          url = 'https://github.com/vshgit/last-take/releases/download/' + tag + '/LastTake-Web-prototype.zip'
+          request = urllib.request.Request(url, headers={'User-Agent': 'LastTake-verified-preview'})
+          with urllib.request.urlopen(request, timeout=120) as response:
+              data = response.read(60_000_001)
+          expected = 'ab56bb61603fa6e3057a162762c5486af0d96dc081cac12857ee81ef990014e2'
+          assert len(data) == 47269921, 'Archive size changed'
+          assert hashlib.sha256(data).hexdigest() == expected, 'Archive SHA-256 changed'
+          target = pathlib.Path('public')
+          target.mkdir()
+          with zipfile.ZipFile(io.BytesIO(data)) as archive:
+              assert archive.testzip() is None, 'Archive CRC mismatch'
+              files = [entry for entry in archive.infolist() if not entry.is_dir()]
+              assert len(files) == 315, 'Archive file count changed'
+              for entry in files:
+                  path = pathlib.PurePosixPath(entry.filename)
+                  assert not path.is_absolute() and '..' not in path.parts
+                  assert not stat.S_ISLNK(entry.external_attr >> 16)
+                  dest = target.joinpath(*path.parts)
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  dest.write_bytes(archive.read(entry))
+          info = json.loads((target / 'BUILD-INFO.json').read_text())
+          assert info['source_commit'] == '81943f502b95dd021626bd4d1c1fdbdfca6af446'
+          assert info['source_unchanged'] is True
+          assert info['bank_sha256'] == '8bad99372f4a6edcbfe89870ebcd46796ebb1f58dfed1064782b3c132ba5c60a'
+          manifest = json.loads((target / 'media-manifest.json').read_text())
+          assert len(manifest['questions']) == 225
+          assert len(manifest['assets']) == 305
+          for asset in manifest['assets'].values():
+              path = pathlib.PurePosixPath(asset['file'])
+              assert not path.is_absolute() and '..' not in path.parts
+              payload = target.joinpath(*path.parts).read_bytes()
+              assert len(payload) == asset['bytes']
+              assert hashlib.sha256(payload).hexdigest() == asset['sha256']
+          print('SAVED_PREVIEW_VERIFIED', json.dumps({
+              'source_commit': info['source_commit'], 'archive_sha256': expected,
+              'files': len(files), 'media': len(manifest['assets']),
+              'initial_file_bytes': info['initial_file_bytes'],
+              'manual_acceptance': info['manual_acceptance']}))
+          PY
+      - name: Upload exact preview to Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+          retention-days: 7
+  pages:
+    needs: restore
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check the owner-enabled Pages configuration
+        uses: actions/configure-pages@v5
+      - name: Publish the saved preview
+        id: deployment
+        uses: actions/deploy-pages@v4
